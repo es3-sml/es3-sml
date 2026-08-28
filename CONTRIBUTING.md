@@ -1,7 +1,7 @@
 # Contributing to the ES³ Sovereignty Maturity Level (SML) Framework
 
 First, thank you for considering contributing to the ES³ Sovereignty Maturity Level (SML) Framework!  
-It's people like you that make the open-source community such an amazing place to learn, inspire, and create.
+It's people like you who make the open-source community such an amazing place to learn, inspire, and create.
 
 ## Code of Conduct
 
