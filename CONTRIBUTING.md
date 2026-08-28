@@ -78,7 +78,7 @@ This will automatically append a line like this to your commit message:
 Signed-off-by: Jane Doe <jane.doe@example.com>
 ```
 
-Note: The email address in the sign-off line must match your Git author email address and your registered GitHub email address.
+Note: The email address in the sign-off line must match your Git author email address (i.e., the email in your commit’s `Author:` field).
 
 What if I forgot to sign off a commit?
 You can rebase or amend your commits before opening a Pull Request:
