@@ -33,7 +33,7 @@ The SML Framework evaluates IT services and infrastructures across **nine key di
 
 ## ES³ and NeoNephos
 
-We plan to donate the **ES³ Sovereignty Maturity Level (SML) Framework** to the NeoNephos Foundation, a Linux Foundation initiative dedicated to advancing open-source projects, and are currently preparing the necessary steps.
+We plan to donate the **ES³ Sovereignty Maturity Level (SML) Framework** to the NeoNephos Foundation, a Linux Foundation initiative dedicated to advancing open-source projects, and are currently preparing the necessary steps.   
 Learn more about NeoNephos and our role within it [here](https://neonephos.org/).
 
 ## Get Involved
