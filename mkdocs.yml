@@ -1,7 +1,10 @@
 site_name: ES³ SML Framework - SDC Catalogue
 site_description: Standardized Criteria Catalogue for Measuring Digital Sovereignty of IT Services and Cloud Infrastructures
 site_author: Schwarz Digits KG / Institute for Cyber Security and Digital Sovereignty
-site_url: https://digits.schwarz/es3
+site_url: https://es3-sml.github.io/es3-sml/
+
+theme:
+  name: material # Oder 'mkdocs', falls Sie das Standard-Theme nutzen
 
 theme:
   name: material
