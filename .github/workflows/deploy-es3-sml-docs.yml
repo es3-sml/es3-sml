@@ -8,7 +8,7 @@ on:
 
 # Set permissions for deployment on GitHub Pages
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -46,6 +46,17 @@ jobs:
           pip install mkdocs
           pip install mkdocs-material
 
+      - name: Build MkDocs Site
+        run: mkdocs build
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "site" # Standard Outpit Folder of MkDocs
+
       - name: Deploy to GitHub Pages
-        run: |
-          mkdocs gh-deploy --force
+        id: deployment
+        uses: actions/deploy-pages@v4
