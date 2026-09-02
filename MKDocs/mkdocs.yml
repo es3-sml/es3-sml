@@ -1,0 +1,63 @@
+site_name: ES³ SML Framework - SDC Catalogue
+site_description: Standardized Criteria Catalogue for Measuring Digital Sovereignty of IT Services and Cloud Infrastructures
+site_author: Schwarz Digits KG / Institute for Cyber Security and Digital Sovereignty
+site_url: https://digits.schwarz/es3
+
+theme:
+  name: material
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - tables
+  - attr_list
+  - md_in_html
+
+nav:
+  - Home: index.md
+  - Introduction: introduction.md
+  - Catalogue Schema: schema.md
+  - Sovereignty Dimensions:
+      - SML 1 - Strategic: dimensions/sml1-strategic.md
+      - SML 2 - Legal & Jurisdictional: dimensions/sml2-legal.md
+      - SML 3 - Data: dimensions/sml3-data.md
+      - SML 4 - Operational: dimensions/sml4-operational.md
+      - SML 5 - Supply Chain: dimensions/sml5-supply-chain.md
+      - SML 6 - Technology: dimensions/sml6-technology.md
+      - SML 7 - Security & Compliance: dimensions/sml7-security.md
+      - SML 8 - Environmental: dimensions/sml8-environmental.md
+      - SML 9 - Artificial Intelligence: dimensions/sml9-ai.md
+  - Contact & Imprint: contact.md
