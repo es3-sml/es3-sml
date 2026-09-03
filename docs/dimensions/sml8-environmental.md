@@ -1,4 +1,4 @@
-# SML 8 — Environmental Sustainability
+# SML 8 — Environmental
 
 *Environmental sustainability evaluates the long-term operational resilience, resource dependency profiles, and metric transparency of the service regarding environmental constraints.*
 

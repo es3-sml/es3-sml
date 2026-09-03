@@ -54,7 +54,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Introduction: introduction.md
-  - Catalogue Schema: schema.md
+  - SML Framework Catalogue: schema.md
   - Sovereignty Dimensions:
       - SML 1 - Strategic: dimensions/sml1-strategic.md
       - SML 2 - Legal & Jurisdictional: dimensions/sml2-legal.md
