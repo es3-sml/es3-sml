@@ -42,7 +42,7 @@ $$\text{Dimension} \longrightarrow \text{Control Objective} \longrightarrow \tex
 
 ## Metadata & Publisher Information
 
-* **Publisher:** Institute for Cyber Security and Digital Sovereignty | Schwarz Digits KG
+* **Publisher:** Institute for Cyber Security and Digital Sovereignty | Schwarz Digits
 * **Content Leadership:** Sofie Schönborn (Digital Sovereignty Manager), Jo-Ann Sophie Gosemann (ES³ Program Lead and Complex Deals Lead)
 * **Contact:** `ES3@digits.schwarz`
 * **Status:** Edition July 2026

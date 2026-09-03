@@ -1,145 +1,195 @@
 # SML 9 — Artificial Intelligence (AI) Sovereignty
 
-*AI sovereignty evaluates organizational oversight, system clarity, dataset protection, model lineage, and human control over AI solutions.*
+*AI sovereignty evaluates the organizational oversight, system clarity, and independent control of artificial intelligence solutions.*
 
 ---
 
-## Control Objectives & Controls
-
 ### SML 9.CO 1: AI Governance
-**Target State:** Governance structures define clear accountability, ethical oversight, and risk management for AI systems.
+**Objective:** Ensure that governance structures are established to define responsibility, oversight, and accountability for the development, deployment, and operation of AI systems.  
+*Sovereignty Contribution:* Ensures that AI systems are subject to organizational oversight and not operated without clear responsibility or control.
 
-* **SML 9.CO 1.C 1** | Level: *Contractual* | Scope: *Service Provider* | Service Type: *AI Service*  
-  Contracts define legal accountability for AI model output, safety, and compliance with AI regulations.  
-  * **Question SML 9.CO 1.C 1.Q 1:** Do contracts clearly assign responsibility and accountability for AI system outputs?
+#### SML 9.CO 1.C 1 (Governance and Operations)
+*   **Scope:** Service Provider 
+*   **Service Type:** All
+*   The service provider has defined and documented governance structures for the development, deployment, and operation of AI systems.
+*   **SML 9.CO 1.C 1.Q 1:** Has the service provider defined and documented governance structures for development, deployment, and operation of AI systems?
 
-* **SML 9.CO 1.C 2** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *AI Service*  
-  AI ethics committees and risk management frameworks govern model development and deployment.  
-  * **Question SML 9.CO 1.C 2.Q 1:** Are AI governance bodies and risk management frameworks operational?
+#### SML 9.CO 1.C 2 (Technical)
+*   **Scope:** Client Facing Service 
+*   **Service Type:** All
+*   The service ensures that AI-driven decisions can be controlled, restricted, or overridden where necessary.
+*   **SML 9.CO 1.C 2.Q 1:** Does the service ensure that AI-driven decisions can be controlled, restricted, or overridden where necessary?
 
-* **SML 9.CO 1.C 3** | Level: *Technical* | Scope: *Client Facing Service* | Service Type: *AI Service*  
-  Technical guardrails enforce safety constraints and prevent unauthorized AI model behavior.  
-  * **Question SML 9.CO 1.C 3.Q 1:** Are technical safety guardrails implemented to constrain AI execution?
+#### SML 9.CO 1.C 3 (Governance and Operations)
+*   **Scope:** Client Facing Service
+*   **Service Type:** All
+*   The use of AI within the service can be configured or limited by the customer or operator.
+*   **SML 9.CO 1.C 3.Q 1:** Can the use of AI within the service be configured or limited by the customer or operator?
 
 ---
 
 ### SML 9.CO 2: AI Transparency
-**Target State:** Complete visibility over model architecture, weights origin, and training parameters.
+**Objective:** The provider shall ensure that the architecture, capabilities, limitations, and intended use of AI models are documented and communicated to relevant stakeholders.  
+*Sovereignty Contribution:* Enables customers and regulators to understand how AI systems operate and prevents opaque “black box” dependencies.
 
-* **SML 9.CO 2.C 1** | Level: *Contractual* | Scope: *Service Provider* | Service Type: *AI Service*  
-  Contracts require full disclosure of underlying AI models, fine-tuning methods, and third-party APIs.  
-  * **Question SML 9.CO 2.C 1.Q 1:** Does the contract mandate full transparency regarding model architecture and APIs?
+#### SML 9.CO 2.C 1 (Governance and Operations)
+*   **Scope:** Client Facing Service 
+*   **Service Type:** All
+*   The architecture, key components, capabilities, limitations, and intended use of AI models are defined and documented.
+*   **SML 9.CO 2.C 1.Q 1:** Are architecture, key components, capabilities, limitations, and intended use of AI models defined and documented?
 
-* **SML 9.CO 2.C 2** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *AI Service*  
-  Model System Cards publish detailed technical specs, known limitations, and bias assessments.  
-  * **Question SML 9.CO 2.C 2.Q 1:** Are comprehensive Model Cards published for all deployed AI models?
-
-* **SML 9.CO 2.C 3** | Level: *Technical* | Scope: *Client Facing Service* | Service Type: *AI Service*  
-  Service provides model version tracking and prompt/response audit logging.  
-  * **Question SML 9.CO 2.C 3.Q 1:** Are model versions and inference interactions logged for auditability?
+#### SML 9.CO 2.C 2 (Governance and Operations)
+*   **Scope:** Client Facing Service 
+*   **Service Type:** All
+*   AI documentation is made available to relevant stakeholders and customers in accordance with governance policies and legal requirements.
+*   **SML 9.CO 2.C 2.Q 1:** Is documentation about AI systems available to relevant stakeholders?
 
 ---
 
-### SML 9.CO 3: Explainability & Human Oversight
-**Target State:** High-stakes AI decisions are explainable, traceable, and subject to human intervention.
+### SML 9.CO 3: Explainability
+**Objective:** AI systems shall be designed in a way that allows meaningful explanation of decision-making processes and enables human oversight or intervention where necessary.  
+*Sovereignty Contribution:* Ensures that organizations remain in control of automated decision-making processes rather than delegating authority entirely to AI systems.
 
-* **SML 9.CO 3.C 1** | Level: *Contractual* | Scope: *Client Facing Service* | Service Type: *AI Service*  
-  Contracts guarantee human-in-the-loop review rights for critical AI-driven decisions.  
-  * **Question SML 9.CO 3.C 1.Q 1:** Do contracts grant customers the right to mandate human review over AI outputs?
+#### SML 9.CO 3.C 1 (Technical)
+*   **Scope:** Client Facing Service 
+*   **Service Type:** AI Service
+*   The service provides mechanisms to review AI-generated outputs or decisions before or after execution where relevant.
+*   **SML 9.CO 3.C 1.Q 1:** Does the service provide mechanisms to review AI-generated outputs or decisions where relevant?
 
-* **SML 9.CO 3.C 2** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *AI Service*  
-  Operational guidelines establish human oversight procedures for automated model decisions.  
-  * **Question SML 9.CO 3.C 2.Q 1:** Are operational human-in-the-loop oversight procedures active?
+#### SML 9.CO 3.C 2 (Technical)
+*   **Scope:** Client Facing Service 
+*   **Service Type:** AI Service
+*   AI systems are designed to incorporate explainability mechanisms tailored to the underlying model type, including providing appropriate metrics.
+*   **SML 9.CO 3.C 2.Q 1:** Are AI systems designed to incorporate explainability mechanisms tailored to the underlying model type, including providing appropriate metrics and documentation?
 
-* **SML 9.CO 3.C 3** | Level: *Technical* | Scope: *Client Facing Service* | Service Type: *AI Service*  
-  Feature attribution tools and explainability metrics (SHAP, LIME) are integrated into the interface.  
-  * **Question SML 9.CO 3.C 3.Q 1:** Are explainability tools integrated to illuminate model decision factors?
+#### SML 9.CO 3.C 3 (Technical)
+*   **Scope:** Client Facing Service 
+*   **Service Type:** AI Service
+*   Human oversight mechanisms are defined for critical AI-driven decisions.
+*   **SML 9.CO 3.C 3.Q 1:** Does the service enable human intervention to override, correct, or stop AI-driven actions?
+
+#### SML 9.CO 3.C 4 (Governance and Operations)
+*   **Scope:** Service Provider 
+*   **Service Type:** AI Service
+*   Policies and procedures define when and how human oversight is required for AI-driven decisions.
+*   **SML 9.CO 3.C 4.Q 1:** Are policies and procedures defined specifying when and how human oversight is required for AI-driven decisions?
 
 ---
 
 ### SML 9.CO 4: External AI Dependencies
-**Target State:** Dependencies on third-party AI APIs or proprietary foundational models are monitored and substitutable.
+**Objective:** Ensure that dependencies on external AI services are transparent, controlled, and do not lead to loss of control over AI functionality.  
+*Sovereignty Contribution:* Prevents lock-in and loss of control by ensuring that reliance on external AI providers does not undermine autonomy or operational independence.
 
-* **SML 9.CO 4.C 1** | Level: *Contractual* | Scope: *Service Provider* | Service Type: *AI Service*  
-  Contracts require disclosure of external AI API calls and model hosting locations.  
-  * **Question SML 9.CO 4.C 1.Q 1:** Are external AI model API calls and processing regions contractually disclosed?
+#### SML 9.CO 4.C 1 (Governance and Operations)
+*   **Scope:** Service Provider 
+*   **Service Type:** All
+*   The service clearly identifies and documents dependencies on external AI services used within its functionality.
+*   **SML 9.CO 4.C 1.Q 1:** Are dependencies on external AI services used within the service identified and documented?
 
-* **SML 9.CO 4.C 2** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *AI Service*  
-  Fallback plans define alternative open-weights models if primary AI providers become unavailable.  
-  * **Question SML 9.CO 4.C 2.Q 1:** Are fallback open-weights models documented to replace external AI APIs?
+#### SML 9.CO 4.C 2 (Technical)
+*   **Scope:** Client Facing Service 
+*   **Service Type:** All
+*   The service is designed to control or limit the use of external AI services where necessary.
+*   **SML 9.CO 4.C 2.Q 1:** Is the service designed to control or limit the use of external AI services where necessary?
 
-* **SML 9.CO 4.C 3** | Level: *Technical* | Scope: *Client Facing Service* | Service Type: *AI Service*  
-  Model-agnostic abstraction layers allow swapping underlying LLM or ML backends.  
-  * **Question SML 9.CO 4.C 3.Q 1:** Is the service built on a model-agnostic abstraction layer enabling easy model swapping?
+#### SML 9.CO 4.C 3 (Governance and Operations)
+*   **Scope:** Service Provider 
+*   **Service Type:** All
+*   Alternative solutions or fallback options are defined for critical dependencies on external AI services.
+*   **SML 9.CO 4.C 3.Q 1:** Are alternative solutions or fallback options defined for critical dependencies on external AI services?
 
 ---
 
 ### SML 9.CO 5: AI Lifecycle Management
-**Target State:** Complete control over model training, fine-tuning, versioning, and decommissioning.
+**Objective:** The organization shall manage the lifecycle of AI models, including training, validation, deployment, monitoring, retraining, and retirement.
+*Sovereignty Contribution:* Prevents uncontrolled model drift and ensures long-term accountability for AI behavior.
 
-* **SML 9.CO 5.C 1** | Level: *Contractual* | Scope: *Service Provider* | Service Type: *AI Service*  
-  Contracts govern model update schedules and deprecation timelines.  
-  * **Question SML 9.CO 5.C 1.Q 1:** Are model deprecation and update timelines contractually defined?
+#### SML 9.CO 5.C 1 (Governance and Operations)
+*   **Scope:** Service Provider 
+*   **Service Type:** AI Service
+*   The lifecycle of AI models is documented, including training, validation, deployment, monitoring, retirement and complete model lineage information.
+*   **SML 9.CO 5.C 1.Q 1:** Is the lifecycle of AI models documented and regularly reviewed?
 
-* **SML 9.CO 5.C 2** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *AI Service*  
-  MLOps processes manage dataset versioning, model retraining, and evaluation benchmarks.  
-  * **Question SML 9.CO 5.C 2.Q 1:** Are MLOps procedures established for versioning and evaluation?
+#### SML 9.CO 5.C 2 (Governance and Operations)
+*   **Scope:** Service Provider 
+*   **Service Type:** AI Service
+*   AI models and changes are validated before deployment. Validation data is documented and updated regularly.
+*   **SML 9.CO 5.C 2.Q 1:** Are AI models validated before deployment and validation procedures and results documented?
 
-* **SML 9.CO 5.C 3** | Level: *Technical* | Scope: *Client Facing Service* | Service Type: *AI Service*  
-  Customers can pin specific model versions to prevent unexpected output drift.  
-  * **Question SML 9.CO 5.C 3.Q 1:** Can customers pin model versions to maintain output consistency?
+#### SML 9.CO 5.C 3 (Governance and Operations)
+*   **Scope:** Client Facing Service 
+*   **Service Type:** AI Service
+*   AI model performance is regularly monitored after deployment.
+*   **SML 9.CO 5.C 3.Q 1:** Are monitoring metrics defined and AI model performance monitored after deployment?
 
-* **SML 9.CO 5.C 4** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *AI Service*  
-  Defined processes govern model retraining and update validation.  
-  * **Question SML 9.CO 5.C 4.Q 1:** Are formal processes defined for model retraining and updating?
+#### SML 9.CO 5.C 4 (Governance and Operations)
+*   **Scope:** Service Provider 
+*   **Service Type:** AI Service
+*   Processes exist for retraining or updating models when necessary.
+*   **SML 9.CO 5.C 4.Q 1:** Are processes defined for retraining or updating AI models?
 
 ---
 
 ### SML 9.CO 6: Control over AI Assets
-**Target State:** Customer ownership over fine-tuned weights, embeddings, prompts, and custom model artifacts.
+**Objective:** Ensure that AI model artifacts, including weights and architecture, remain under the control of the service operator and are protected from unauthorized access or modification by the infrastructure provider.  
+*Sovereignty Contribution:* Preserves AI sovereignty by preventing infrastructure providers from accessing or modifying model artifacts during execution.
 
-* **SML 9.CO 6.C 1** | Level: *Contractual* | Scope: *Client Facing Service* | Service Type: *AI Service*  
-  Contracts explicitly state that customer fine-tuned weights, adapters (LoRA), and embeddings remain customer property.  
-  * **Question SML 9.CO 6.C 1.Q 1:** Do contracts guarantee customer ownership over fine-tuned weights and embeddings?
+#### SML 9.CO 6.C 1 (Technical)
+*   **Scope:** Client Facing Service 
+*   **Service Type:** AI Service
+*   The service ensures that AI model artifacts (e.g., model weights, configurations) remain under the control of the service provider.
+*   **SML 9.CO 6.C 1.Q 1:** Are AI model artifacts, including model weights, configurations, and architecture, documented and controlled by the service operator and protected from unauthorized access?
 
-* **SML 9.CO 6.C 2** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *AI Service*  
-  Processes ensure secure export or complete deletion of custom model artifacts upon termination.  
-  * **Question SML 9.CO 6.C 2.Q 1:** Are procedures active for exporting or deleting custom model artifacts?
+#### SML 9.CO 6.C 2 (Technical)
+*   **Scope:** Client Facing Service 
+*   **Service Type:** AI Service
+*   Access to AI model artifacts is restricted and controlled to prevent unauthorized access or modification.
+*   **SML 9.CO 6.C 2.Q 1:** Is access to AI model artifacts restricted and controlled, including documented and enforced access permissions?
 
-* **SML 9.CO 6.C 3** | Level: *Technical* | Scope: *Client Facing Service* | Service Type: *AI Service*  
-  Technical mechanisms allow downloading custom model adapters and embeddings in open formats (e.g., Safetensors).  
-  * **Question SML 9.CO 6.C 3.Q 1:** Can custom model adapters and weights be exported in open formats?
+#### SML 9.CO 6.C 3 (Governance and Operations)
+*   **Scope:** Service Provider 
+*   **Service Type:** AI Service
+*   The service provider defines policies and processes to maintain control over AI model artifacts.
+*   **SML 9.CO 6.C 3.Q 1:** Are policies and processes defined and implemented to maintain control over AI model artifacts?
 
 ---
 
 ### SML 9.CO 7: External Access to Training Data
-**Target State:** Technical isolation preventing provider reuse or storage of customer input prompts or output data for AI training.
+**Objective:** Ensure that dependencies on external AI providers do not allow access to training data, which must remain confidential and protected from disclosure, storage, or reuse by the external provider.  
+*Sovereignty Contribution:* Preserves AI data sovereignty by preventing external AI providers from accessing or retaining training data during processing.
 
-* **SML 9.CO 7.C 1** | Level: *Contractual* | Scope: *Service Provider* | Service Type: *AI Service*  
-  Contracts strictly prohibit the provider from using customer prompts, inputs, or outputs for foundation model training.  
-  * **Question SML 9.CO 7.C 1.Q 1:** Do contracts prohibit provider model training on customer prompts and outputs?
+#### SML 9.CO 7.C 1 (Governance and Operations)
+*   **Scope:** Service Provider 
+*   **Service Type:** All
+*   Safeguards are defined and implemented to prevent disclosure or retention of training data.
+*   **SML 9.CO 7.C 1.Q 1:** Are safeguards defined and implemented to prevent disclosure or retention of training data?
 
-* **SML 9.CO 7.C 2** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *AI Service*  
-  Data sanitization policies prevent customer data leakages into public AI repositories.  
-  * **Question SML 9.CO 7.C 2.Q 1:** Are operational sanitization policies active to block data leakages?
+#### SML 9.CO 7.C 2 (Contractual)
+*   **Scope:** Service Provider 
+*   **Service Type:** All
+*   Contracts with external AI providers define restrictions on the use of customer data as training data.
+*   **SML 9.CO 7.C 2.Q 1:** Do contracts with external AI providers restrict the use of training data?
 
-* **SML 9.CO 7.C 3** | Level: *Technical* | Scope: *Client Facing Service* | Service Type: *AI Service*  
-  Zero-data-retention (ZDR) API enforcement prevents persistent storage of inference data by the provider.  
-  * **Question SML 9.CO 7.C 3.Q 1:** Is Zero Data Retention (ZDR) technically enforced at the API layer?
+#### SML 9.CO 7.C 3 (Technical)
+*   **Scope:** Client Facing Service 
+*   **Service Type:** All
+*   Technical mechanisms prevent external AI providers from storing or reusing training data.
+*   **SML 9.CO 7.C 3.Q 1:** Are technical mechanisms implemented to prevent storage or reuse of training data by external providers?
 
 ---
 
-### SML 9.CO 8: Training Data Governance
-**Target State:** Full transparency, copyright integrity, and legal compliance regarding pre-training datasets.
+### SML 9.CO 8: Training Data
+**Objective:** Organizations shall maintain transparency and governance over the sources, ownership, and legal status of training data used for AI models.  
+*Sovereignty Contribution:* Prevents hidden legal, ethical, or jurisdictional risks related to training datasets.
 
-* **SML 9.CO 8.C 1** | Level: *Contractual* | Scope: *Service Provider* | Service Type: *AI Service*  
-  Contracts guarantee that pre-training datasets comply with copyright and data protection laws.  
-  * **Question SML 9.CO 8.C 1.Q 1:** Do contracts warrant copyright and GDPR compliance of training datasets?
+#### SML 9.CO 8.C 1 (Governance and Operations)
+*   **Scope:** Service Provider 
+*   **Service Type:** All
+*   Sources of training data used for AI models are documented.
+*   **SML 9.CO 8.C 1.Q 1:** Are sources of AI training data documented, versioned, and periodically reviewed?
 
-* **SML 9.CO 8.C 2** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *AI Service*  
-  Data provenance tracking documents dataset sources, licensing, and filtering methodologies.  
-  * **Question SML 9.CO 8.C 2.Q 1:** Is dataset provenance, licensing, and filtering fully documented?
-
-* **SML 9.CO 8.C 3** | Level: *Technical* | Scope: *Client Facing Service* | Service Type: *AI Service*  
-  Data filtering mechanisms purge toxic, personal, or non-compliant content prior to training.  
-  * **Question SML 9.CO 8.C 3.Q 1:** Are automated dataset filtering algorithms active to purge non-compliant content?
+#### SML 9.CO 8.C 2 (Governance and Operations)
+*   **Scope:** Service Provider 
+*   **Service Type:** All
+*   Ownership and legal rights associated with training data for AI models are assessed and documented.
+*   **SML 9.CO 8.C 2.Q 1:** Are ownership and legal rights associated with training data for AI models assessed and documented?

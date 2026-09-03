@@ -1,90 +1,129 @@
 # SML 5 — Supply Chain Sovereignty
 
-*Supply chain sovereignty evaluates geographic composition, component tracking (SBOM), and subprocessor risk management.*
+*Supply chain sovereignty measures the geographic composition, component tracking, and systemic resilience of the third-party ecosystem supporting the service.*
 
 ---
 
-## Control Objectives & Controls
+### SML 5.CO 1: Transparency
+**Objective:** Dependencies on third-party providers are identified and transparent.  
+*Sovereignty Contribution:* Ensures that customers have visibility into all third-party dependencies, enabling informed decisions and reducing hidden supply chain risks.
 
-### SML 5.CO 1: Subprocessor Transparency
-**Target State:** Complete visibility over all third-party sub-providers and processing locations involved in service delivery.
+#### SML 5.CO 1.C 1 (Contractual)
+*   **Scope:** Service Provider 
+*   **Service Type:** All
+*   Contracts with third-party providers disclose their involvement, roles, and responsibilities in delivering the service.
+*   **SML 5.CO 1.C 1.Q 1:** Does the contract disclose all third-party providers involved in delivering the service, including their roles and responsibilities?
 
-* **SML 5.CO 1.C 1** | Level: *Contractual* | Scope: *Service Provider* | Service Type: *All*  
-  Contracts require full disclosure and prior customer approval for subprocessor additions or changes.  
-  * **Question SML 5.CO 1.C 1.Q 1:** Does the contract require advance notice and customer approval for subprocessor changes?
+#### SML 5.CO 1.C 2 (Governance and Operations)
+*   **Scope:** Service Provider 
+*   **Service Type:** All
+*   An inventory of third-party dependencies, including subservice providers and external integrations, is maintained and documented.
+*   **SML 5.CO 1.C 2.Q 1:** Is there a maintained and documented inventory of all third-party dependencies, including subservice providers and external integrations?
 
-* **SML 5.CO 1.C 2** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *All*  
-  Updated lists of subprocessors, roles, and processing locations are publicly accessible or provided to customers.  
-  * **Question SML 5.CO 1.C 2.Q 1:** Is an up-to-date directory of subprocessors and locations maintained and accessible?
-
-* **SML 5.CO 1.C 3** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *All*  
-  Subprocessor monitoring and audit processes are conducted regularly.  
-  * **Question SML 5.CO 1.C 3.Q 1:** Are subprocessors systematically audited and monitored?
-
----
-
-### SML 5.CO 2: Component & Software Bill of Materials (SBOM) Transparency
-**Target State:** Transparency over software components, open-source libraries, and hardware assets powering the service.
-
-* **SML 5.CO 2.C 1** | Level: *Contractual* | Scope: *Service Provider* | Service Type: *All*  
-  Contracts guarantee transparency regarding major software dependencies and components.  
-  * **Question SML 5.CO 2.C 1.Q 1:** Are component transparency commitments included in contracts?
-
-* **SML 5.CO 2.C 2** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *All*  
-  A Software Bill of Materials (SBOM) is maintained and updated across the service lifecycle.  
-  * **Question SML 5.CO 2.C 2.Q 1:** Is an updated Software Bill of Materials (SBOM) maintained for the service?
-
-* **SML 5.CO 2.C 3** | Level: *Technical* | Scope: *Client Facing Service* | Service Type: *All*  
-  Automated component vulnerability tracking and version verification are active.  
-  * **Question SML 5.CO 2.C 3.Q 1:** Are automated tools used to track component provenance and security vulnerabilities?
+#### SML 5.CO 1.C 3 (Technical)
+*   **Scope:** Client Facing Service 
+*   **Service Type:** Managed Service, AI Service, SaaS
+*   The service provides customers with visibility into third-party dependencies that impact their service usage.
+*   **SML 5.CO 1.C 3.Q 1:** Are customers provided with visibility into third-party dependencies that impact their service usage?
 
 ---
 
-### SML 5.CO 3: Supplier Governance and Risk Management
-**Target State:** Third-party vendor risks are governed, assessed, and systematically mitigated.
+### SML 5.CO 2 Supplier Governance
+**Objective:** Third-party providers are governed and controlled to prevent unmanaged dependency.  
+*Sovereignty Contribution:* Ensures that third-party providers are subject to defined governance and control mechanisms, reducing dependency risks and preventing uncontrolled external influence on the service.
 
-* **SML 5.CO 3.C 1** | Level: *Contractual* | Scope: *Service Provider* | Service Type: *All*  
-  Contracts impose binding security, legal, and operational compliance requirements on suppliers.  
-  * **Question SML 5.CO 3.C 1.Q 1:** Do supplier contracts mandate strict compliance with sovereignty standards?
+#### SML 5.CO 2.C 1 (Contractual)
+*   **Scope:** Service Provider 
+*   **Service Type:** All
+*   Contracts with third-party providers define governance, roles, responsibilities, and control mechanisms for service delivery.
+*   **SML 5.CO 2.C 1.Q 1:** Does the contract define governance, responsibilities, and control mechanisms for third-party providers involved in service delivery?
 
-* **SML 5.CO 3.C 2** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *All*  
-  Vendor risk assessment frameworks evaluate concentration risks and geopolitical dependencies.  
-  * **Question SML 5.CO 3.C 2.Q 1:** Are supplier concentration and geopolitical risks systematically evaluated?
+#### SML 5.CO 2.C 2 (Governance and Operations)
+*   **Scope:** Service Provider 
+*   **Service Type:** All
+*   Governance processes are implemented and maintained to manage third-party providers, including oversight, performance monitoring, and risk management.
+*   **SML 5.CO 2.C 2.Q 1:** Are governance processes in place for managing third-party providers, including oversight, performance monitoring, and risk management?
 
-* **SML 5.CO 3.C 3** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *All*  
-  Continuous supplier compliance monitoring and periodic re-evaluations are conducted.  
-  * **Question SML 5.CO 3.C 3.Q 1:** Are suppliers subject to continuous risk and compliance monitoring?
-
----
-
-### SML 5.CO 4: Dependency Mitigation and Substitution
-**Target State:** Critical supplier dependencies can be substituted or mitigated without operational failure.
-
-* **SML 5.CO 4.C 1** | Level: *Contractual* | Scope: *Service Provider* | Service Type: *All*  
-  Contracts ensure supplier exit assistance and transition support rights.  
-  * **Question SML 5.CO 4.C 1.Q 1:** Do supplier contracts include exit transition assistance clauses?
-
-* **SML 5.CO 4.C 2** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *All*  
-  Alternative supplier options or fallback strategies are documented for critical components.  
-  * **Question SML 5.CO 4.C 2.Q 1:** Are fallback supplier options documented for single-point-of-failure components?
-
-* **SML 5.CO 4.C 3** | Level: *Technical* | Scope: *Underlying Service* | Service Type: *IaaS, PaaS*  
-  Infrastructure modularity enables substitution of underlying service modules.  
-  * **Question SML 5.CO 4.C 3.Q 1:** Is the underlying technical stack modularized to allow component substitution?
+#### SML 5.CO 2.C 3 (Governance and Operations)
+*   **Scope:** Service Provider 
+*   **Service Type:** All
+*   Third-party providers are integrated into service governance structures and subject to defined controls and oversight.
+*   **SML 5.CO 2.C 3.Q 1:** Are third-party providers integrated into service governance structures and subject to defined control and oversight mechanisms?
 
 ---
 
-### SML 5.CO 5: Requirement Flow-Down
-**Target State:** Sovereignty and control requirements are passed down and legally enforced across all supply chain tiers.
+### SML 5.CO 3 Dependency Management
+**Objective:** Critical dependencies are identified and managed to reduce risk and dependency.  
+*Sovereignty Contribution:* Ensures that critical dependencies are identified and actively managed, reducing concentration risk and preventing excessive reliance on individual third-party providers.
 
-* **SML 5.CO 5.C 1** | Level: *Contractual* | Scope: *Service Provider* | Service Type: *All*  
-  Contracts require sub-tier providers to comply with mandatory customer sovereignty rules.  
-  * **Question SML 5.CO 5.C 1.Q 1:** Are customer sovereignty rules contractually passed down to sub-suppliers?
+#### SML 5.CO 3.C 1 (Governance and Operations)
+*   **Scope:** Service Provider 
+*   **Service Type:** All
+*   Criteria are defined to identify and classify critical third-party dependencies based on their impact on service delivery, data, and operations.
+*   **SML 5.CO 3.C 1.Q 1:** The provider implements and maintains measures to manage and mitigate risks associated with critical dependencies.
 
-* **SML 5.CO 5.C 2** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *All*  
-  Processes verify that sub-suppliers uphold flow-down commitments.  
-  * **Question SML 5.CO 5.C 2.Q 1:** Are operational processes active to verify sub-supplier flow-down compliance?
+#### SML 5.CO 3.C 2 (Governance and Operations)
+*   **Scope:** Service Provider 
+*   **Service Type:** All
+*   Documented assessments are performed and maintained to determine the criticality and associated risks of third-party dependencies.
+*   **SML 5.CO 3.C 2.Q 1:** Are criteria defined to identify and classify critical third-party dependencies based on their impact on service delivery, data, and operations?
 
-* **SML 5.CO 5.C 3** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *All*  
-  Supplier non-compliance is identified, remediated, or triggers contract termination.  
-  * **Question SML 5.CO 5.C 3.Q 1:** Are supplier non-compliance events formally managed and remediated?
+#### SML 5.CO 3.C 3 (Governance and Operations)
+*   **Scope:** Service Provider 
+*   **Service Type:** All
+*   Measures are implemented and maintained to manage and mitigate risks associated with critical third-party dependencies.
+*   **SML 5.CO 3.C 3.Q 1:** Are measures implemented and maintained to manage and mitigate risks associated with critical dependencies?
+
+---
+
+### SML 5.CO 4 Substitution and Exit
+**Objective:** Dependencies can be substituted or exited without excessive disruption.  
+*Sovereignty Contribution:* Ensures that dependencies can be replaced or exited, reducing vendor lock-in and enabling continuity of service without excessive disruption.
+
+#### SML 5.CO 4.C 1 (Governance and Operations)
+*   **Scope:** Service Provider 
+*   **Service Type:** All
+*   Exit strategies are defined and maintained for third-party dependencies, including procedures to replace or terminate suppliers.
+*   **SML 5.CO 4.C 1.Q 1:** Are exit strategies defined and maintained for third-party dependencies, including procedures for replacing or terminating suppliers?
+
+#### SML 5.CO 4.C 2 (Governance and Operations)
+*   **Scope:** Service Provider 
+*   **Service Type:** All
+*   Feasibility, impact, and effort for substituting or exiting critical third-party dependencies are assessed and documented.
+*   **SML 5.CO 4.C 2.Q 1:** Are the feasibility, impact, and effort required to substitute or exit critical third-party dependencies assessed and documented?
+
+#### SML 5.CO 4.C 3 (Governance and Operations)
+*   **Scope:** Service Provider 
+*   **Service Type:** All
+*   Processes are in place to execute substitution or exit of third-party dependencies without causing unacceptable disruption to service delivery.
+*   **SML 5.CO 4.C 3.Q 1:** Can the substitution or exit of third-party dependencies be executed without causing unacceptable disruption to service delivery?
+
+#### SML 5.CO 4.C 4 (Technical)
+*   **Scope:** Client Facing Service 
+*   **Service Type:** All
+*   The service architecture is designed to minimize dependency on single third-party providers and supports substitution where feasible.
+*   **SML 5.CO 4.C 4.Q 1:** Is the service architecture designed to reduce dependency on single third-party providers and support substitution where feasible?
+
+---
+
+### SML 5.CO 5 Requirement Flow-Down
+**Objective:** Digital sovereignty and control requirements are enforced across the supply chain.  
+*Sovereignty Contribution:* Ensures that sovereignty and control requirements are consistently enforced across all third-party providers, preventing gaps and reducing risk from weak links in the supply chain.
+
+#### SML 5.CO 5.C 1 (Contractual)
+*   **Scope:** Service Provider 
+*   **Service Type:** All
+*   Contracts with third-party providers require compliance with defined digital sovereignty and control requirements.
+*   **SML 5.CO 5.C 1.Q 1:** Do contracts with third-party providers ensure that sovereignty and control requirements are imposed on them?
+
+#### SML 5.CO 5.C 2 (Governance and Operations)
+*   **Scope:** Service Provider 
+*   **Service Type:** All
+*   Processes are implemented and maintained to verify that third-party providers comply with defined digital sovereignty and control requirements.
+*   **SML 5.CO 5.C 2.Q 1:** Are processes in place to verify that third-party providers comply with defined sovereignty and control requirements?
+
+#### SML 5.CO 5.C 3 (Governance and Operations)
+*   **Scope:** Service Provider 
+*   **Service Type:** All
+*   Non-compliance by third-party providers is identified, managed, and remediated through defined processes.
+*   **SML 5.CO 5.C 3.Q 1:** Is non-compliance of third-party providers identified, managed, and remediated in a controlled manner?

@@ -1,60 +1,117 @@
 # SML 7 — Security and Compliance Sovereignty
 
-*Security and compliance sovereignty evaluates access control mechanisms, security visibility, and technical isolation of sensitive operations.*
+*Security and compliance sovereignty evaluates the isolation, administrative control, and auditability of security configurations and compliance mechanisms.*
 
 ---
 
-## Control Objectives & Controls
-
 ### SML 7.CO 1: Identity and Access Management
-**Target State:** Identity federation, zero-trust access control, and privileged role separation are enforced.
+**Objective:** Access to the service is protected and controlled to prevent unauthorized use.  
+*Sovereignty Contribution:* Ensures that access to the service is securely controlled and not solely dependent on the provider, enabling customers to retain control over identities and access permissions.
 
-* **SML 7.CO 1.C 1** | Level: *Contractual* | Scope: *Service Provider* | Service Type: *All*  
-  Contracts mandate identity governance standards and access isolation commitments.  
-  * **Question SML 7.CO 1.C 1.Q 1:** Do contracts mandate strict identity governance and access isolation standards?
+#### SML 7.CO 1.C 1 (Governance and Operations)
+*   **Scope:** Service Provider 
+*   **Service Type:** All
+*   Policies for identity and access, including authentication, authorization, and access control, are formally defined and documented.
+*   **SML 7.CO 1.C 1.Q 1:** Are policies defined and maintained for identity and access management, including authentication, authorization, and access control principles?
 
-* **SML 7.CO 1.C 2** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *All*  
-  Identity and access management policies follow least-privilege principles.  
-  * **Question SML 7.CO 1.C 2.Q 1:** Are IAM policies based on least-privilege principles documented and enforced?
+#### SML 7.CO 1.C 2 (Governance and Operations)
+*   **Scope:** Service Provider 
+*   **Service Type:** All
+*   Privileged access is restricted, documented, monitored, and managed according to defined controls.
+*   **SML 7.CO 1.C 2.Q 1:** Is access to privileged accounts limited, documented, and regularly monitored for compliance with defined controls?
 
-* **SML 7.CO 1.C 3** | Level: *Technical* | Scope: *Client Facing Service* | Service Type: *All*  
-  MFA, Single Sign-On (SSO via SAML/OIDC), and Role-Based Access Control (RBAC) are supported.  
-  * **Question SML 7.CO 1.C 3.Q 1:** Are SAML/OIDC identity federation and MFA technically enforced?
+#### SML 7.CO 1.C 3 (Technical)
+*   **Scope:** Client Facing Service 
+*   **Service Type:** Managed Service, AI Service, SaaS
+*   Strong authentication mechanisms, including multi-factor authentication for privileged or sensitive access, are enforced for all user accounts.
+*   **SML 7.CO 1.C 3.Q 1:** Are strong authentication mechanisms enforced in accordance with defined policies, including multi-factor authentication for privileged or sensitive access?
 
-* **SML 7.CO 1.C 4** | Level: *Technical* | Scope: *Underlying Service* | Service Type: *IaaS, PaaS*  
-  Infrastructure provides hardware-enforced tenant isolation and zero-trust network segmentation.  
-  * **Question SML 7.CO 1.C 4.Q 1:** Does the underlying infrastructure provide hardware-enforced tenant isolation?
+#### SML 7.CO 1.C 4 (Technical)
+*   **Scope:** Client Facing Service 
+*   **Service Type:** Managed Service, AI Service, SaaS
+*   Access is controlled using role-based or attribute-based mechanisms, ensuring users only have access according to their defined roles and responsibilities.
+*   **SML 7.CO 1.C 4.Q 1:** Is there a formal concept or policy for role-based or attribute-based access controls that ensures users have access only according to their defined roles and responsibilities?
+
+#### SML 7.CO 1.C 5 (Technical)
+*   **Scope:** Client Facing Service 
+*   **Service Type:** Managed Service, AI Service, SaaS
+*   Segregation of access between customer and provider is enforced, preventing unauthorized or undisclosed privileged access by the provider.
+*   **SML 7.CO 1.C 5.Q 1:** How is access between customer and provider controlled to prevent unrestricted or undisclosed privileged access by the provider?
+
+#### SML 7.CO 1.C 6 (Technical)
+*   **Scope:** Underlying Service 
+*   **Service Type:** PaaS, IaaS
+*   Identity and access control mechanisms, including identity federation and integration with external identity providers, are supported and enforced for all users.
+*   **SML 7.CO 1.C 6.Q 1:** How are identity and access control mechanisms implemented in the underlying services, including identity federation and integration with external identity providers?
 
 ---
 
 ### SML 7.CO 2: Security Visibility and Control
-**Target State:** Complete customer visibility into security event logs, configurations, and threat alerts.
+**Objective:** Customers have visibility into and control over security mechanisms relevant to their service.  
+*Sovereignty Contribution:* Ensures that customers are not dependent on the provider’s internal security operations by providing visibility and control over relevant security mechanisms.
 
-* **SML 7.CO 2.C 1** | Level: *Contractual* | Scope: *Service Provider* | Service Type: *All*  
-  Contracts guarantee customer access to real-time security audit logs.  
-  * **Question SML 7.CO 2.C 1.Q 1:** Does the contract guarantee customer access to security log streams?
+#### SML 7.CO 2.C 1 (Governance and Operations)
+*   **Scope:** Service Provider 
+*   **Service Type:** All
+*   Documented policies are in place for providing customers with visibility into and control over security mechanisms, and mechanisms are in place to enforce the implementation of these policies.
+*   **SML 7.CO 2.C 1.Q 1:** Are policies defined and maintained to provide customers with visibility into and control over security mechanisms?
 
-* **SML 7.CO 2.C 2** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *All*  
-  Security monitoring, SIEM integration, and vulnerability response processes are active.  
-  * **Question SML 7.CO 2.C 2.Q 1:** Are security monitoring and vulnerability response processes maintained?
+#### SML 7.CO 2.C 2 (Technical)
+*   **Scope:** Client Facing Service 
+*   **Service Type:** Managed Service, AI Service, SaaS
+*   Customers are provided with role-based access to view security configurations and settings relevant to their service usage.
+*   **SML 7.CO 2.C 2.Q 1:** Are mechanisms in place to provide customers with role-based access to view security configurations and mechanisms relevant to their service usage?
 
-* **SML 7.CO 2.C 3** | Level: *Technical* | Scope: *Client Facing Service* | Service Type: *All*  
-  Service provides SIEM-compatible log streaming and real-time security event alerts.  
-  * **Question SML 7.CO 2.C 3.Q 1:** Does the service export real-time SIEM-compatible security event logs?
+#### SML 7.CO 2.C 3 (Technical)
+*   **Scope:** Client Facing Service 
+*   **Service Type:** Managed Service, AI Service, SaaS
+*   Authorized customer users can configure and manage security settings within their scope of responsibility through defined interfaces.
+*   **SML 7.CO 2.C 3.Q 1:** Are mechanisms in place that enable authorized customer users to configure and manage security settings within their defined scope of responsibility through defined interfaces?
+
+#### SML 7.CO 2.C 4 (Technical)
+*   **Scope:** Client Facing Service 
+*   **Service Type:** Managed Service, AI Service, SaaS
+*   Customers have visibility into security-relevant configurations and their impact on the service, including logging of configuration changes.
+*   **SML 7.CO 2.C 4.Q 1:** Are mechanisms in place to provide customers with visibility into security-relevant configurations and their impact on the service, including logging of configuration changes?
+
+#### SML 7.CO 2.C 5 (Technical)
+*   **Scope:** Underlying Service 
+*   **Service Type:** PaaS, IaaS
+*   Underlying services allow configuration and management of security controls, ensuring that configurations are valid and secure.
+*   **SML 7.CO 2.C 5.Q 1:** Do the underlying services provide mechanisms to configure and manage security controls relevant to the service, ensuring configurations are valid and secure?
 
 ---
 
 ### SML 7.CO 3: Sensitive Operations and Isolation
-**Target State:** High-security and sensitive administrative workloads are executed in isolated, confidential environments.
+**Objective:** Sensitive operations are protected against misuse or unauthorized execution.  
+*Sovereignty Contribution:* Ensures that critical operations cannot be executed without appropriate protection, reducing the risk of misuse and strengthening customer control over high-impact actions.
 
-* **SML 7.CO 3.C 1** | Level: *Contractual* | Scope: *Service Provider* | Service Type: *All*  
-  Contracts define security isolation guarantees for sensitive customer operations.  
-  * **Question SML 7.CO 3.C 1.Q 1:** Do contracts specify technical isolation guarantees for sensitive workloads?
+#### SML 7.CO 3.C 1 (Governance and Operations)
+*   **Scope:** Service Provider 
+*   **Service Type:** All
+*   Policies defined to protect sensitive operations against misuse or unauthorized execution.
+*   **SML 7.CO 3.C 1.Q 1:** Are policies defined and maintained to protect sensitive operations against misuse or unauthorized execution?
 
-* **SML 7.CO 3.C 2** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *All*  
-  Operational procedures enforce strict segregation of duties for sensitive administrative tasks.  
-  * **Question SML 7.CO 3.C 2.Q 1:** Are segregation of duties policies enforced for high-security operations?
+#### SML 7.CO 3.C 2 (Technical)
+*   **Scope:** Client Facing Service 
+*   **Service Type:** Managed Service, AI Service, SaaS
+*   Additional safeguards for sensitive operations, such as multi-step approval, strong authentication, or confirmation mechanisms, are implemented and enforced.
+*   **SML 7.CO 3.C 2.Q 1:** Are additional safeguards enforced for sensitive operations, such as multi-step approval, strong authentication, or confirmation mechanisms?
 
-* **SML 7.CO 3.C 3** | Level: *Technical* | Scope: *Underlying Service* | Service Type: *IaaS, PaaS*  
-  Confidential computing (memory encryption, enclave protection) isolates sensitive data during execution.  
-  * **Question SML 7.CO 3.C 3.Q 1:** Is confidential computing hardware deployed to protect data in memory during processing?
+#### SML 7.CO 3.C 3 (Technical)
+*   **Scope:** Client Facing Service 
+*   **Service Type:** Managed Service, AI Service, SaaS
+*   Execution of sensitive operations is restricted to authorized roles with clearly defined permissions.
+*   **SML 7.CO 3.C 3.Q 1:** Are sensitive operations restricted to authorized roles with clearly defined permissions?
+
+#### SML 7.CO 3.C 4 (Technical)
+*   **Scope:** Client Facing Service 
+*   **Service Type:** Managed Service, AI Service, SaaS
+*   Mechanisms are in place to log and ensure traceability of sensitive operations.
+*   **SML 7.CO 3.C 4.Q 1:** Are sensitive operations traceable and logged?
+
+#### SML 7.CO 3.C 5 (Technical)
+*   **Scope:** Underlying Service 
+*   **Service Type:** PaaS, IaaS
+*   Underlying services protect and control the execution of sensitive operations, enforcing defined security requirements.
+*   **SML 7.CO 3.C 5.Q 1:** Do the underlying services support mechanisms to protect and control the execution of sensitive operations, including enforcement of defined security requirements?

@@ -1,78 +1,105 @@
 # SML 1 — Strategic Sovereignty
 
-*Strategic sovereignty evaluates corporate governance architecture, ownership dependencies, and long-term exit preparedness of the service provider.*
+*Strategic sovereignty evaluates the corporate governance architecture, ownership dependencies, and long-term continuity planning of the service provider.*
 
 ---
 
-## Control Objectives & Controls
-
 ### SML 1.CO 1: Governance Authority
-**Target State:** Ensure that individuals and entities with significant governance and decision-making authority over the service are clearly defined and formally designated.
+**Objective:** Ensuring that individuals and entities with significant governance and decision-making authority are clearly defined and formally designated in order to fulfill their responsibilities.  
+*Sovereignty Contribution:* Establishes strategic sovereignty by ensuring that control over service-related decisions is transparent, formally assigned, and free from undisclosed influence, enabling customers to understand who ultimately governs the service.
 
-* **SML 1.CO 1.C 1** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *All*  
-  The entity exercising decisive control over the service is clearly determined regarding roles, bodies, and legal entities.  
-  * **Question SML 1.CO 1.C 1.Q 1:** Is the entity exercising decisive control and decision-making authority over the service clearly determined?
+#### SML 1.CO 1.C 1 (Governance and Operations)
+*   **Scope:** Service Provider
+*   **Service Type:** All
+*   The entity exercising decisive control (and decision-making authority) over the service is clearly determined regarding roles, bodies and legal entities.
+*   **SML 1.CO 1.C 1.Q 1:** Is the entity exercising decisive control and decision-making authority over the service clearly determined?
 
-* **SML 1.CO 1.C 2** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *All*  
-  All responsible entities and individuals are assigned, informed, and accessible to stakeholders.  
-  * **Question SML 1.CO 1.C 2.Q 1:** Did the controlling entity formally assign and inform responsible bodies regarding service governance?
+#### SML 1.CO 1.C 2 (Governance and Operations)
+*   **Scope:** Service Provider
+*   **Service Type:** All
+*   The entity exercising decisive control (and decision-making authority) over the service assigned all responsible entities and individuals to their services, tasks and made this Information accessible to stakeholders.
+*   **SML 1.CO 1.C 2.Q 1:** Did the entity exercising decisive control and decision-making authority over the service formally assign and inform affected entities, individuals and stakeholders about responsibilities for the services?
 
-* **SML 1.CO 1.C 3** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *All*  
-  Nomination, assignment, and decision-making competencies are formally documented and accessible.  
-  * **Question SML 1.CO 1.C 3.Q 1:** Are nomination and decision-making competencies formally documented and accessible to all affected stakeholders?
+#### SML 1.CO 1.C 3 (Governance and Operations)
+*   **Scope:** Service Provider
+*   **Service Type:** All
+*   Details on the nomination, assignment, services and decision-making competencies regarding the related services are formally documented and accessible to all affected individuals and stakeholders.
+*   **SML 1.CO 1.C 3.Q 1:** Are the nomination, assignment, services and decision-making competencies regarding the related services formally documented and accessible to all affected individuals and stakeholders?
 
 ---
 
 ### SML 1.CO 2: Ownership and Control Structure
-**Target State:** Ensure that ownership structures and controlling interests related to the service provider are transparent, identifiable, and free from undisclosed external influence.
+**Objective:** Ensure that ownership structures and controlling interests related to the service provider are transparent, identifiable, and do not introduce undisclosed external influence.  
+*Sovereignty Contribution:* Strengthens strategic sovereignty by ensuring that ownership and control structures are transparent and that controlling interests can be clearly attributed, reducing the risk of hidden or external influence over the service.
 
-* **SML 1.CO 2.C 1** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *All*  
-  The ownership structure of the service provider is documented and transparent.  
-  * **Question SML 1.CO 2.C 1.Q 1:** Is the ownership structure of the service provider documented and transparent?
+#### SML 1.CO 2.C 1 (Governance and Operations)
+*   **Scope:** Service Provider
+*   **Service Type:** All
+*   The entity exercising decisive control (and decision-making authority) over the service is clearly determined regarding roles, bodies and legal entities.
+*   **SML 1.CO 2.C 1.Q 1:** Is the ownership structure of the service provider documented and transparent?
 
-* **SML 1.CO 2.C 2** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *All*  
-  Ultimate beneficial ownership (UBO) of the service provider is identified and documented.  
-  * **Question SML 1.CO 2.C 2.Q 1:** Is the ultimate beneficial ownership (UBO) of the service provider identified and formally documented?
+#### SML 1.CO 2.C 2 (Governance and Operations)
+*   **Scope:** Service Provider
+*   **Service Type:** All
+*   Ultimate beneficial ownership (UBO) of the service provider is identified and documented.
+*   **SML 1.CO 2.C 2.Q 1:** Is the ultimate beneficial ownership (UBO) of the service provider identified and documented?
 
 ---
 
 ### SML 1.CO 3: Strategic Alignment with Digital Sovereignty Objectives
-**Target State:** Digital sovereignty objectives are explicitly defined and embedded in corporate strategy and decision-making.
+**Objective:** Ensure that digital sovereignty objectives are explicitly defined and embedded in the strategy and decision-making processes related to the service.  
+*Sovereignty Contribution:* Strengthens strategic sovereignty by ensuring that digital sovereignty is an intentional and managed objective, guiding decisions on architecture, providers, and dependencies rather than being incidental.
 
-* **SML 1.CO 3.C 1** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *All*  
-  Digital sovereignty objectives are defined, integrated, and updated in management policies.  
-  * **Question SML 1.CO 3.C 1.Q 1:** How is it ensured that digital sovereignty objectives are integrated into management policies?
+#### SML 1.CO 3.C 1 (Governance and Operations)
+*   **Scope:** Service Provider
+*   **Service Type:** All
+*   Digital sovereignty objectives are defined, integrated and updated in the entity's management policies to ensure it is being considered in the implementation of the service or provider strategy on all levels.
+*   **SML 1.CO 3.C 1.Q 1:** How is ensured that digital sovereignty objectives are defined, integrated and updated in the entity's management policies and considered in the implementation of the service or provider strategy?
 
-* **SML 1.CO 3.C 2** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *All*  
-  Strategic decisions related to the service consider digital sovereignty objectives.  
-  * **Question SML 1.CO 3.C 2.Q 1:** Are digital sovereignty objectives explicitly considered in strategic service decisions?
+#### SML 1.CO 3.C 2 (Governance and Operations)
+*   **Scope:** Service Provider
+*   **Service Type:** All
+*   Strategic decisions related to the service consider digital sovereignty objectives.
+*   **SML 1.CO 3.C 2.Q 1:** Are digital sovereignty objectives considered in strategic decisions related to the service?
 
 ---
 
 ### SML 1.CO 4: Strategic Independence and Exit Capability
-**Target State:** Dependencies on third-party services are actively managed, and measures are in place to ensure exit preparedness.
+**Objective:** Ensure that dependencies on the services are considered at the entity’s strategic level and measures are in place to avoid disruptions in case of exits or substitution of the service.  
+*Sovereignty Contribution:* Strengthens digital sovereignty by ensuring that dependencies are considered, implications monitored and actively managed to maintain the service quality.
 
-* **SML 1.CO 4.C 1** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *All*  
-  The level of dependency on external providers is frequently defined and updated regarding impact on exit capability.  
-  * **Question SML 1.CO 4.C 1.Q 1:** Is there a defined process to frequently assess provider dependencies and exit feasibility?
+#### SML 1.CO 4.C 1 (Governance and Operations)
+*   **Scope:** Service Provider
+*   **Service Type:** All
+*   The level of dependencies on external providers relevant to the offered services are defined frequently and updated with regard to their impact on independence and exit capability.
+*   **SML 1.CO 4.C 1.Q 1:** How is the process designed to frequently define criteria on and assess the level of dependencies, also considering the exit of contracted service providers that impact the own offered services?
 
-* **SML 1.CO 4.C 2** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *All*  
-  Measures are in place to continuously detect and monitor the impact of external service disruptions.  
-  * **Question SML 1.CO 4.C 2.Q 1:** Are measures in place to continuously monitor external service provider activities that could disrupt operations?
+#### SML 1.CO 4.C 2 (Governance and Operations)
+*   **Scope:** Service Provider
+*   **Service Type:** All
+*   Measures are in place to continuously detect and monitor how the external service providers' relevant activities impact or disrupt their own offered services.
+*   **SML 1.CO 4.C 2.Q 1:** Are measures in place to continuously detect and monitor the impact of external service providers?
 
-* **SML 1.CO 4.C 3** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *All*  
-  Measures for substitution or exit of contracted providers are integrated into decision-making and process design.  
-  * **Question SML 1.CO 4.C 3.Q 1:** Are provider substitution and exit processes integrated into service design?
+#### SML 1.CO 4.C 3 (Governance and Operations)
+*   **Scope:** Service Provider
+*   **Service Type:** All
+*   Measures for the substitution or the exit of contracted external providers services are integrated into the decision-making process and design of processes that impact the provided services.
+*   **SML 1.CO 4.C 3.Q 1:** How is ensured that the substitution or the exit of contracted external providers services are considered in the decision making and design of processes that impact the own service provided?
 
 ---
 
 ### SML 1.CO 5: Accountability and Strategic Oversight
-**Target State:** Ensure clear accountability and executive oversight for digital sovereignty objectives.
+**Objective:** Ensure that accountability for digital sovereignty is clearly assigned and that oversight mechanisms are in place to monitor and enforce related objectives.  
+*Sovereignty Contribution:* Strengthens strategic sovereignty by ensuring that digital sovereignty is actively managed, with clear accountability and oversight, rather than remaining an abstract or unowned objective.
 
-* **SML 1.CO 5.C 1** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *All*  
-  Accountability for digital sovereignty is explicitly assigned to defined management roles.  
-  * **Question SML 1.CO 5.C 1.Q 1:** Is accountability for digital sovereignty explicitly assigned to defined management roles?
+#### SML 1.CO 5.C 1 (Governance and Operations)
+*   **Scope:** Service Provider
+*   **Service Type:** All
+*   Accountability for digital sovereignty is explicitly assigned to defined roles or management functions.
+*   **SML 1.CO 5.C 1.Q 1:** Is accountability for digital sovereignty explicitly assigned to defined roles or management functions?
 
-* **SML 1.CO 5.C 2** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *All*  
-  Mechanisms are in place to monitor and oversee digital sovereignty objectives at a strategic level.  
-  * **Question SML 1.CO 5.C 2.Q 1:** Are mechanisms in place to monitor digital sovereignty objectives at a strategic level?
+#### SML 1.CO 5.C 2 (Governance and Operations)
+*   **Scope:** Service Provider
+*   **Service Type:** All
+*   Mechanisms are in place to monitor and oversee digital sovereignty objectives at a strategic level.
+*   **SML 1.CO 5.C 2.Q 1:** Are mechanisms in place to monitor and oversee digital sovereignty objectives at a strategic level?

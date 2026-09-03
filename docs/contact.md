@@ -1,4 +1,4 @@
-# Contact & Legal Imprint
+# Contact
 
 ---
 
@@ -7,7 +7,7 @@
 The **ES³ Sovereignty Maturity Level (SML) Framework** is published and maintained by:
 
 **Institute for Cyber Security and Digital Sovereignty**  
-*Schwarz Digits KG*
+**Schwarz Digits**
 
 ### Authors & Program Leadership
 * **Sofie Schönborn** — Digital Sovereignty Manager

@@ -1,94 +1,153 @@
 # SML 2 — Legal and Jurisdictional Sovereignty
 
-*Legal and jurisdictional sovereignty evaluates legal frameworks, geographic processing boundaries, and protection against extraterritorial third-country access claims.*
+*Legal and Jurisdictional sovereignty evaluates the legal frameworks, geographic processing boundaries, and regulatory environments governing the services.*
 
 ---
 
-## Control Objectives & Controls
-
 ### SML 2.CO 1: Jurisdictional Alignment of Governance and Control
-**Target State:** Entities exercising governance and decision-making authority are subject to jurisdictions listed in the Approved Jurisdictions List (AJL).
+**Objective:** Ensure that entities exercising governance, control, and decision-making authority over the service are subject to jurisdictions listed in the Approved Jurisdictions List (AJL).  
+*Sovereignty Contribution:* Establishes legal sovereignty by ensuring that decisive governance and control over the service are exercised within trusted jurisdictions, enabling enforceability and reducing exposure to conflicting legal frameworks.
 
-* **SML 2.CO 1.C 1** | Level: *Contractual* | Scope: *Service Provider* | Service Type: *All*  
-  Contracts require that governance and control entities reside within jurisdictions listed in the AJL.  
-  * **Question SML 2.CO 1.C 1.Q 1:** Do contractual agreements mandate that governance entities reside within AJL jurisdictions?
+#### SML 2.CO 1.C 1 (Governance and Operations)
+*   **Scope:** Service Provider 
+*   **Service Type:** All
+*   The legal entity exercising decisive governance, control or decision-making authority over the service is incorporated in a jurisdiction listed in the AJL.
+*   **SML 2.CO 1.C 1.Q 1:** Is the legal entity exercising decisive governance, control or decision-making authority over the service incorporated in a jurisdiction listed in the AJL?
 
-* **SML 2.CO 1.C 2** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *All*  
-  Entities exercising control over the service are clearly defined and located within AJL jurisdictions.  
-  * **Question SML 2.CO 1.C 2.Q 1:** Are all controlling entities clearly defined and located within AJL jurisdictions?
+#### SML 2.CO 1.C 2 (Governance and Operations)
+*   **Scope:** Service Provider 
+*   **Service Type:** All
+*   All relevant entities that exercise governance, control or decision-making authority over the service are clearly defined and incorporated in a jurisdiction listed in the AJL.
+*   **SML 2.CO 1.C 2.Q 1:** Are all relevant entities that exercise governance, control or decision-making authority over the service clearly defined and in a jurisdiction listed in the AJL?
 
-* **SML 2.CO 1.C 3** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *All*  
-  Jurisdictional alignment of governance entities is regularly reviewed and documented.  
-  * **Question SML 2.CO 1.C 3.Q 1:** Is jurisdictional alignment regularly reviewed and documented?
+#### SML 2.CO 1.C 3 (Governance and Operations)
+*   **Scope:** Service Provider 
+*   **Service Type:** All
+*   Jurisdictional alignment of governance and control entities is regularly reviewed and documented.
+*   **SML 2.CO 1.C 3.Q 1:** Is the jurisdictional alignment of governance and control entities regularly reviewed and documented?
 
 ---
 
 ### SML 2.CO 2: Jurisdiction of Service Delivery and Data Processing
-**Target State:** Service delivery, data processing, and operational execution occur within jurisdictions listed in the AJL.
+**Objective:** Ensure that service delivery, data processing, and operational execution occur within jurisdictions listed in the Approved Jurisdictions List (AJL).  
+*Sovereignty Contribution:* Strengthens legal sovereignty by ensuring that service delivery and data processing are performed within trusted jurisdictions, reducing exposure to conflicting legal frameworks.
 
-* **SML 2.CO 2.C 1** | Level: *Contractual* | Scope: *Service Provider* | Service Type: *All*  
-  Contractual agreements restrict data processing by the service provider to AJL jurisdictions.  
-  * **Question SML 2.CO 2.C 1.Q 1:** Do contracts restrict data processing strictly to AJL jurisdictions?
+#### SML 2.CO 2.C 1 (Contractual)
+*   **Scope:** Service Provider 
+*   **Service Type:** All
+*   Contractual agreements ensure that data processing by the service provider is restricted to jurisdictions listed in the AJL.
+*   **SML 2.CO 2.C 1.Q 1:** Do contractual agreements ensure that data processing by the service provider is restricted to jurisdictions listed in the AJL?
 
-* **SML 2.CO 2.C 2** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *All*  
-  Operational procedures ensure data processing remains within approved jurisdictions.  
-  * **Question SML 2.CO 2.C 2.Q 1:** Do operational procedures enforce data processing within AJL locations?
+#### SML 2.CO 2.C 2 (Contractual)
+*   **Scope:** Underlying Service 
+*   **Service Type:** All
+*   Contractual agreements ensure that data processing by underlying service providers is restricted to jurisdictions listed in the AJL.
+*   **SML 2.CO 2.C 2.Q 1:** Do contractual agreements ensure that data processing by underlying service providers is restricted to jurisdictions listed in the AJL?
 
-* **SML 2.CO 2.C 3** | Level: *Technical* | Scope: *Client Facing Service* | Service Type: *All*  
-  Technical mechanisms restrict data processing and storage to AJL infrastructure.  
-  * **Question SML 2.CO 2.C 3.Q 1:** Are technical controls active to restrict processing and storage to AJL locations?
+#### SML 2.CO 2.C 3 (Governance and Operations)
+*   **Scope:** Service Provider 
+*   **Service Type:** All
+*   Service delivery and operational execution by the service provider are performed within jurisdictions listed in the AJL.
+*   **SML 2.CO 2.C 3.Q 1:** Are service delivery and operational execution by the service provider performed within jurisdictions listed in the AJL?
 
-* **SML 2.CO 2.C 4** | Level: *Technical* | Scope: *Underlying Service* | Service Type: *IaaS, PaaS*  
-  Underlying service execution is performed strictly within AJL locations.  
-  * **Question SML 2.CO 2.C 4.Q 1:** Is underlying infrastructure execution restricted to AJL jurisdictions?
+#### SML 2.CO 2.C 4 (Governance and Operations)
+*   **Scope:** Underlying Service 
+*   **Service Type:** All
+*   Service delivery and operational execution by underlying service providers are performed within jurisdictions listed in the AJL.
+*   **SML 2.CO 2.C 4.Q 1:** Are service delivery and operational execution by underlying service providers performed within jurisdictions listed in the AJL?
 
-* **SML 2.CO 2.C 5** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *All*  
-  Any data processing outside AJL jurisdictions is formally assessed and approved.  
-  * **Question SML 2.CO 2.C 5.Q 1:** Is non-AJL data processing formally assessed, documented, and approved?
+#### SML 2.CO 2.C 5 (Governance and Operations)
+*   **Scope:** Service Provider 
+*   **Service Type:** All
+*   Any service delivery or data processing outside jurisdictions listed in the AJL is identified, assessed, and formally approved.
+*   **SML 2.CO 2.C 5.Q 1:** Is any service delivery or data processing outside jurisdictions listed in the AJL identified, assessed, and formally approved?
 
 ---
 
 ### SML 2.CO 3: Contractual Transparency and Legal Framework
-**Target State:** Applicable legal frameworks and terms governing the service are transparent, complete, and unambiguous.
+**Objective:** Ensure that contractual agreements clearly define applicable law, jurisdiction, and key rights and obligations related to the service.  
+*Sovereignty Contribution:* Strengthens legal sovereignty by ensuring that contractual frameworks are transparent, enforceable, and aligned with trusted jurisdictions.
 
-* **SML 2.CO 3.C 1** | Level: *Contractual* | Scope: *Client Facing Service* | Service Type: *All*  
-  Contracts explicitly state applicable laws and jurisdiction for dispute resolution.  
-  * **Question SML 2.CO 3.C 1.Q 1:** Does the contract explicitly specify applicable laws and courts within AJL jurisdictions?
+#### SML 2.CO 3.C 1 (Contractual)
+*   **Scope:** Client Facing Service 
+*   **Service Type:** All
+*   Contracts clearly define the applicable law governing the service.
+*   **SML 2.CO 3.C 1.Q 1:** Do contracts clearly define the applicable law governing the service?
+
+#### SML 2.CO 3.C 2 (Contractual)
+*   **Scope:** Client Facing Service 
+*   **Service Type:** All
+*   Contracts clearly define the jurisdiction and competent courts for dispute resolution.
+*   **SML 2.CO 3.C 2.Q 1:** Do contracts clearly define the jurisdiction and competent courts for dispute resolution?
+
+#### SML 2.CO 3.C 3 (Contractual)
+*   **Scope:** Client Facing Service 
+*   **Service Type:** All
+*   Contracts clearly define key rights and obligations related to the service, including responsibilities of all involved parties.
+*   **SML 2.CO 3.C 3.Q 1:** Do contracts clearly define key rights and obligations related to the service?
 
 ---
 
 ### SML 2.CO 4: Legal Enforceability and Protection of Rights
-**Target State:** Contractual rights are enforceable, and mechanisms protect against conflicting or extraterritorial legal access requests.
+**Objective:** Ensure that rights and obligations related to the service are enforceable and protected within jurisdictions listed in the AJL, including protection against conflicting or extraterritorial legal access.  
+*Sovereignty Contribution:* Strengthens legal sovereignty by ensuring that contractual rights can be effectively enforced and that exposure to conflicting legal regimes is minimized.
 
-* **SML 2.CO 4.C 1** | Level: *Contractual* | Scope: *Service Provider* | Service Type: *All*  
-  Contracts restrict disclosure of data to third parties unless mandated by enforceable AJL laws.  
-  * **Question SML 2.CO 4.C 1.Q 1:** Do contracts prohibit data disclosure to third parties outside mandatory AJL legal processes?
+**SML 2.CO 4.C 3** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *All*  
+  Legal risks related to enforceability and conflicting jurisdictions are identified, assessed, and managed.
+  * **Question SML 2.CO 4.C 3.Q 1:** Are legal risks related to enforceability and conflicting jurisdictions identified, assessed, and managed?
 
-* **SML 2.CO 4.C 2** | Level: *Contractual* | Scope: *Underlying Service* | Service Type: *All*  
-  Contracts restrict exposure to extraterritorial legal claims.  
-  * **Question SML 2.CO 4.C 2.Q 1:** Do contracts restrict exposure to non-AJL extraterritorial legal demands?
+**SML 2.CO 4.C 4** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *All*  
+  Mechanisms and processes are in place to handle legal requests or claims from non-AJL jurisdictions.
+  * **Question SML 2.CO 4.C 4.Q 1:** Are mechanisms and processes in place to handle legal requests or claims from non-AJL jurisdictions?
 
-* **SML 2.CO 4.C 3** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *All*  
-  Processes are in place to review and challenge extraterritorial legal access requests.  
-  * **Question SML 2.CO 4.C 3.Q 1:** Are documented procedures established to challenge non-AJL legal access requests?
+**SML 2.CO 4.C 5** | Level: *Technical* | Scope: *Service Provider* | Service Type: *All*  
+  Technical measures are implemented to support protection against unauthorized or extraterritorial access to the service.
+  * **Question SML 2.CO 4.C 5.Q 1:** Are technical measures implemented to support protection against unauthorized or extraterritorial access to data?
 
-* **SML 2.CO 4.C 4** | Level: *Governance & Operations* | Scope: *Service Provider* | Service Type: *All*  
-  Mechanisms exist to handle legal requests from non-AJL jurisdictions.  
-  * **Question SML 2.CO 4.C 4.Q 1:** Are processes active to manage legal claims originating from non-AJL jurisdictions?
+#### SML 2.CO 4.C 1 (Contractual)
+*   **Scope:** Underlying Service 
+*   **Service Type:** All
+*   Contracts ensure that rights and obligations related to the service are enforceable within jurisdictions listed in the AJL.
+*   **SML 2.CO 4.C 2.Q 1:** Do contracts ensure that rights and obligations related to the service are legally enforceable within jurisdictions listed in the AJL?
 
-* **SML 2.CO 4.C 5** | Level: *Technical* | Scope: *Service Provider* | Service Type: *All*  
-  Technical measures support protection against unauthorized or extraterritorial access to data.  
-  * **Question SML 2.CO 4.C 5.Q 1:** Are technical safeguards implemented to prevent unauthorized extraterritorial access?
+#### SML 2.CO 4.C 2 (Contractual)
+*   **Scope:** Underlying Service 
+*   **Service Type:** All
+*   Contracts address and restrict exposure to extraterritorial legal access or conflicting legal obligations.
+*   **SML 2.CO 4.C 2.Q 1:** Do contracts address and restrict exposure to extraterritorial legal access or conflicting legal obligations?
+
+#### SML 2.CO 4.C 3 (Governance and Operations)
+*   **Scope:** Service Provider 
+*   **Service Type:** All
+*   Legal risks related to enforceability and conflicting jurisdictions are identified, assessed, and managed.
+*   **SML 2.CO 4.C 3.Q 1:** Are legal risks related to enforceability and conflicting jurisdictions identified, assessed, and managed?
+
+#### SML 2.CO 4.C 4 (Governance and Operations)
+*   **Scope:** Service Provider 
+*   **Service Type:** All
+*   Mechanisms and processes are in place to handle legal requests or claims from non-AJL jurisdictions.
+*   **SML 2.CO 4.C 4.Q 1:** Are mechanisms and processes in place to handle legal requests or claims from non-AJL jurisdictions?
+
+#### SML 2.CO 4.C 5 (Governance and Operations)
+*   **Scope:** Service Provider 
+*   **Service Type:** All
+*   Technical measures are implemented to support protection against unauthorized or extraterritorial access to the service.
+*   **SML 2.CO 4.C 5.Q 1:** Are technical measures implemented to support protection against unauthorized or extraterritorial access to data?
 
 ---
 
 ### SML 2.CO 5: Exposure to Non-AJL Jurisdictions
-**Target State:** Exposure to jurisdictions outside the AJL is identified, transparently disclosed, and actively mitigated.
+**Objective:** Objective: Ensure that exposure to jurisdictions not listed in the AJL is identified, assessed, and appropriately managed.  
+*Sovereignty Contribution:* Strengthens legal sovereignty by providing transparency over third-country exposure and ensuring that associated risks are actively managed and mitigated.
 
-* **SML 2.CO 5.C 1** | Level: *Contractual* | Scope: *Client Facing Service* | Service Type: *All*  
-  Contracts transparently disclose any involvement of non-AJL jurisdictions.  
-  * **Question SML 2.CO 5.C 1.Q 1:** Do contracts transparently disclose any non-AJL jurisdiction involvement?
+#### SML 2.CO 5.C 1 (Contractual)
+*   **Scope:** Client Facing Service 
+*   **Service Type:** All
+*   Contracts transparently disclose any involvement of jurisdictions not listed in the AJL in the provision of the service.
+*   **SML 2.CO 5.C 1.Q 1:** Do contracts transparently disclose any involvement of jurisdictions not listed in the AJL in the provision of the service?
 
-* **SML 2.CO 5.C 2** | Level: *Contractual* | Scope: *Client Facing Service* | Service Type: *All*  
-  Contracts define safeguards for the involvement of non-AJL jurisdictions.  
-  * **Question SML 2.CO 5.C 2.Q 1:** Are legal safeguards contractually defined for non-AJL jurisdiction involvement?
+#### SML 2.CO 5.C 2 (Contractual)
+*   **Scope:** Client Facing Service 
+*   **Service Type:** All
+*   Contracts define safeguards and conditions for the involvement of jurisdictions not listed in the AJL.
+*   **SML 2.CO 5.C 2.Q 1:** Do contracts define safeguards and conditions for the involvement of jurisdictions not listed in the AJL?
