@@ -1,6 +1,6 @@
-site_name: ES³ SML Framework - SDC Catalogue
+site_name: ES³ Sovereignty Maturity Level (SML) Framework
 site_description: Standardized Criteria Catalogue for Measuring Digital Sovereignty of IT Services and Cloud Infrastructures
-site_author: Schwarz Digits KG / Institute for Cyber Security and Digital Sovereignty
+site_author: Schwarz Digits / Institute for Cyber Security and Digital Sovereignty
 site_url: https://es3-sml.github.io/es3-sml/
 
 theme:
@@ -45,11 +45,11 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:pymdownx.emoji.twemoji
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.arithmatex:
+      generic: true
   - tables
   - attr_list
   - md_in_html
-  - pymdownx.arithmatex:
-      generic: true
 
 nav:
   - Home: index.md

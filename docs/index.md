@@ -32,7 +32,7 @@ The **ES³ Sovereignty Maturity Level (SML) Framework** provides a standardized,
 
 The framework evaluates services through a hierarchical data model:
 
-$$\text{Dimension} \longrightarrow \text{Control Objective} \longrightarrow \text{Control} \longrightarrow \text{Question} \longrightarrow \text{Evidence}$$
+**Dimension** &rarr; **Control Objective** &rarr; **Control** &rarr; **Question** &rarr; **Evidence**
 
 * **9 Structural Dimensions:** From Strategic Sovereignty (SML 1) to Artificial Intelligence (SML 9).
 * **3 Implementation Levels:** Contractual, Governance & Operations, and Technical measures.
