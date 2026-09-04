@@ -1,67 +1,50 @@
-/* Container für das Iframe, um Schatten und abgerundete Ecken hinzuzufügen */
+/* Container für das Iframe */
 .sml-container {
     position: relative;
-    width: 100%;
-    /* Nutzt 82% der vertikalen Bildschirmhöhe */
-    height: 82vh; 
-    /* Verhindert, dass die App auf kleinen Bildschirmen unbenutzbar klein wird */
-    min-height: 650px; 
+    width: 100% !important;
+    height: 82vh !important; 
+    min-height: 650px !important; 
     border-radius: 8px;
     border: 1px solid var(--md-typeset-color, #e0e0e0);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.075);
     overflow: hidden;
     margin: 1.5rem 0;
     background-color: #ffffff;
+    display: block !important; /* Zwingt Firefox und Safari zur Anzeige */
 }
 
-/* Das Iframe selbst füllt den Container komplett aus */
 .sml-iframe {
-    width: 100%;
-    height: 100%;
-    border: none;
-    display: block;
-}
-
-/* Optimierung für Mobilgeräte: Entfernt Schatten für mehr Platz */
-@media screen and (max-width: 76.25em) {
-    .sml-container {
-        height: 75vh;
-        min-height: 550px;
-        margin: 1rem 0;
-        box-shadow: none;
-    }
+    width: 100% !important;
+    height: 100% !important;
+    border: none !important;
+    display: block !important;
 }
 
 /* ========================================================================= */
-/* --- DYNAMISCHE WIDESCREEN-OPTIMIERUNG (NUR FÜR DIE SML-TOOL SEITE) ---   */
+/* --- WIDESCREEN-OPTIMIERUNG ÜBER NATIVES MKDOCS CLASS-SYSTEM               */
+/*     (100% kompatibel mit Firefox & Safari, da kein :has() verwendet wird) */
 /* ========================================================================= */
 
-/* Sobald die SML-App auf der Seite eingebunden ist, weiten wir das Layout   */
 @media screen and (min-width: 76.25em) {
-    /* Targetiert die Grid-Breite des Material-Themes auf Desktop-Auflösung */
-    body:has(.sml-container) .md-grid,
-    body:has(.sml-container) .md-main__inner {
+    .widescreen-page .md-grid,
+    .widescreen-page .md-main__inner {
         max-width: 95% !important; 
     }
-    
-    /* Zwingt den Inhaltsbereich, die volle Breite des Grids einzunehmen */
-    body:has(.sml-container) .md-content {
+    .widescreen-page .md-content {
         width: 100% !important;
     }
-    
-    body:has(.sml-container) .md-content__inner {
+    .widescreen-page .md-content__inner {
         max-width: 100% !important;
     }
 }
 
-/* Spezifisch für Ihren 34-Zoll-Monitor (Widescreen ab ca. 1920px Breite) */
+/* Spezifisch für Ihren 34-Zoll-Monitor */
 @media screen and (min-width: 120em) {
-    body:has(.sml-container) .md-grid,
-    body:has(.sml-container) .md-main__inner {
-        max-width: 98% !important; /* Nutzt fast die vollständige Bildschirmbreite */
+    .widescreen-page .md-grid,
+    .widescreen-page .md-main__inner {
+        max-width: 98% !important; 
     }
-    
-    body:has(.sml-container) .sml-container {
-        height: 86vh; /* Schenkt dem Tool auf großen Bildschirmen mehr Höhe */
+    .widescreen-page .sml-container {
+        height: 86vh !important; 
     }
 }

@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+class: widescreen-page # <-- Weist der Seite im HTML direkt eine Klasse zu!
 ---
 
 # 🛡️ Sovereignty Maturity Level (SML) Assessment Tool
