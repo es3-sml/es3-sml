@@ -188,10 +188,19 @@ logo_filename = "SDT_ES3_Logo_4c_neg_RGB.svg"
 logo_root_path = logo_filename
 logo_assets_path = os.path.join("assets", logo_filename)
 
+# Logo Integration mit abwärtskompatiblem Fallback für WebAssembly (stlite)
 if os.path.exists(logo_root_path):
-    st.sidebar.image(logo_root_path, use_container_width=True)
+    try:
+        st.sidebar.image(logo_root_path, use_container_width=True)
+    except TypeError:
+        # Fallback für ältere Streamlit-Versionen in WebAssembly
+        st.sidebar.image(logo_root_path, use_column_width=True)
 elif os.path.exists(logo_assets_path):
-    st.sidebar.image(logo_assets_path, use_container_width=True)
+    try:
+        st.sidebar.image(logo_assets_path, use_container_width=True)
+    except TypeError:
+        # Fallback für ältere Streamlit-Versionen in WebAssembly
+        st.sidebar.image(logo_assets_path, use_column_width=True)
 
 st.sidebar.title("Sovereignty Maturity Level (SML) Assessment")
 st.sidebar.markdown("##### A structured and interactive framework for assessing digital sovereignty.")
