@@ -7,6 +7,12 @@ theme:
   name: material # Oder 'mkdocs', falls Sie das Standard-Theme nutzen
 
 theme:
+  name: material # oder Ihr genutztes Theme
+
+extra_css:
+  - stylesheets/custom.css
+  
+theme:
   name: material
   language: en
   palette:

@@ -6,7 +6,9 @@ This interactive tool allows you to perform a complete self-assessment of your d
 
 The tool runs completely inside your browser using **WebAssembly (stlite/Pyodide)**. No data is sent to an external server—your entries, evidence, and compliance results remain entirely private within your browser session.
 
-<iframe src="../sml-tool.html" style="width: 100%; height: 950px; border: none; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"></iframe>
+<div class="sml-container">
+  <iframe class="sml-iframe" src="sml-tool.html"></iframe>
+</div>
 
 ---
 
