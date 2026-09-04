@@ -2,7 +2,7 @@
 .sml-container {
     position: relative;
     width: 100%;
-    /* Nutzt 82% der vertikalen Bildschirmhöhe (Viewport Height) */
+    /* Nutzt 82% der vertikalen Bildschirmhöhe */
     height: 82vh; 
     /* Verhindert, dass die App auf kleinen Bildschirmen unbenutzbar klein wird */
     min-height: 650px; 
@@ -32,25 +32,36 @@
     }
 }
 
-/* --- Dynamische Widescreen-Optimierung --- */
+/* ========================================================================= */
+/* --- DYNAMISCHE WIDESCREEN-OPTIMIERUNG (NUR FÜR DIE SML-TOOL SEITE) ---   */
+/* ========================================================================= */
 
-/* Auf großen Bildschirmen (z.B. Desktop-Monitore ab 1220px) */
+/* Sobald die SML-App auf der Seite eingebunden ist, weiten wir das Layout   */
 @media screen and (min-width: 76.25em) {
-    .md-grid {
-        /* Erhöht die Standard-Grid-Breite für die gesamte Seite */
-        max-width: 90% !important; 
-    }
-}
-
-/* Spezifisch für Ultra-Wide-Monitore (wie Ihren 34-Zoll-Monitor) */
-@media screen and (min-width: 120em) {
-    .md-grid {
-        /* Nutzt maximal 1800px bis 95% der Breite auf riesigen Displays */
+    /* Targetiert die Grid-Breite des Material-Themes auf Desktop-Auflösung */
+    body:has(.sml-container) .md-grid,
+    body:has(.sml-container) .md-main__inner {
         max-width: 95% !important; 
     }
     
-    .sml-container {
-        /* Erhöht die App-Höhe auf großen Bildschirmen leicht für bessere Übersicht */
-        height: 85vh; 
+    /* Zwingt den Inhaltsbereich, die volle Breite des Grids einzunehmen */
+    body:has(.sml-container) .md-content {
+        width: 100% !important;
+    }
+    
+    body:has(.sml-container) .md-content__inner {
+        max-width: 100% !important;
+    }
+}
+
+/* Spezifisch für Ihren 34-Zoll-Monitor (Widescreen ab ca. 1920px Breite) */
+@media screen and (min-width: 120em) {
+    body:has(.sml-container) .md-grid,
+    body:has(.sml-container) .md-main__inner {
+        max-width: 98% !important; /* Nutzt fast die vollständige Bildschirmbreite */
+    }
+    
+    body:has(.sml-container) .sml-container {
+        height: 86vh; /* Schenkt dem Tool auf großen Bildschirmen mehr Höhe */
     }
 }
