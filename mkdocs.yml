@@ -4,12 +4,6 @@ site_author: Schwarz Digits / Institute for Cyber Security and Digital Sovereign
 site_url: https://es3-sml.github.io/es3-sml/
 
 theme:
-  name: material # Oder 'mkdocs', falls Sie das Standard-Theme nutzen
-
-theme:
-  name: material # oder Ihr genutztes Theme
-  
-theme:
   name: material
   language: en
   palette:
