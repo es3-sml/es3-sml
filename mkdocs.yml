@@ -8,9 +8,6 @@ theme:
 
 theme:
   name: material # oder Ihr genutztes Theme
-
-extra_css:
-  - stylesheets/custom.css
   
 theme:
   name: material
@@ -38,6 +35,9 @@ theme:
     - search.highlight
     - content.code.copy
     - content.action.edit
+
+extra_css:
+  - stylesheets/custom.css
 
 plugins:
   - search
