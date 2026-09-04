@@ -188,18 +188,27 @@ logo_filename = "SDT_ES3_Logo_4c_neg_RGB.svg"
 logo_root_path = logo_filename
 logo_assets_path = os.path.join("assets", logo_filename)
 
-# Logo Integration mit abwärtskompatiblem Fallback für WebAssembly (stlite)
+# Logo Integration mit abwärtskompatiblem Parameter-Check (stlite & local)
+import inspect
+
+# Prüfe zur Laufzeit die Signatur von st.image, um TypeError vorzubeugen
+has_container_width = False
+try:
+    sig = inspect.signature(st.image)
+    if "use_container_width" in sig.parameters:
+        has_container_width = True
+except Exception:
+    pass
+
 if os.path.exists(logo_root_path):
-    try:
+    if has_container_width:
         st.sidebar.image(logo_root_path, use_container_width=True)
-    except TypeError:
-        # Fallback für ältere Streamlit-Versionen in WebAssembly
+    else:
         st.sidebar.image(logo_root_path, use_column_width=True)
 elif os.path.exists(logo_assets_path):
-    try:
+    if has_container_width:
         st.sidebar.image(logo_assets_path, use_container_width=True)
-    except TypeError:
-        # Fallback für ältere Streamlit-Versionen in WebAssembly
+    else:
         st.sidebar.image(logo_assets_path, use_column_width=True)
 
 st.sidebar.title("Sovereignty Maturity Level (SML) Assessment")

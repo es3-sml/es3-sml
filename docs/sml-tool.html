@@ -22,20 +22,23 @@
     <!-- load Streamlit mountable engine -->
     <script src="https://cdn.jsdelivr.net/npm/@stlite/mountable@0.59.0/build/stlite.js"></script>
     <script>
+      // Generate a dynamic timestamp to completely bypass browser and GitHub Pages caching
+      const cacheBust = new Date().getTime();
+
       stlite.mount({
         // Define required Python packages to be installed in the browser environment
         requirements: ["pandas", "plotly", "openpyxl"],
         entrypoint: "sml_app.py",
         files: {
-          // Map local files to the WebAssembly virtual filesystem
+          // Map local files with dynamic cache busting URL parameters
           "sml_app.py": {
-            url: "sml_app.py"
+            url: "sml_app.py?cb=" + cacheBust
           },
           "sml_data.json": {
-            url: "sml_data.json"
+            url: "sml_data.json?cb=" + cacheBust
           },
           "SDT_ES3_Logo_4c_neg_RGB.svg": {
-            url: "SDT_ES3_Logo_4c_neg_RGB.svg"
+            url: "SDT_ES3_Logo_4c_neg_RGB.svg?cb=" + cacheBust
           }
         }
       }, document.getElementById("root"));
