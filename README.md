@@ -44,6 +44,59 @@ The SML Framework evaluates IT services and infrastructures across **nine key di
 * **Maturity Classifications:** Services are assessed and mapped to one of four Sovereignty Maturity Levels: **Initial**, **Managed**, **Advanced**, or **Future-Proof**.
 * **The "Weakest Link" Principle:** Digital sovereignty is only as strong as its weakest link. A service's overall SML corresponds to the lowest level achieved across all nine dimensions—meaning that a high score in one area cannot offset or compensate for a failure to meet mandatory requirements in another.
 
+### 🛡️ Sovereignty Maturity Level (SML) Assessment Tool
+
+This repository contains an interactive, user-friendly assessment tool in the form of a **Streamlit web application** for evaluating the digital sovereignty of services and service providers according to the official **Sovereignty Maturity Level (SML) Framework (v1.1)**. 
+
+The tool enables organizations to conduct a comprehensive self-assessment across all **9 dimensions** of the SML framework, document evidence, calculate the overall maturity level in real-time, and visualize the results graphically in an **interactive radar chart (spider web diagram)**.
+
+### 🚀 Key Features of the Web Application
+
+*   **Complete Coverage:** All **9 dimensions** and **162 controls** of the SML Framework v1.1 are hierarchically integrated.
+*   **Hierarchical Structure:** The user interface is logically structured by **Dimension** &rarr; **Control Objective** &rarr; **Control** &rarr; **Question** &rarr; **Evidence**.
+*   **Interactive Dashboard:**
+    *   **KPI Display:** Instant and dynamic calculation of the achieved overall SML maturity level (**Basic/None**, **Initial**, **Managed**, **Advanced**, or **Future-proof**).
+    *   **Interactive Radar Chart:** Visualizes the fulfillment rate (in %) for each dimension in a direct comparison—with optimized scaling (0-100%) and clearly legible labels in solid black text.
+    *   **Detailed view of the nine dimensions:** Detailed tabular overview with progress bars per dimension without distracting decimal places.
+*   **Maturity Level Logic (Gatekeeper Mode):** Strict implementation of the official SML rule. A higher maturity level is only unlocked once **all** mandatory controls of the lower levels are fully met.
+*   **Easy Data Management (Save & Load):**
+    *   **Audit Metadata:** Record the specific scope (**`Scope`**, e.g., system or department) and service type (**`Service Type`**, e.g., SaaS, PaaS, IaaS) directly in the tool. This metadata is visualized on the dashboard and saved within your export.
+    *   **Export Assessment:** Download your current assessment progress (answers, evidence, version, scope, and service type) as a structured `.json` file at any time.
+    *   **Load Assessment:** Upload a previously saved JSON file to instantly restore your answers, documented evidence, and all metadata with zero UI delay.
+    *   **Reset:** Reset the entire assessment with a single click.
+*   **Documentation & Audit Readiness:** Each control features a large free-text field for detailed documentation of evidence (Evidence).
+
+### 📘 Guide to Conducting the SML Assessment
+
+The SML framework is a tool designed to establish transparency and trust in cloud and service infrastructures. To perform a successful assessment, we recommend the following workflow:
+
+#### Step 1: Preparation
+*   Gather all relevant documentation for the service being evaluated (e.g., contracts, SLAs, encryption concepts, shareholder structures, architecture diagrams, policies).
+*   Identify the responsible subject matter experts (Security, Legal, Data Privacy, Strategy, AI Engineers) within your organization.
+
+#### Step 2: Assess Dimension by Dimension
+*   Use the left navigation menu to go through the 9 dimensions sequentially (SML 1 to SML 9).
+*   **Response:** If a control is already fully implemented in your organization, check the box next to **`Fulfilled (Yes)`**.
+*   **Documentation (Critical for Audits):** In the **`Evidence (Nachweise / Belege)`** field, describe precisely *why* the requirement is met. Reference specific documents (e.g., *\"Security Concept v2.1, Section 4.2\"*), internal processes, URLs, or owners. A "Yes" answer without documented evidence holds no value in a real audit.
+
+#### Step 3: Save Progress & Maintain Metadata
+*   If you need to pause your assessment, manage multiple versions, or evaluate different environments, use the **`Data Management`** section in the left sidebar.
+*   **Maintain Audit Metadata:** Under **`Scope`**, enter the precise scope of your evaluation (e.g., *\"Enterprise Cloud Service\"* or *\"Customer CRM Instance\"*), and select the appropriate **`Service Type`** (e.g., SaaS, PaaS, IaaS). This information is displayed in real-time in the metadata card at the top-left of the dashboard.
+*   **Versioning:** Enter a descriptive file name in **`Filename`** and the current version number in **`Version`** (e.g., `crm_sml_assessment` and `1.2`).
+*   **Exporting:** Click **`Export Assessment (JSON)`**. The file will be downloaded as `crm_sml_assessment_v1.2.json` and contains all answers, evidence text, metadata, and version tags in plain text.
+*   **Loading:** In your next session, upload this JSON file using the **`Load Assessment (JSON)`** file uploader. All answers, documented evidence, and audit metadata will be fully restored without latency.
+
+#### Step 4: Analyze Dashboard & Remediate Gaps
+*   Go to **Dashboard Overview**. The **Radar Chart** visually highlights your strongest and weakest dimensions.
+*   Verify your **Overall Maturity Level**:
+    *   If it shows **Basic / None**, look at the **`Overall open requirements for the next maturity level:`** card.
+    *   To reach the next level, you must find the outstanding mandatory controls in the dimension tabs (identified by the ``🌱 Initial`` tag) and set them to "Yes".
+*   Prioritize gap remediation from left to right: first satisfy *Initial* requirements, then move to *Managed*, *Advanced*, and finally *Future-proof*.
+
+#### Step 5: Let´ go and [assess here](https://es3-sml.github.io/es3-sml/sml-assessment/)
+
+---
+
 ## ES³ and NeoNephos
 
 We plan to donate the **ES³ Sovereignty Maturity Level (SML) Framework** to the NeoNephos Foundation, a Linux Foundation initiative dedicated to advancing open-source projects, and are currently preparing the necessary steps.   
