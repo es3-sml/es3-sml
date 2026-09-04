@@ -4,11 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>SML Assessment Tool (Local WebAssembly)</title>
-    <!-- load Streamlit mountable styles locally to bypass corporate firewalls and MIME-type issues -->
-    <link rel="stylesheet" href="style.css" />
+    <title>SML Assessment Tool (WebAssembly)</title>
+    <!-- CSS von unpkg laden (wird von Firewalls seltener blockiert als jsdelivr) -->
+    <link rel="stylesheet" href="https://unpkg.com/@stlite/mountable@0.59.0/build/style.css" />
     <style>
-      /* Ensure full width and height with clean padding */
       html, body, #root {
         margin: 0;
         padding: 0;
@@ -19,18 +18,15 @@
   </head>
   <body>
     <div id="root"></div>
-    <!-- load Streamlit mountable engine locally -->
-    <script src="stlite.js"></script>
+    <!-- WebAssembly Engine von unpkg laden -->
+    <script src="https://unpkg.com/@stlite/mountable@0.59.0/build/stlite.js"></script>
     <script>
-      // Generate a dynamic timestamp to completely bypass browser and GitHub Pages caching
       const cacheBust = new Date().getTime();
 
       stlite.mount({
-        // Define required Python packages to be installed in the browser environment
         requirements: ["pandas", "plotly", "openpyxl"],
         entrypoint: "sml_app.py",
         files: {
-          // Map local files with dynamic cache busting URL parameters
           "sml_app.py": {
             url: "sml_app.py?cb=" + cacheBust
           },
