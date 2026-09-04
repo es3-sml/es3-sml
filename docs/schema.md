@@ -1,3 +1,16 @@
+<!-- *******************************************************************************
+ * Copyright (c) 2026 Schwarz Digits Cloud GmbH & Co. KG
+ *
+ * This program and the accompanying materials are made available under the
+ * terms of the Creative Commons Attribution-ShareAlike 4.0 International Public License
+ * which is available at https://creativecommons.org/licenses/by-sa/4.0/.
+ *
+ * SPDX-License-Identifier: CC-BY-SA-4.0
+ *
+ * Contributors:
+ *   Andy Riexinger - initial contribution
+ ******************************************************************************* -->
+
 # SML Framework Catalogue
 
 ---

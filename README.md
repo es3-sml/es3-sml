@@ -1,3 +1,16 @@
+<!-- ********************************************************************************
+ * Copyright (c) 2026 Schwarz Digits Cloud GmbH & Co. KG
+ *
+ * This program and the accompanying materials are made available under the
+ * terms of the Creative Commons Attribution-ShareAlike 4.0 International Public License
+ * which is available at https://creativecommons.org/licenses/by-sa/4.0/.
+ *
+ * SPDX-License-Identifier: CC-BY-SA-4.0
+ *
+ * Contributors:
+ *   Andy Riexinger - initial contribution
+ ******************************************************************************* -->
+
 <img width="391" height="192" alt="SDT_ES3_Logo_4c_neg_RGB" src="https://github.com/user-attachments/assets/2ba57a71-8f9d-45ec-99fb-45045403eb10" />
 
 # Welcome to the ES³ Sovereignty Maturity Level (SML) Framework!
@@ -46,3 +59,6 @@ To learn more about ES³, visit our official website at www.stackit.com/en/es3
 ES3@digits.schwarz  
 Sofie Schönborn (Digital Sovereignty Manager)  
 Jo-Ann Sophie Gosemann (ES³ Program Lead)
+
+## License
+Content in this repository is licensed under [CC BY-SA 4.0](LICENSE.md).
