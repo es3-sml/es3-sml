@@ -1,7 +1,6 @@
 ---
 hide:
   - toc
-class: widescreen-page # <-- Weist der Seite im HTML direkt eine Klasse zu!
 ---
 
 # 🛡️ Sovereignty Maturity Level (SML) Assessment Tool
@@ -12,8 +11,64 @@ This interactive tool allows you to perform a complete self-assessment of your d
 
 The tool runs completely inside your browser using **WebAssembly (stlite/Pyodide)**. No data is sent to an external server—your entries, evidence, and compliance results remain entirely private within your browser session.
 
-<div class="sml-container" style="display: block !important; min-height: 650px; height: 82vh; width: 100%; border: 1px solid #e0e0e0; border-radius: 8px;">
-  <iframe class="sml-iframe" src="../sml-tool.html" style="width: 100%; height: 100%; border: none; display: block !important;"></iframe>
+<!-- 
+=============================================================================
+  SELBSTTRAGENDES INLINE-STYLE FÜR MAXIMALE BROWSER-KOMPATIBILITÄT (SAFARI & FIREFOX)
+  Dieses Style-Block lädt sich direkt mit dem HTML und umgeht jegliche CSS-Caching-Probleme.
+=============================================================================
+-->
+<style>
+  /* 1. Iframe-Container erzwingen (Verhindert den Null-Höhen-Kollaps in Safari/Firefox) */
+  .sml-container {
+      position: relative !important;
+      width: 100% !important;
+      height: 82vh !important;
+      min-height: 650px !important;
+      border-radius: 8px !important;
+      border: 1px solid #e0e0e0 !important;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.075) !important;
+      overflow: hidden !important;
+      margin: 1.5rem 0 !important;
+      background-color: #ffffff !important;
+      display: block !important; /* Wichtig für Firefox/Safari */
+  }
+
+  /* 2. Iframe vollständig einpassen */
+  .sml-iframe {
+      width: 100% !important;
+      height: 100% !important;
+      border: none !important;
+      display: block !important;
+  }
+
+  /* 3. Widescreen-Optimierung direkt auf dieser Seite erzwingen */
+  @media screen and (min-width: 76.25em) {
+      .md-grid, 
+      .md-main__inner {
+          max-width: 95% !important; /* Layout weiten */
+      }
+      .md-content {
+          width: 100% !important;
+      }
+      .md-content__inner {
+          max-width: 100% !important;
+      }
+  }
+
+  /* Spezifisch für Ihren 34-Zoll-Monitor */
+  @media screen and (min-width: 120em) {
+      .md-grid, 
+      .md-main__inner {
+          max-width: 98% !important;
+      }
+      .sml-container {
+          height: 86vh !important; /* Mehr vertikale Höhe schenken */
+      }
+  }
+</style>
+
+<div class="sml-container">
+  <iframe class="sml-iframe" src="../sml-tool.html"></iframe>
 </div>
 
 ---
