@@ -11,8 +11,9 @@ This interactive tool allows you to perform a complete self-assessment of your d
 
 The tool runs completely inside your browser using **WebAssembly (stlite/Pyodide)**. No data is sent to an external server—your entries, evidence, and compliance results remain entirely private within your browser session.
 
-<div class="sml-container">
-  <iframe class="sml-iframe" src="../sml-tool.html"></iframe>
+<!-- Das Inline-Style sichert die Mindesthöhe von 650px ab, selbst wenn kein CSS geladen wird -->
+<div class="sml-container" style="min-height: 650px; height: 82vh; width: 100%; border: 1px solid #e0e0e0; border-radius: 8px;">
+  <iframe class="sml-iframe" src="../sml-tool.html" style="width: 100%; height: 100%; border: none;"></iframe>
 </div>
 
 ---
