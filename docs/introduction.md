@@ -34,7 +34,7 @@ The ES3 standard aligns with the **EU Cloud Sovereignty Framework** and adapts i
 ## 1.4 Structure
 
 The components of the SML framework are arranged in a hierarchical sequence:
-$$\text{Dimension} \longrightarrow \text{Control Objective} \longrightarrow \text{Control} \longrightarrow \text{Question} \longrightarrow \text{Evidence}$$
+**Dimension** &rarr; **Control Objective** &rarr; **Control** &rarr; **Question** &rarr; **Evidence**
 
 **Dimension:** A Dimension describes a thematic area of digital sovereignty. It forms the highest structural level of the framework and groups multiple Control Objectives. It consists of Dimension ID, the Dimension and the Dimension Objective. It covers a strategic thematic area, aligns with EU digital sovereignty objectives, and is stable over a longer period of time.
 

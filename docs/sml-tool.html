@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>SML Assessment Tool (WebAssembly)</title>
+    <!-- load Streamlit mountable styles -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@stlite/mountable@0.59.0/build/style.css" />
+    <style>
+      /* Ensure full width and height with clean padding */
+      html, body, #root {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background-color: #ffffff;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- load Streamlit mountable engine -->
+    <script src="https://cdn.jsdelivr.net/npm/@stlite/mountable@0.59.0/build/stlite.js"></script>
+    <script>
+      stlite.mount({
+        // Define required Python packages to be installed in the browser environment
+        requirements: ["pandas", "plotly", "openpyxl"],
+        entrypoint: "sml_app.py",
+        files: {
+          // Map local files to the WebAssembly virtual filesystem
+          "sml_app.py": {
+            url: "sml_app.py"
+          },
+          "sml_data.json": {
+            url: "sml_data.json"
+          },
+          "SDT_ES3_Logo_4c_neg_RGB.svg": {
+            url: "SDT_ES3_Logo_4c_neg_RGB.svg"
+          }
+        }
+      }, document.getElementById("root"));
+    </script>
+  </body>
+</html>
