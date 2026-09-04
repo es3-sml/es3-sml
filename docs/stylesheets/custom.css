@@ -31,3 +31,26 @@
         box-shadow: none;
     }
 }
+
+/* --- Dynamische Widescreen-Optimierung --- */
+
+/* Auf großen Bildschirmen (z.B. Desktop-Monitore ab 1220px) */
+@media screen and (min-width: 76.25em) {
+    .md-grid {
+        /* Erhöht die Standard-Grid-Breite für die gesamte Seite */
+        max-width: 90% !important; 
+    }
+}
+
+/* Spezifisch für Ultra-Wide-Monitore (wie Ihren 34-Zoll-Monitor) */
+@media screen and (min-width: 120em) {
+    .md-grid {
+        /* Nutzt maximal 1800px bis 95% der Breite auf riesigen Displays */
+        max-width: 95% !important; 
+    }
+    
+    .sml-container {
+        /* Erhöht die App-Höhe auf großen Bildschirmen leicht für bessere Übersicht */
+        height: 85vh; 
+    }
+}
