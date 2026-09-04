@@ -46,6 +46,23 @@ jobs:
           pip install mkdocs
           pip install mkdocs-material
 
+      - name: Download and install stlite-mountable dependency
+        run: |
+          # Erstellt das Zielverzeichnis im docs-Ordner
+          mkdir -p docs/stlite
+          
+          # Lädt die offizielle Tarball-Dependency von npm herunter
+          curl -L https://registry.npmjs.org/@stlite/mountable/-/mountable-0.59.0.tgz -o mountable.tgz
+          
+          # Entpackt die Quelldateien
+          tar -xzf mountable.tgz
+          
+          # Kopiert den gesamten Build (inkl. aller Worker und Chunks) in Ihre Dokumentation
+          cp -r package/build/* docs/stlite/
+          
+          # Räumt temporäre Dateien auf
+          rm -rf package mountable.tgz
+          
       - name: Build MkDocs Site
         run: mkdocs build
 
