@@ -93,7 +93,7 @@ The SML framework is a tool designed to establish transparency and trust in clou
     *   To reach the next level, you must find the outstanding mandatory controls in the dimension tabs (identified by the ``🌱 Initial`` tag) and set them to "Yes".
 *   Prioritize gap remediation from left to right: first satisfy *Initial* requirements, then move to *Managed*, *Advanced*, and finally *Future-proof*.
 
-#### Step 5: Let's go and [assess here](https://es3-sml.github.io/es3-sml/sml-assessment/)
+#### Step 5: Let´ go and [assess here](https://es3-sml.github.io/es3-sml/sml-assessment/)
 
 ---
 
