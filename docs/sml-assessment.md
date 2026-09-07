@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 <!-- ********************************************************************************
  * Copyright (c) 2026 Schwarz Digits Cloud GmbH & Co. KG
  *
@@ -10,12 +15,7 @@
  * Contributors:
  *   Andy Riexinger - initial contribution
  ******************************************************************************* -->
- 
----
-hide:
-  - toc
----
-
+^
 # 🛡️ Sovereignty Maturity Level (SML) Assessment Tool
 
 This interactive tool allows you to perform a complete self-assessment of your digital sovereignty based on the official **SML Framework (v1.1)** with all 162 controls.

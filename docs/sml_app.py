@@ -324,7 +324,7 @@ st.sidebar.markdown("Generated with ❤️ for digital sovereignty.")
 # Page Rendering
 if selected_page == "📊 Dashboard Overview":
     st.title("🛡️ Sovereignty Maturity Level (SML) Assessment")
-    st.markdown("##### A structured and interactive framework for assessing digital sovereignty.")
+    st.markdown("#### Sovereignty Maturity Level Tool")
     
     # Top KPI Metrics row
     col1, col2 = st.columns([2, 3])
@@ -344,10 +344,10 @@ if selected_page == "📊 Dashboard Overview":
         st.write("##### Overall open requirements for the next maturity level:")
         
         c_init, c_man, c_adv, c_fut = st.columns(4)
-        c_init.metric("Initial", global_unf["initial"], delta=None, help="Verbleibende Pflicht-Controls für das 'Initial' Level")
-        c_man.metric("Managed", global_unf["managed"], delta=None, help="Verbleibende Pflicht-Controls für das 'Managed' Level")
-        c_adv.metric("Advanced", global_unf["advanced"], delta=None, help="Verbleibende Pflicht-Controls für das 'Advanced' Level")
-        c_fut.metric("Future-proof", global_unf["future_proof"], delta=None, help="Verbleibende Pflicht-Controls für das 'Future-proof' Level")
+        c_init.metric("Initial", global_unf["initial"], delta=None, help="Remaining mandatory controls for the 'Initial' level")
+        c_man.metric("Managed", global_unf["managed"], delta=None, help="Remaining mandatory controls for the 'Managed' level")
+        c_adv.metric("Advanced", global_unf["advanced"], delta=None, help="Remaining mandatory controls for the 'Advanced' level")
+        c_fut.metric("Future-proof", global_unf["future_proof"], delta=None, help="Remaining mandatory controls for the 'Future-proof' level")
         
         # Short explanation of SML gatekeeper logic
         st.info("**SML Maturity Level Rule (Gatekeeper Logic):** A maturity level is only considered achieved when **all** controls of this and all lower maturity levels have been successfully fulfilled ('Yes'). If even a single required control for 'Initial' is missing, the overall maturity level remains at 'Basic / None'.")
