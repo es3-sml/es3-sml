@@ -28,7 +28,7 @@ jobs:
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
 
       - name: Set up Python
-        uses: actions/setup-python@0b32e6b3c972d0fed301a75603f9008239300e19 # v5.1.1
+        uses: actions/setup-python@f677139f7070859a10a281473d0426811808e061 # v5.2.0
         with:
           python-version: "3.11"
 
@@ -67,7 +67,7 @@ jobs:
         run: mkdocs build
 
       - name: Setup Pages
-        uses: actions/configure-pages@983d7736d9b0ae728b41f51665c71d6e159e13d3 # v5.0.0
+        uses: actions/configure-pages@1f813dd54b91f00a787b528565ec4d380e6d2007 # v5.0.0
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3.0.1
@@ -76,4 +76,4 @@ jobs:
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@0c45773b623bea8c8e75f6c82b208c3cf94ea4f9 # v4.0.2
+        uses: actions/deploy-pages@d6dbb4ed323893192af6e73a15707787311d0a51 # v4.0.5
