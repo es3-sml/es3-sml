@@ -1,3 +1,15 @@
+<!-- ********************************************************************************
+ * Copyright (c) 2026 Schwarz Digits Cloud GmbH & Co. KG
+ *
+ * This program and the accompanying materials are made available under the
+ * terms of the Creative Commons Attribution-ShareAlike 4.0 International Public License
+ * which is available at https://creativecommons.org/licenses/by-sa/4.0/.
+ *
+ * SPDX-License-Identifier: CC-BY-SA-4.0
+ *
+ * Contributors:
+ *   Andy Riexinger - initial contribution
+ ******************************************************************************* -->
 # ES³ Sovereignty Maturity Level (SML) Framework
 
 **Criteria Catalogue for Measuring Digital Sovereignty of IT Services and Cloud Infrastructures**
@@ -32,7 +44,7 @@ The **ES³ Sovereignty Maturity Level (SML) Framework** provides a standardized,
 
 The framework evaluates services through a hierarchical data model:
 
-$$\text{Dimension} \longrightarrow \text{Control Objective} \longrightarrow \text{Control} \longrightarrow \text{Question} \longrightarrow \text{Evidence}$$
+**Dimension** &rarr; **Control Objective** &rarr; **Control** &rarr; **Question** &rarr; **Evidence**
 
 * **9 Structural Dimensions:** From Strategic Sovereignty (SML 1) to Artificial Intelligence (SML 9).
 * **3 Implementation Levels:** Contractual, Governance & Operations, and Technical measures.
@@ -42,7 +54,7 @@ $$\text{Dimension} \longrightarrow \text{Control Objective} \longrightarrow \tex
 
 ## Metadata & Publisher Information
 
-* **Publisher:** Institute for Cyber Security and Digital Sovereignty | Schwarz Digits KG
+* **Publisher:** Institute for Cyber Security and Digital Sovereignty | Schwarz Digits
 * **Content Leadership:** Sofie Schönborn (Digital Sovereignty Manager), Jo-Ann Sophie Gosemann (ES³ Program Lead and Complex Deals Lead)
 * **Contact:** `ES3@digits.schwarz`
 * **Status:** Edition July 2026
