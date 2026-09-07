@@ -516,9 +516,9 @@ else:
                     # Text Area for Evidence
                     current_ev = st.session_state.evidence.get(ctrl['id'], "")
                     ev_text = st.text_area(
-                        "Evidence (Nachweise / Belege)", 
+                        "Evidence", 
                         value=current_ev, 
-                        placeholder="Z.B. Dokumenten-Referenz, Ansprechpartner, Prozessbeschreibung...",
+                        placeholder="e.g., document reference, point of contact, process description, ...",
                         key=f"ev_{ctrl['id']}",
                         height=68
                     )

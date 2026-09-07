@@ -25,15 +25,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@0b32e6b3c972d0fed301a75603f9008239300e19 # v5.1.1
         with:
           python-version: "3.11"
 
       - name: Install Cache Dependencies
-        uses: actions/cache@v4
+        uses: actions/cache@0c45773b623bea8c8e75f6c82b208c3cf94ea4f9 # v4.0.2
         with:
           path: ~/.cache/pip
           key: ${{ runner.os }}-pip-${{ hashFiles('**/mkdocs.yml') }}
@@ -62,18 +62,18 @@ jobs:
           
           # Räumt temporäre Dateien auf
           rm -rf package mountable.tgz
-          
+
       - name: Build MkDocs Site
         run: mkdocs build
 
       - name: Setup Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@983d7736d9b0ae728b41f51665c71d6e159e13d3 # v5.0.0
 
       - name: Upload Artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3.0.1
         with:
           path: "site" # Standard Outpit Folder of MkDocs
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@0c45773b623bea8c8e75f6c82b208c3cf94ea4f9 # v4.0.2
