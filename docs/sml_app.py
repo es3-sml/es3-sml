@@ -236,11 +236,33 @@ selected_page = st.sidebar.radio("Navigation", pages)
 st.sidebar.markdown("---")
 st.sidebar.markdown("### 💾 Data Management")
 
-# Filename and version input fields
-export_filename = st.sidebar.text_input("📁 Filename", value=st.session_state.get("export_filename", "sml_assessment_results"), help="Name of the downloaded JSON file (without extension)")
+# Filename, scope, service type, and version input fields
+export_filename = st.sidebar.text_input(
+    "📁 Filename",
+    value=st.session_state.get("export_filename", "sml_assessment_results"),
+    help="Name of the downloaded JSON file (without extension)"
+)
 st.session_state.export_filename = export_filename
 
-export_version = st.sidebar.text_input("🏷️ Version", value=st.session_state.get("export_version", "1.0"), help="Version number of the assessment")
+assessment_scope = st.sidebar.text_input(
+    "📌 Scope",
+    value=st.session_state.get("assessment_scope", default_scope),
+    help="Scope of the assessment (e.g., system or department)"
+)
+st.session_state.assessment_scope = assessment_scope
+
+service_type = st.sidebar.text_input(
+    "🧩 Service Type",
+    value=st.session_state.get("service_type", default_service_type),
+    help="Service type being assessed (e.g., SaaS, PaaS, IaaS)"
+)
+st.session_state.service_type = service_type
+
+export_version = st.sidebar.text_input(
+    "🏷️ Version",
+    value=st.session_state.get("export_version", "1.0"),
+    help="Version number of the assessment"
+)
 st.session_state.export_version = export_version
 
 # Export functionality
