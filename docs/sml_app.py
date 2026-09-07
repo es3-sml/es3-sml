@@ -151,10 +151,10 @@ def calculate_metrics():
                     unf_fut += 1
         
         # SML Level Achieved for this specific dimension
-        dim_level = "Future-proof"
-        if unf_init > 0:
-            dim_level = "Basic"
-        elif unf_man > 0:
+# SML Level Achieved for this specific dimension
+dim_level = "Future-proof"
+if unf_init > 0:
+    dim_level = "Basic / None"
             dim_level = "Initial"
         elif unf_adv > 0:
             dim_level = "Managed"
