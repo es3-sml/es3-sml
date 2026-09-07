@@ -15,7 +15,7 @@ hide:
  * Contributors:
  *   Andy Riexinger - initial contribution
  ******************************************************************************* -->
-^
+
 # 🛡️ Sovereignty Maturity Level (SML) Assessment Tool
 
 This interactive tool allows you to perform a complete self-assessment of your digital sovereignty based on the official **SML Framework (v1.1)** with all 162 controls.
