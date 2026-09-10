@@ -98,7 +98,6 @@ The SML framework is a tool designed to establish transparency and trust in clou
 ---
 
 ## ES³ and NeoNephos
-
 We plan to donate the **ES³ Sovereignty Maturity Level (SML) Framework** to the NeoNephos Foundation, a Linux Foundation initiative dedicated to advancing open-source projects, and are currently preparing the necessary steps.   
 Learn more about NeoNephos and our role within it [here](https://neonephos.org/).
 
@@ -107,6 +106,9 @@ We welcome contributions of all kinds! If you're interested in getting involved,
 
 ## Learn More
 To learn more about ES³, visit our official website at www.stackit.com/en/es3
+
+## Documentation
+Find [here the base documentation](./docs/assets/SDC_Katalog_ES3_EN.pdf) for this project.
 
 ## Contact
 ES3@digits.schwarz  

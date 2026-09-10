@@ -197,7 +197,7 @@ def calculate_metrics():
 import os
 
 # Logo Integration with title and subtitle
-logo_filename = "SDT_ES3_Logo_4c_neg_RGB.svg"
+logo_filename = "assets/SDT_ES3_Logo_4c_neg_RGB.svg"
 logo_root_path = logo_filename
 logo_assets_path = os.path.join("assets", logo_filename)
 
@@ -225,7 +225,7 @@ elif os.path.exists(logo_assets_path):
         st.sidebar.image(logo_assets_path, use_column_width=True)
 
 st.sidebar.title("Sovereignty Maturity Level (SML) Assessment")
-st.sidebar.markdown("##### A structured and interactive framework for assessing digital sovereignty.")
+st.sidebar.markdown("#### Sovereignty Maturity Level Tool")
 
 st.sidebar.markdown("---")
 
@@ -324,7 +324,7 @@ st.sidebar.markdown("Generated with ❤️ for digital sovereignty.")
 # Page Rendering
 if selected_page == "📊 Dashboard Overview":
     st.title("🛡️ Sovereignty Maturity Level (SML) Assessment")
-    st.markdown("#### Sovereignty Maturity Level Tool")
+    st.markdown("##### A structured and interactive framework for assessing digital sovereignty.")
     
     # Top KPI Metrics row
     col1, col2 = st.columns([2, 3])
