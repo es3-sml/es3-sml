@@ -197,7 +197,7 @@ def calculate_metrics():
 import os
 
 # Logo Integration with title and subtitle
-logo_filename = "SDT_ES3_Logo_4c_neg_RGB.svg"
+logo_filename = "assets/SDT_ES3_Logo_4c_neg_RGB.svg"
 logo_root_path = logo_filename
 logo_assets_path = os.path.join("assets", logo_filename)
 
