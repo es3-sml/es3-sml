@@ -1,5 +1,5 @@
 site_name: ES³ Sovereignty Maturity Level (SML) Framework
-site_description: Standardized Criteria Catalogue for Measuring Digital Sovereignty of IT Services and Cloud Infrastructures
+site_description: Standardized Criteria catalog for Measuring Digital Sovereignty of IT Services and Cloud Infrastructures
 site_author: Schwarz Digits / Institute for Cyber Security and Digital Sovereignty
 site_url: https://es3-sml.github.io/es3-sml/
 
@@ -54,16 +54,16 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Introduction: introduction.md
-  - SML Framework Catalogue: schema.md
+  - SML Framework catalog: schema.md
   - Sovereignty Dimensions:
-      - SML 1 - Strategic: dimensions/sml1-strategic.md
-      - SML 2 - Legal & Jurisdictional: dimensions/sml2-legal.md
-      - SML 3 - Data: dimensions/sml3-data.md
-      - SML 4 - Operational: dimensions/sml4-operational.md
-      - SML 5 - Supply Chain: dimensions/sml5-supply-chain.md
-      - SML 6 - Technology: dimensions/sml6-technology.md
-      - SML 7 - Security & Compliance: dimensions/sml7-security.md
-      - SML 8 - Environmental: dimensions/sml8-environmental.md
-      - SML 9 - Artificial Intelligence: dimensions/sml9-ai.md
+      - SML 1 - Strategic Sovereignty: dimensions/sml1-strategic.md
+      - SML 2 - Legal and Jurisdictional Sovereignty: dimensions/sml2-legal.md
+      - SML 3 - Data Sovereignty: dimensions/sml3-data.md
+      - SML 4 - Operational Sovereignty: dimensions/sml4-operational.md
+      - SML 5 - Supply Chain Sovereignty: dimensions/sml5-supply-chain.md
+      - SML 6 - Technology Sovereignty: dimensions/sml6-technology.md
+      - SML 7 - Security and Compliance Sovereignty: dimensions/sml7-security.md
+      - SML 8 - Environmental Sustainability: dimensions/sml8-environmental.md
+      - SML 9 - Artificial Intelligence Sovereignty: dimensions/sml9-ai.md
   - SML Assessment Tool: sml-assessment.md
   - Contact & Imprint: contact.md

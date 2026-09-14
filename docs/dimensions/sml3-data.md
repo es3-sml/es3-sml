@@ -18,7 +18,7 @@
 ---
 
 ### SML 3.CO 1: Access Control
-**Objective:** Customers retain control over access to their data.  
+**Objective:** To ensure customers retain control over access to their data.  
 *Sovereignty Contribution:* Ensures that customers can independently define and enforce access to their data without reliance on the provider. Prevents unauthorized and privileged provider access and enables full control through technical enforcement mechanisms, including customer-controlled cryptographic keys.
 
 #### SML 3.CO 1.C 1 (Contractual)
@@ -34,13 +34,13 @@
 *   **Question: SML 3.CO 1.C 2.Q 1:** Are policies and procedures in place to ensure that access to customer data is restricted and only performed with explicit customer authorization?
 
 #### SML 3.CO 1.C 3 (Technical)
-*   **Scope:** Client Facing Service 
+*   **Scope:** Client-Facing Service 
 *   **Service Type:** SaaS, Managed Service, AI Service
 *   Customers use role-based and/or attribute-based access control models to define, assign, and enforce access rights to their data.
 *   **Question: SML 3.CO 1.C 3.Q 1:** Can customers independently define and enforce access rights to their data using role-based or attribute-based access control mechanisms?
 
 #### SML 3.CO 1.C 4 (Technical)
-*   **Scope:** Client Facing Service 
+*   **Scope:** Client-Facing Service 
 *   **Service Type:** SaaS, AI Service, Managed Service
 *   Access to customer data is technically protected through cryptographic mechanisms, and that such access cannot be performed without use of the corresponding cryptographic keys.
 *   **Question: SML 3.CO 1.C 4.Q 1:** Is access to customer data technically enforced through encryption mechanisms that prevent access without the corresponding cryptographic keys?
@@ -60,13 +60,13 @@
 ---
 
 ### SML 3.CO 2: Portability
-**Objective:** Customers are able to access, retrieve, and export their data in a usable and portable manner.  
+**Objective:** To enable customers to access, retrieve, and export their data in a usable and portable manner.    
 *Sovereignty Contribution:* Ensures that customers can retrieve and transfer their data without dependency on the provider, enabling effective data portability and preventing vendor lock-in.
 
 #### SML 3.CO 2.C 1 (Contractual)
 *   **Scope:** Service Provider 
 *   **Service Type:** All
-*   Contract ensures that the customer can access, retrieve and export their data at any time without undue restriction or delay.
+*   The contract ensures that the customer can access, retrieve, and export their data at any time without undue restrictions or delays.
 *   **Question: SML 3.CO 2.C 1.Q 1:** Does the contract ensure that the customer can access, retrieve, and export their data at any time without undue restrictions or delays?
 
 #### SML 3.CO 2.C 2 (Governance and Operations)
@@ -76,22 +76,22 @@
 *   **Question: SML 3.CO 2.C 2.Q 1:** Are there defined and implemented processes ensuring that customer data can be retrieved and exported in a complete and consistent manner?
 
 #### SML 3.CO 2.C 3 (Technical)
-*   **Scope:** Client Facing Service 
+*   **Scope:** Client-Facing Service 
 *   **Service Type:** Managed Service, AI Service, SaaS
 *   The service provides mechanisms that allow customers to access and retrieve their data independently via user interfaces and/or APIs.
 *   **Question: SML 3.CO 2.C 3.Q 1:** Can customers retrieve and/or export their data via a defined process?
 
 #### SML 3.CO 2.C 4 (Technical)
-*   **Scope:** Client Facing Service 
+*   **Scope:** Client-Facing Service 
 *   **Service Type:** Managed Service, AI Service, SaaS
 *   Backup systems and data duplication locations are restricted to jurisdictions listed in the AJL.
 *   **Question: SML 3.CO 2.C 4.Q 1:** Are Backup Systems and data duplication locations restricted to jurisdictions listed in the AJL?
 
 #### SML 3.CO 2.C 5 (Technical)
-*   **Scope:** Client Facing Service 
+*   **Scope:** Client-Facing Service 
 *   **Service Type:** Managed Service, AI Service, SaaS
-*   Ensuring complete and correct data export to enable effective reuse of the data.
-*   **Question: SML 3.CO 2.C 5.Q 1:** Can it be verified that the data was transferred completely and correctly?
+*   Complete and correct data export is ensured to enable effective reuse of the data.
+*   **Question: SML 3.CO 2.C 5.Q 1:** Can a complete and correct data export be ensured?
 
 #### SML 3.CO 2.C 6 (Technical)
 *   **Scope:** Underlying Service 
@@ -102,13 +102,13 @@
 ---
 
 ### SML 3.CO 3: Usage Control
-**Objective:** Customer data is only processed and used for purposes explicitly defined and authorized by the customer.  
+**Objective:** To ensure customer data is only processed and used for purposes explicitly defined and authorized by the customer.  
 *Sovereignty Contribution:* Ensures that customer data is not used beyond customer-defined purposes, preventing unauthorized processing and maintaining full control over how data is utilized.
 
 #### SML 3.CO 3.C 1 (Contractual)
 *   **Scope:** Service Provider 
 *   **Service Type:** All
-*   Contract ensures that customer data is only processed and used for purposes explicitly defined and authorized by the customer.
+*   The contract ensures that customer data is only processed and used for purposes explicitly defined and authorized by the customer.
 *   **Question: SML 3.CO 3.C 1.Q 1:** Does the contract explicitly restrict the processing and use of customer data to purposes defined and authorized by the customer?
 
 #### SML 3.CO 3.C 2 (Governance and Operations)
@@ -118,7 +118,7 @@
 *   **Question: SML 3.CO 3.C 2.Q 1:** Are there enforced policies and procedures ensuring that customer data is not processed or used beyond authorized purposes?
 
 #### SML 3.CO 3.C 3 (Technical)
-*   **Scope:** Client Facing Service 
+*   **Scope:** Client-Facing Service 
 *   **Service Type:** Managed Service, AI Service, SaaS
 *   The service ensures that data processing activities are limited to configured and authorized purposes and cannot be executed outside of these defined constraints.
 *   **Question: SML 3.CO 3.C 3.Q 1:** Does the service ensure that data processing activities are restricted to configured and authorized purposes?
@@ -126,7 +126,7 @@
 ---
 
 ### SML 3.CO 4: Integrity
-**Objective:** Customer data is protected against unauthorized modification or deletion.  
+**Objective:** To ensure that customer data is protected against unauthorized modification or deletion.   
 *Sovereignty Contribution:* Ensures that customer data cannot be altered or deleted without authorization, preserving data integrity and preventing unauthorized or provider-driven modifications.
 
 #### SML 3.CO 4.C 1 (Contractual)
@@ -142,13 +142,13 @@
 *   **Question: SML 3.CO 4.C 2.Q 1:** Are there enforced policies and procedures ensuring that all data modification and deletion activities are authorized, controlled, and traceable?
 
 #### SML 3.CO 4.C 3 (Technical)
-*   **Scope:** Client Facing Service 
+*   **Scope:** Client-Facing Service 
 *   **Service Type:** SaaS, AI Service, Managed Service
 *   The service ensures that all data modification and deletion actions are logged and regularly reviewed.
 *   **Question: SML 3.CO 4.C 3.Q 1:** Are all changes to and deletions of data logged and regularly monitored?
 
 #### SML 3.CO 4.C 4 (Technical)
-*   **Scope:** Client Facing Service 
+*   **Scope:** Client-Facing Service 
 *   **Service Type:** SaaS, AI Service, Managed Service
 *   The service provides mechanisms to protect data integrity, including versioning, immutability, or recovery capabilities to prevent or mitigate unauthorized changes or deletions.
 *   **Question: SML 3.CO 4.C 4.Q 1:** Does the service provide mechanisms such as versioning, immutability, or recovery capabilities to prevent or mitigate unauthorized data changes or deletions?
