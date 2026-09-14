@@ -138,7 +138,7 @@
 ---
 
 ### SML 2.CO 5: Exposure to Non-AJL Jurisdictions
-**Objective:** Objective: To ensure that exposure to jurisdictions not listed in the AJL is identified, assessed, and appropriately managed.  
+**Objective:** To ensure that exposure to jurisdictions not listed in the AJL is identified, assessed, and appropriately managed.  
 *Sovereignty Contribution:* Strengthens legal sovereignty by providing transparency over third-country exposure and ensuring that associated risks are actively managed and mitigated.
 
 #### SML 2.CO 5.C 1 (Contractual)

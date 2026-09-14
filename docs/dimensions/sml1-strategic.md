@@ -31,7 +31,7 @@
 *   **Scope:** Service Provider
 *   **Service Type:** All
 *   The entity exercising decisive control (and decision-making authority) over the service assigned all responsible entities and individuals to their services, tasks and made this Information accessible to stakeholders.
-*   **SML 1.CO 1.C 2.Q 1:** Has the entity exercising decisive control and decision-making authority over the service formally assign and inform affected entities, individuals and stakeholders about responsibilities for the services?
+*   **SML 1.CO 1.C 2.Q 1:** Has the entity exercising decisive control and decision-making authority over the service formally assigned those responsible and informed affected entities, individuals and stakeholders about responsibilities for the services?
 
 #### SML 1.CO 1.C 3 (Governance and Operations)
 *   **Scope:** Service Provider
@@ -67,7 +67,7 @@
 *   **Scope:** Service Provider
 *   **Service Type:** All
 *   Digital sovereignty objectives are defined, integrated and updated in the entity's management policies to ensure it is being considered in the implementation of the service or provider strategy on all levels.
-*   **SML 1.CO 3.C 1.Q 1:** How is ensured that digital sovereignty objectives are defined, integrated and updated in the entity's management policies and considered in the implementation of the service or provider strategy?
+*   **SML 1.CO 3.C 1.Q 1:** How is it ensured that digital sovereignty objectives are defined, integrated, and updated in the entity‘s management policies and considered in the implementation of the service or provider strategy?
 
 #### SML 1.CO 3.C 2 (Governance and Operations)
 *   **Scope:** Service Provider

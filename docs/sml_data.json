@@ -26,7 +26,7 @@
                         "desc": "The entity exercising decisive control (and decision-making authority) over the service assigned all responsible entities and individuals to their services, tasks and made this nformation accessible to stakeholders.",
                         "control_scope": "Service Provider",
                         "service_type": "All",
-                        "question": "Has the entity exercising decisive control and decision-making authority over the service formally assign and inform affected entities, indiviudals and stakeholders about responsibilities for the services?",
+                        "question": "Has the entity exercising decisive control and decision-making authority over the service formally assigned those responsible and informed affected entities, individuals and stakeholders about responsibilities for the services?",
                         "requirements": {
                             "initial": false,
                             "managed": true,
@@ -753,7 +753,7 @@
                         "desc": "The underlying service supports mechanisms for ensure data integrity and preventing unauthorized modification or deletion.",
                         "control_scope": "Underlying Service",
                         "service_type": "IaaS, PaaS",
-                        "question": "Does the underlying services support mechanisms to ensure data integrity and prevent unauthorized modification or deletion?",
+                        "question": "Does the underlying service support mechanisms to ensure data integrity and prevent unauthorized modification or deletion?",
                         "requirements": {
                             "initial": false,
                             "managed": false,
@@ -1517,7 +1517,7 @@
             },
             {
                 "id": "SML 6.CO 3",
-                "title": "Portability and Interoperability (SML 6.CO 3) - To enable the service can be ported and integrated across different technical environments.",
+                "title": "Portability and Interoperability (SML 6.CO 3) - To enable the service to be ported and integrated across different technical environments.",
                 "sovereignty_contribution": "Ensures that the service can be migrated and integrated across different environments, reducing technical barriers and enabling flexibility and independence.",
                 "controls": [
                     {
@@ -1727,7 +1727,7 @@
             {
                 "id": "SML 7.CO 2",
                 "title": "Security Visibility and Control (SML 7.CO 2) - To ensure that customers have visibility into and control over security mechanisms relevant to their service.",
-                "sovereignty_contribution": "Ensures that the service is protected against unauthorized access and misuse, reducing the risk of external compromise and uncontrolled internal access.",
+                "sovereignty_contribution": "Ensures that customers are not dependent on the provider’s internal security operations by providing visibility and control over relevant security mechanisms.",
                 "controls": [
                     {
                         "id": "SML 7.CO 2.C 1 (Governance and Operations)",
@@ -2336,7 +2336,7 @@
             },
             {
                 "id": "SML 9.CO 7",
-                "title": "External Access to Traning Data (SML 9.CO 7) - To ensure that dependencies on external AI providers do not allow access to training data, which must remain confidential and protected from disclosure, storage, or reuse by the external provider.",
+                "title": "External Access to Training Data (SML 9.CO 7) - To ensure that dependencies on external AI providers do not allow access to training data, which must remain confidential and protected from disclosure, storage, or reuse by the external provider.",
                 "sovereignty_contribution": "Preserves AI data sovereignty by preventing external AI providers from accessing or retaining training data during processing.",
                 "controls": [
                     {
@@ -2366,7 +2366,7 @@
                         }
                     },
                     {
-                        "id": "SML 9.CO 7.C 3",
+                        "id": "SML 9.CO 7.C 3 (Technical)",
                         "desc": "Technical mechanisms prevent external AI providers from storing or reusing training data.",
                         "control_scope": "Client-Facing Service",
                         "service_type": "All",
