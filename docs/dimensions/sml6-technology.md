@@ -18,7 +18,7 @@
 ---
 
 ### SML 6.CO 1: Infrastructure Location and Control
-**Objective:** The physical and virtual infrastructure is located and controlled within approved jurisdictions.  
+**Objective:** To ensure that the physical and virtual infrastructure is located and controlled within approved jurisdictions.  
 *Sovereignty Contribution:* Ensures that the infrastructure underpinning the service is located and controlled within approved jurisdictions, preventing exposure to non-approved legal environments and reducing sovereignty risks.
 
 #### SML 6.CO 1.C 1 (Contractual)
@@ -46,7 +46,7 @@
 *   **SML 6.CO 1.C 4.Q 1:** Are mechanisms in place to prevent workloads from being transferred to or processed via infrastructure not located within approved jurisdictions, including during failover or scaling scenarios?
 
 #### SML 6.CO 1.C 5 (Technical)
-*   **Scope:** Client Facing Service 
+*   **Scope:** Client-Facing Service 
 *   **Service Type:** Managed Service, AI Service, SaaS
 *   The service provides visibility into the locations of infrastructure used to deliver the service, including primary and secondary environments.
 *   **SML 6.CO 1.C 5.Q 1:** Are customers provided with visibility into the locations of infrastructure used to deliver the service, including primary and secondary environments?
@@ -54,7 +54,7 @@
 ---
 
 ### SML 6.CO 2: Use of Open Standards
-**Objective:** Open standards and interoperable technologies are used where feasible.  
+**Objective:** To ensure that open standards and interoperable technologies are used, where feasible.  
 *Sovereignty Contribution:* Enables customers to identify technological dependencies and assess sovereignty risks related to external platforms, third-party components, and jurisdictional exposure.
 
 #### SML 6.CO 2.C 1 (Governance and Operations)
@@ -70,7 +70,7 @@
 *   **SML 6.CO 2.C 2.Q 1:** Is the use of proprietary versus open standards assessed and documented, including justification for proprietary technologies where used?
 
 #### SML 6.CO 2.C 3 (Technical)
-*   **Scope:** Client Facing Service 
+*   **Scope:** Client-Facing Service 
 *   **Service Type:** Managed Service, AI Service, SaaS
 *   The service implements interfaces, data formats, and protocols based on open standards to enable interoperability where feasible.
 *   **SML 6.CO 2.C 3.Q 1:** Are service interfaces, data formats, and protocols implemented using open standards to ensure interoperability where feasible?
@@ -82,7 +82,7 @@
 *   **SML 6.CO 2.C 4.Q 1:** Do the underlying services support the use of open and standardized technologies, enabling interoperability and avoiding enforced use of proprietary mechanisms?
 
 #### SML 6.CO 2.C 5 (Technical)
-*   **Scope:** Client Facing Service 
+*   **Scope:** Client-Facing Service 
 *   **Service Type:** Managed Service, AI Service, SaaS
 *   The service avoids reliance on proprietary interfaces or formats that would limit interoperability or substitution.
 *   **SML 6.CO 2.C 5.Q 1:** Does the service through system architecture and technical specifications avoid reliance on proprietary interfaces or formats where such reliance would limit interoperability or substitution?
@@ -90,7 +90,7 @@
 ---
 
 ### SML 6.CO 3: Portability and Interoperability
-**Objective:** The service can be ported and integrated across different technical environments.  
+**Objective:** To enable the service to be ported and integrated across different technical environments.  
 *Sovereignty Contribution:* Ensures that the service can be migrated and integrated across different environments, reducing technical barriers and enabling flexibility and independence.
 
 #### SML 6.CO 3.C 1 (Contractual)
@@ -106,13 +106,13 @@
 *   **SML 6.CO 3.C 2.Q 1:** Is the portability of the service assessed and documented, including required effort, constraints, and dependencies for migration to alternative environments?
 
 #### SML 6.CO 3.C 3 (Technical)
-*   **Scope:** Client Facing Service 
+*   **Scope:** Client-Facing Service 
 *   **Service Type:** Managed Service, AI Service, SaaS
 *   The service is designed and implemented using portable technologies and deployment models to enable deployment and operation across multiple environments.
 *   **SML 6.CO 3.C 3.Q 1:** Is the service designed and implemented to support deployment and operation across multiple environments using portable technologies and deployment models where feasible?
 
 #### SML 6.CO 3.C 4 (Technical)
-*   **Scope:** Client Facing Service 
+*   **Scope:** Client-Facing Service 
 *   **Service Type:** Managed Service, AI Service, SaaS
 *   The service provides standardized and interoperable interfaces to enable integration with external systems.
 *   **SML 6.CO 3.C 4.Q 1:** Does the service support integration with external systems through standardized and interoperable interfaces?
@@ -126,7 +126,7 @@
 ---
 
 ### SML 6.CO 4: Technology Control and Transparency
-**Objective:** The technology stack is transparent and under defined control.  
+**Objective:** To ensure that the technology stack is transparent and under defined control.  
 *Sovereignty Contribution:* Ensures that the technology stack is fully transparent and governed, enabling control over technical components and preventing hidden dependencies or opaque architectures.
 
 #### SML 6.CO 4.C 1 (Governance and Operations)

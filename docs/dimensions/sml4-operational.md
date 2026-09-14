@@ -18,7 +18,7 @@
 ---
 
 ### SML 4.CO 1: Operational Control
-**Objective:** Operational control over the service is defined, transparent, and not solely dependent on the provider.  
+**Objective:** To ensure that operational control over the service is defined, transparent, and not solely dependent on the provider.  
 *Sovereignty Contribution:* Ensures that operational control of the service is not exclusively held by the provider, enabling customers to retain influence over service operation and reducing operational dependency.
 
 #### SML 4.CO 1.C 1 (Contractual)
@@ -34,13 +34,13 @@
 *   **SML 4.CO 1.C 2.Q 1:** Are there documented governance structures defining operational responsibilities and control over service operation?
 
 #### SML 4.CO 1.C 3 (Technical)
-*   **Scope:** Client Facing Service 
+*   **Scope:** Client-Facing Service 
 *   **Service Type:** Managed Service, AI Service, SaaS
 *   The service provides customers with visibility and control over operational aspects relevant to their service usage.
 *   **SML 4.CO 1.C 3.Q 1:** Can customers monitor and influence operational aspects of the service relevant to their usage?
 
 #### SML 4.CO 1.C 4 (Technical)
-*   **Scope:** Client Facing Service 
+*   **Scope:** Client-Facing Service 
 *   **Service Type:** Managed Service, AI Service, SaaS
 *   Critical operational actions cannot be executed solely by the provider without defined customer involvement or control where applicable.
 *   **SML 4.CO 1.C 4.Q 1:** Are critical operational actions restricted such that they cannot be executed solely by the provider without defined customer involvement or control?
@@ -54,7 +54,7 @@
 ---
 
 ### SML 4.CO 2: Administrative Access
-**Objective:** Administrative access to the service is controlled and not exclusively held by the provider.  
+**Objective:** To ensure that administrative access to the service is controlled and not exclusively held by the provider.  
 *Sovereignty Contribution:* Ensures that administrative control over the service is not exclusively held by the provider, enabling customers to manage or influence privileged access and reducing dependency on provider-controlled administration.
 
 #### SML 4.CO 2.C 1 (Contractual)
@@ -70,13 +70,13 @@
 *   **SML 4.CO 2.C 2.Q 1:** Are there enforced policies and procedures ensuring that administrative access is restricted and assigned based on defined roles and responsibilities?
 
 #### SML 4.CO 2.C 3 (Technical)
-*   **Scope:** Client Facing Service 
+*   **Scope:** Client-Facing Service 
 *   **Service Type:** Managed Service, AI Service, SaaS
 *   The service enables customers to manage and control administrative access rights where applicable.
 *   **SML 4.CO 2.C 3.Q 1:** Can customers manage and control administrative access rights where applicable?
 
 #### SML 4.CO 2.C 4 (Technical)
-*   **Scope:** Client Facing Service 
+*   **Scope:** Client-Facing Service 
 *   **Service Type:** Managed Service, AI Service, SaaS
 *   Critical administrative actions cannot be executed solely by the provider without customer involvement, approval, or separation of duties.
 *   **SML 4.CO 2.C 4.Q 1:** Are administrative actions restricted such that they cannot be executed solely by the provider without appropriate controls (e.g., customer approval or separation of duties)?
@@ -90,7 +90,7 @@
 ---
 
 ### SML 4.CO 3: Service Operations
-**Objective:** Service operations are defined, controlled, and do not create unmanaged dependency on the provider.  
+**Objective:** To ensure that service operations are defined, controlled, and do not create unmanaged dependency on the provider.  
 *Sovereignty Contribution:* Ensures that day-to-day service operations are not solely controlled by the provider, enabling customers to retain influence over operational processes and reducing operational dependency.
 
 #### SML 4.CO 3.C 1 (Contractual)
@@ -106,13 +106,13 @@
 *   **SML 4.CO 3.C 2.Q 1:** Are documented operational procedures in place governing the execution of day-to-day service operations?
 
 #### SML 4.CO 3.C 3 (Technical)
-*   **Scope:** Client Facing Service 
+*   **Scope:** Client-Facing Service 
 *   **Service Type:** Managed Service, AI Service, SaaS
 *   The service enables customers to monitor the operational status and execution of service operations relevant to their usage.
 *   **SML 4.CO 3.C 3.Q 1:** Can customers monitor the operational status and execution of service operations relevant to their usage?
 
 #### SML 4.CO 3.C 4 (Technical)
-*   **Scope:** Client Facing Service 
+*   **Scope:** Client-Facing Service 
 *   **Service Type:** Managed Service, AI Service, SaaS
 *   Operational activities are executed according to defined procedures and cannot be performed in an uncontrolled or discretionary manner by the provider.
 *   **SML 4.CO 3.C 4.Q 1:** Are service operations executed based on defined procedures and not subject to uncontrolled or discretionary execution by the provider?
@@ -120,7 +120,7 @@
 ---
 
 ### SML 4.CO 4: Incident and Recovery
-**Objective:** Incident response, recovery, and service continuity are defined, controlled, and not solely dependent on the provider.  
+**Objective:** To ensure that incident response, recovery, and service continuity are defined, controlled, and not solely dependent on the provider.  
 *Sovereignty Contribution:* Ensures that incident response and recovery are not exclusively controlled by the provider, enabling customers to retain influence over service restoration and continuity.
 
 #### SML 4.CO 4.C 1 (Contractual)
@@ -136,19 +136,19 @@
 *   **SML 4.CO 4.C 2.Q 1:** Are documented processes in place governing incident response, recovery, and service continuity?
 
 #### SML 4.CO 4.C 3 (Technical)
-*   **Scope:** Client Facing Service 
+*   **Scope:** Client-Facing Service 
 *   **Service Type:** Managed Service, AI Service, SaaS
 *   The service enables customers to monitor incidents and the status of recovery and continuity measures affecting their service usage.
 *   **SML 4.CO 4.C 3.Q 1:** Can customers monitor incidents and the status of recovery and continuity measures affecting their service usage?
 
 #### SML 4.CO 4.C 4 (Technical)
-*   **Scope:** Client Facing Service 
+*   **Scope:** Client-Facing Service 
 *   **Service Type:** Managed Service, AI Service, SaaS
 *   Recovery and service restoration activities are executed according to defined procedures and cannot rely solely on provider discretion.
 *   **SML 4.CO 4.C 4.Q 1:** Are recovery and service restoration activities executed based on defined procedures and not solely dependent on provider discretion?
 
 #### SML 4.CO 4.C 5 (Technical)
-*   **Scope:** Client Facing Service 
+*   **Scope:** Client-Facing Service 
 *   **Service Type:** Managed Service, AI Service, SaaS
 *   The service enables customers to influence or initiate recovery and data restoration processes where applicable.
 *   **SML 4.CO 4.C 5.Q 1:** Can customers influence or initiate recovery and data restoration processes where applicable?
@@ -162,7 +162,7 @@
 ---
 
 ### SML 4.CO 5: Change and Service Evolution
-**Objective:** Changes to the service are defined, controlled, and cannot be unilaterally executed by the provider.  
+**Objective:** To ensure that changes to the service are defined, controlled, and cannot be unilaterally executed by the provider.  
 *Sovereignty Contribution:* Ensures that service changes are not exclusively controlled by the provider, enabling customers to retain influence over service evolution and preventing unilateral changes that impact service usage.
 
 #### SML 4.CO 5.C 1 (Contractual)
@@ -178,13 +178,13 @@
 *   **SML 4.CO 5.C 2.Q 1:** Are documented change management processes in place governing the planning, approval, and implementation of service changes?
 
 #### SML 4.CO 5.C 3 (Technical)
-*   **Scope:** Client Facing Service 
+*   **Scope:** Client-Facing Service 
 *   **Service Type:** Managed Service, AI Service, SaaS
 *   The service enables customers to be informed about, and where applicable approve or configure, service changes affecting their usage.
 *   **SML 4.CO 5.C 3.Q 1:** Are customers informed about service changes and able to approve or configure changes that impact their usage where applicable?
 
 #### SML 4.CO 5.C 4 (Technical)
-*   **Scope:** Client Facing Service 
+*   **Scope:** Client-Facing Service 
 *   **Service Type:** Managed Service, AI Service, SaaS
 *   Changes affecting customer-relevant functionality or service behavior cannot be executed unilaterally by the provider without defined control mechanisms.
 *   **SML 4.CO 5.C 4.Q 1:** Are changes affecting customer-relevant functionality or service behavior prevented from being executed unilaterally by the provider without defined control mechanisms?

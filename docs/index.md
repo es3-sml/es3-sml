@@ -12,7 +12,7 @@
  ******************************************************************************* -->
 # ES³ Sovereignty Maturity Level (SML) Framework
 
-**Criteria Catalogue for Measuring Digital Sovereignty of IT Services and Cloud Infrastructures**
+**Criteria catalog for Measuring Digital Sovereignty of IT Services and Cloud Infrastructures**
 
 ---
 
@@ -57,4 +57,4 @@ The framework evaluates services through a hierarchical data model:
 * **Publisher:** Institute for Cyber Security and Digital Sovereignty | Schwarz Digits
 * **Content Leadership:** Sofie Schönborn (Digital Sovereignty Manager), Jo-Ann Sophie Gosemann (ES³ Program Lead and Complex Deals Lead)
 * **Contact:** `ES3@digits.schwarz`
-* **Status:** Edition July 2026
+* **Status:** Version of July 2026

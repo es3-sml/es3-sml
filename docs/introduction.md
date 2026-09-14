@@ -38,7 +38,7 @@ The SML Framework encompasses the structure of the assessment (Divisions, Contro
 
 ---
 
-## 1.3 EU Cloud Sovereignty Framework (CSF) as the ES3 Foundation
+## 1.3 EU Cloud Sovereignty Framework (EU CSF) as the ES3 Foundation
 
 The ES3 standard aligns with the **EU Cloud Sovereignty Framework** and adapts its eight strategic sovereignty objectives. The ES3 SML Framework operationalizes and expands these to include the ninth dimension, “Artificial Intelligence (AI)”.
 
