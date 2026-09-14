@@ -12,7 +12,7 @@
  ******************************************************************************* -->
 # ES³ Sovereignty Maturity Level (SML) Framework
 
-**Criteria catalog for Measuring Digital Sovereignty of IT Services and Cloud Infrastructures**
+**Criteria Catalog for Measuring Digital Sovereignty of IT Services and Cloud Infrastructures**
 
 ---
 

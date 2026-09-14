@@ -26,4 +26,4 @@ For inquiries regarding assessment criteria, framework mappings, partner certifi
 
 ## Revision & Copyright Notice
 
-* **Document Version:** Criteria catalog Edition July 2026
+* **Document Version:** Criteria Catalog Edition July 2026
