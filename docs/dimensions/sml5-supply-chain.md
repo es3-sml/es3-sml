@@ -73,13 +73,13 @@
 *   **Scope:** Service Provider 
 *   **Service Type:** All
 *   Criteria are defined to identify and classify critical third-party dependencies based on their impact on service delivery, data, and operations.
-*   **SML 5.CO 3.C 1.Q 1:** The provider implements and maintains measures to manage and mitigate risks associated with critical dependencies.
+*   **SML 5.CO 3.C 1.Q 1:** Are criteria defined to identify and classify critical third-party dependencies based on their impact on service delivery, data, and operations?
 
 #### SML 5.CO 3.C 2 (Governance and Operations)
 *   **Scope:** Service Provider 
 *   **Service Type:** All
 *   Documented assessments are performed and maintained to determine the criticality and associated risks of third-party dependencies.
-*   **SML 5.CO 3.C 2.Q 1:** Are criteria defined to identify and classify critical third-party dependencies based on their impact on service delivery, data, and operations?
+*   **SML 5.CO 3.C 2.Q 1:** Are documented assessments performed and maintained to determine the criticality and associated risks of third-party dependencies?
 
 #### SML 5.CO 3.C 3 (Governance and Operations)
 *   **Scope:** Service Provider 
@@ -126,7 +126,7 @@
 #### SML 5.CO 5.C 1 (Contractual)
 *   **Scope:** Service Provider 
 *   **Service Type:** All
-*   Contracts with third-party providers require compliance with defined digital sovereignty and control requirements.
+*   Contracts with third-party providers require compliance with defined digital sovereignty and control requirements. 
 *   **SML 5.CO 5.C 1.Q 1:** Do contracts with third-party providers ensure that sovereignty and control requirements are imposed on them?
 
 #### SML 5.CO 5.C 2 (Governance and Operations)
