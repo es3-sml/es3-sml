@@ -11,21 +11,21 @@
  *   Andy Riexinger - initial contribution
  ******************************************************************************* -->
  
-# SML 9 — Artificial Intelligence Sovereignty
+# SML 9 — AI Sovereignty
 
 *AI sovereignty evaluates the organizational oversight, system clarity, and independent control of artificial intelligence solutions.*
 
 ---
 
-### SML 9.CO 1: AI Governance
+### SML 9.CO 1 AI Governance
 **Objective:** To ensure that governance structures are established to define responsibility, oversight, and accountability for the development, deployment, and operation of AI systems.  
-*Sovereignty Contribution:* Ensures that AI systems are subject to organizational oversight and not operated without clear responsibility or control.
+*Sovereignty Contribution:* Ensures that AI systems are subject to organizational oversight and are not operated without clear responsibility or control.
 
 #### SML 9.CO 1.C 1 (Governance and Operations)
 *   **Scope:** Service Provider 
 *   **Service Type:** All
 *   The service provider has defined and documented governance structures for the development, deployment, and operation of AI systems.
-*   **SML 9.CO 1.C 1.Q 1:** Has the service provider defined and documented governance structures for development, deployment, and operation of AI systems?
+*   **SML 9.CO 1.C 1.Q 1:** Has the service provider defined and documented governance structures for the development, deployment, and operation of AI systems?
 
 #### SML 9.CO 1.C 2 (Technical)
 *   **Scope:** Client-Facing Service 
@@ -41,7 +41,7 @@
 
 ---
 
-### SML 9.CO 2: AI Transparency
+### SML 9.CO 2 AI Transparency
 **Objective:** To achieve a situation whereby the provider ensures that the architecture, capabilities, limitations, and intended use of AI models are documented and communicated to relevant stakeholders.  
 *Sovereignty Contribution:* Enables customers and regulators to understand how AI systems operate and prevents opaque “black box” dependencies.
 
@@ -49,7 +49,7 @@
 *   **Scope:** Client-Facing Service 
 *   **Service Type:** All
 *   The architecture, key components, capabilities, limitations, and intended use of AI models are defined and documented.
-*   **SML 9.CO 2.C 1.Q 1:** Are architecture, key components, capabilities, limitations, and intended use of AI models defined and documented?
+*   **SML 9.CO 2.C 1.Q 1:** Are the architecture, key components, capabilities, limitations, and intended use of AI models defined and documented?
 
 #### SML 9.CO 2.C 2 (Governance and Operations)
 *   **Scope:** Client-Facing Service 
@@ -59,7 +59,7 @@
 
 ---
 
-### SML 9.CO 3: Explainability
+### SML 9.CO 3 Explainability
 **Objective:** To ensure that AI systems are designed in a way that allows meaningful explanation of decision-making processes and enables human oversight or intervention where necessary.  
 *Sovereignty Contribution:* Ensures that organizations remain in control of automated decision-making processes rather than delegating authority entirely to AI systems.
 
@@ -89,7 +89,7 @@
 
 ---
 
-### SML 9.CO 4: External AI Dependencies
+### SML 9.CO 4 External AI Dependencies
 **Objective:** To ensure that dependencies on external AI services are transparent, controlled, and do not lead to loss of control over AI functionality.  
 *Sovereignty Contribution:* Prevents lock-in and loss of control by ensuring that reliance on external AI providers does not undermine autonomy or operational independence.
 
@@ -113,7 +113,7 @@
 
 ---
 
-### SML 9.CO 5: AI Life Cycle Management
+### SML 9.CO 5 AI Life Cycle Management
 **Objective:** To achieve a situation whereby the organization manages the life cycle of AI models, including training, validation, deployment, monitoring, retraining, and retirement.  
 *Sovereignty Contribution:* Prevents uncontrolled model drift and ensures long-term accountability for AI behavior.
 
@@ -127,7 +127,7 @@
 *   **Scope:** Service Provider 
 *   **Service Type:** AI Service
 *   AI models and changes are validated before deployment. Validation data is documented and updated regularly.
-*   **SML 9.CO 5.C 2.Q 1:** Are AI models validated before deployment and validation procedures and results documented?
+*   **SML 9.CO 5.C 2.Q 1:** Are AI models validated before deployment and are validation procedures and results documented?
 
 #### SML 9.CO 5.C 3 (Governance and Operations)
 *   **Scope:** Client-Facing Service 
@@ -143,7 +143,7 @@
 
 ---
 
-### SML 9.CO 6: Control over AI Assets
+### SML 9.CO 6 Control Over AI Assets
 **Objective:** To ensure that AI model artifacts, including weights and architecture, remain under the control of the service provider and are protected from unauthorized access or modification by the infrastructure provider.  
 *Sovereignty Contribution:* Preserves AI sovereignty by preventing infrastructure providers from accessing or modifying model artifacts during execution.
 
@@ -157,7 +157,7 @@
 *   **Scope:** Client-Facing Service 
 *   **Service Type:** AI Service
 *   Access to AI model artifacts is restricted and controlled to prevent unauthorized access or modification.
-*   **SML 9.CO 6.C 2.Q 1:** Is access to AI model artifacts restricted and controlled, including documented and enforced access permissions?
+*   **SML 9.CO 6.C 2.Q 1:** Is access to AI model artifacts restricted and controlled, including the documentation and enforcement of access permissions?
 
 #### SML 9.CO 6.C 3 (Governance and Operations)
 *   **Scope:** Service Provider 
@@ -167,7 +167,7 @@
 
 ---
 
-### SML 9.CO 7: External Access to Training Data
+### SML 9.CO 7 External Access to Training Data
 **Objective:** To ensure that dependencies on external AI providers do not allow access to training data, which must remain confidential and protected from disclosure, storage, or reuse by the external provider.  
 *Sovereignty Contribution:* Preserves AI data sovereignty by preventing external AI providers from accessing or retaining training data during processing.
 
@@ -191,7 +191,7 @@
 
 ---
 
-### SML 9.CO 8: Training Data
+### SML 9.CO 8 Training Data
 **Objective:** To achieve a situation whereby organizations maintain transparency and governance over the sources, ownership, and legal status of training data used for AI models.  
 *Sovereignty Contribution:* Prevents hidden legal, ethical, or jurisdictional risks related to training datasets.
 

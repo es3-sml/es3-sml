@@ -17,7 +17,7 @@
 
 ---
 
-### SML 5.CO 1: Transparency
+### SML 5.CO 1 Transparency
 **Objective:** To ensure dependencies on third-party providers are identified and transparent.  
 *Sovereignty Contribution:* Ensures that customers have visibility into all third-party dependencies, enabling informed decisions and reducing hidden supply chain risks.
 
@@ -91,25 +91,25 @@
 
 ### SML 5.CO 4 Substitution and Exit
 **Objective:** To ensure that dependencies are structured so that underlying providers can be substituted or relationships with them can be exited without excessive disruption.  
-*Sovereignty Contribution:* Ensures that dependencies can be replaced or exited, reducing vendor lock-in and enabling continuity of service without excessive disruption.
+*Sovereignty Contribution:* Ensures that dependencies are structured to allow underlying providers to be replaced or relationships with them to be exited, reducing vendor lock-in and enabling continuity of service without excessive disruption.
 
 #### SML 5.CO 4.C 1 (Governance and Operations)
 *   **Scope:** Service Provider 
 *   **Service Type:** All
-*   Exit strategies are defined and maintained for third-party dependencies, including procedures to replace or terminate suppliers.
-*   **SML 5.CO 4.C 1.Q 1:** Are exit strategies defined and maintained for third-party dependencies, including procedures for replacing or terminating suppliers?
+*   Exit strategies are defined and maintained for third-party dependencies, including procedures to replace or terminate providers.
+*   **SML 5.CO 4.C 1.Q 1:** Are exit strategies defined and maintained for third-party dependencies, including procedures for replacing or terminating providers?
 
 #### SML 5.CO 4.C 2 (Governance and Operations)
 *   **Scope:** Service Provider 
 *   **Service Type:** All
-*   The feasibility, impact, and effort for substituting or exiting critical third-party dependencies are assessed and documented.
-*   **SML 5.CO 4.C 2.Q 1:** Are the feasibility, impact, and effort required to substitute or exit critical third-party dependencies assessed and documented?
+*   The feasibility, impact, and effort involved in substituting providers or exiting relationships with them are assessed and documented for critical third-party dependencies.
+*   **SML 5.CO 4.C 2.Q 1:** Are the feasibility, impact, and effort required to substitute providers or exit relationships with them assessed and documented for critical third-party dependencies?
 
 #### SML 5.CO 4.C 3 (Governance and Operations)
 *   **Scope:** Service Provider 
 *   **Service Type:** All
-*   Processes are in place to execute substitution or exit of third-party dependencies without causing unacceptable disruption to service delivery.
-*   **SML 5.CO 4.C 3.Q 1:** Can the substitution or exit of third-party dependencies be executed without causing unacceptable disruption to service delivery?
+*   Processes are in place for the substitution of providers or the exit of relationships with them without causing unacceptable disruption to service delivery in the context of third-party dependencies.
+*   **SML 5.CO 4.C 3.Q 1:** Can providers be substituted or relationships with them be exited without causing unacceptable disruption to service delivery in the context of third-party dependencies?
 
 #### SML 5.CO 4.C 4 (Technical)
 *   **Scope:** Client-Facing Service 
@@ -139,4 +139,4 @@
 *   **Scope:** Service Provider 
 *   **Service Type:** All
 *   Non-compliance by third-party providers is identified, managed, and remediated through defined processes.
-*   **SML 5.CO 5.C 3.Q 1:** Is non-compliance of third-party providers identified, managed, and remediated in a controlled manner?
+*   **SML 5.CO 5.C 3.Q 1:** Is non-compliance by third-party providers identified, managed, and remediated in a controlled manner?
