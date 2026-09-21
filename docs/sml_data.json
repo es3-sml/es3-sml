@@ -89,10 +89,10 @@
                 "controls": [
                     {
                         "id": "SML 1.CO 3.C 1 (Governance and Operations)",
-                        "desc": "Digital sovereignty objectives are defined, integrated, and updated in the entity's management policies to ensure digital sovereignty is considered in the implementation of the service or provider strategy at all levels.",
+                        "desc": "Digital sovereignty objectives are defined, integrated, and updated in the entity‘s management policies to ensure digital sovereignty is considered in the implementation of the service or provider strategy at all levels.",
                         "control_scope": "Service Provider",
                         "service_type": "All",
-                        "question": "How is it ensured that digital sovereignty objectives are defined, integrated and updated in the entity´s management policies and considered in the implementation of the service or provider strategy?",
+                        "question": "How is it ensured that digital sovereignty objectives are defined, integrated and updated in the entity‘s management policies and considered in the implementation of the service or provider strategy?",
                         "requirements": {
                             "initial": false,
                             "managed": true,
