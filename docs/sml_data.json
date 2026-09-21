@@ -2290,7 +2290,7 @@
             },
             {
                 "id": "SML 9.CO 6",
-                "title": "Control over AI Assets (SML 9.CO 6) - To ensure that AI model artifacts, including weights and architecture, remain under the control of the service operator and are protected from unauthorized access or modification by the infrastructure provider.",
+                "title": "Control over AI Assets (SML 9.CO 6) - To ensure that AI model artifacts, including weights and architecture, remain under the control of the service provider and are protected from unauthorized access or modification by the infrastructure provider.",
                 "sovereignty_contribution": "Preserves AI sovereignty by preventing infrastructure providers from accessing or modifying model artifacts during execution.",
                 "controls": [
                     {
