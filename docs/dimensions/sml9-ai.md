@@ -151,7 +151,7 @@
 *   **Scope:** Client-Facing Service 
 *   **Service Type:** AI Service
 *   The service ensures that AI model artifacts (e.g., model weights, configurations) remain under the control of the service provider.
-*   **SML 9.CO 6.C 1.Q 1:** Are AI model artifacts, including model weights, configurations, and architecture, documented and controlled by the service operator and protected from unauthorized access?
+*   **SML 9.CO 6.C 1.Q 1:** Are AI model artifacts, including model weights, configurations, and architecture, documented and controlled by the service provider and protected from unauthorized access?
 
 #### SML 9.CO 6.C 2 (Technical)
 *   **Scope:** Client-Facing Service 
@@ -181,7 +181,7 @@
 *   **Scope:** Service Provider 
 *   **Service Type:** All
 *   Contracts with external AI providers define restrictions on the use of customer data as training data.
-*   **SML 9.CO 7.C 2.Q 1:** Do contracts with external AI providers restrict the use of training data?
+*   **SML 9.CO 7.C 2.Q 1:** Do contracts with external AI providers restrict the use of customer data as training data?
 
 #### SML 9.CO 7.C 3 (Technical)
 *   **Scope:** Client-Facing Service 

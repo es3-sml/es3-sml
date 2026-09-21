@@ -2298,7 +2298,7 @@
                         "desc": "The service ensures that AI model artifacts (e.g., model weights, configurations) remain under the control of the service provider.",
                         "control_scope": "Client-Facing Service",
                         "service_type": "AI Service",
-                        "question": "Are AI model artifacts, including model weights, configurations, and architecture, documented and controlled by the service operator and protected from unauthorized access?",
+                        "question": "Are AI model artifacts, including model weights, configurations, and architecture, documented and controlled by the service provider and protected from unauthorized access?",
                         "requirements": {
                             "initial": false,
                             "managed": true,
@@ -2357,7 +2357,7 @@
                         "desc": "Contracts with external AI providers define restrictions on the use of customer data as training data.",
                         "control_scope": "Service Provider",
                         "service_type": "All",
-                        "question": "Do contracts with external AI providers restrict the use of training data?",
+                        "question": "Do contracts with external AI providers restrict the use of customer data as training data?",
                         "requirements": {
                             "initial": false,
                             "managed": false,
