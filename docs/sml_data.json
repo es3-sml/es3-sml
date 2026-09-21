@@ -10,7 +10,7 @@
                 "controls": [
                     {
                         "id": "SML 1.CO 1.C 1 (Governance and Operations)",
-                        "desc": "The entity exercising decisive control (and decision-making authority) over the service is clearly determined regarding roles, bodies and legal entities.",
+                        "desc": "The entity exercising decisive control (and decision-making authority) over the service is clearly determined in terms of roles, bodies, and legal entities.",
                         "control_scope": "Service Provider",
                         "service_type": "All",
                         "question": "Is the entity exercising decisive control and decision-making authority over the service clearly determined?",
@@ -23,7 +23,7 @@
                     },
                     {
                         "id": "SML 1.CO 1.C 2 (Governance and Operations)",
-                        "desc": "The entity exercising decisive control (and decision-making authority) over the service assigned all responsible entities and individuals to their services, tasks and made this nformation accessible to stakeholders.",
+                        "desc": "The entity exercising decisive control (and decision-making authority) over the service has assigned all responsible entities and individuals to their services and tasks, and has made this information accessible to stakeholders.",
                         "control_scope": "Service Provider",
                         "service_type": "All",
                         "question": "Has the entity exercising decisive control and decision-making authority over the service formally assigned those responsible and informed affected entities, individuals and stakeholders about responsibilities for the services?",
@@ -36,7 +36,7 @@
                     },
                     {
                         "id": "SML 1.CO 1.C 3 (Governance and Operations)",
-                        "desc": "Details on the nomination, assignment, services and decision-making competencies regarding the related services are formally documented and accessible to all affected individuals and stakeholders.",
+                        "desc": "Details of the nomination, assignment, services, and decision-making competencies regarding the related services are formally documented and accessible to all affected individuals and stakeholders.",
                         "control_scope": "Service Provider",
                         "service_type": "All",
                         "question": "Are the nomination, assignment, services and decision-making competencies regarding the related services formally documented and accessible to all affected individuals and stakeholders?",
@@ -89,10 +89,10 @@
                 "controls": [
                     {
                         "id": "SML 1.CO 3.C 1 (Governance and Operations)",
-                        "desc": "Digital sovereignty objectives are defined, integrated and updated in the entity's management policies to ensure it is being considered in the implementation of the service or provider strategy on all levels.",
+                        "desc": "Digital sovereignty objectives are defined, integrated, and updated in the entity's management policies to ensure digital sovereignty is considered in the implementation of the service or provider strategy at all levels.",
                         "control_scope": "Service Provider",
                         "service_type": "All",
-                        "question": "How is it ensured that digital sovereignty objectives are defined, integrated and updated in the entity's management policies and considered in the implementation of the service or provider strategy?",
+                        "question": "How is it ensured that digital sovereignty objectives are defined, integrated and updated in the entity´s management policies and considered in the implementation of the service or provider strategy?",
                         "requirements": {
                             "initial": false,
                             "managed": true,
@@ -118,14 +118,14 @@
             {
                 "id": "SML 1.CO 4",
                 "title": "Strategic Independence and Exit Capability (SML 1.CO 4) - To ensure that dependencies on the services are considered at the entity’s strategic level and measures are in place to avoid disruptions in case of exits or substitution of the service.",
-                "sovereignty_contribution": "Strengthens digital sovereignty by ensuring that dependencies are considered, implications monitored and actively managed to maintain the service quality.",
+                "sovereignty_contribution": "Strengthens digital sovereignty by ensuring that dependencies are considered and that implications are monitored and actively managed to maintain the service quality.",
                 "controls": [
                     {
                         "id": "SML 1.CO 4.C 1 (Governance and Operations)",
-                        "desc": "The level of dependencies on external providers relevant to the offered services are defined frequently and updated with regard to their impact on independence and exit capability.",
+                        "desc": "The level of dependency on external providers relevant to the offered services is regularly assessed and updated with regard to its impact on independence and exit capability.",
                         "control_scope": "Service Provider",
                         "service_type": "All",
-                        "question": "How is the process designed to frequently define criteria on and assess the level of dependencies, also considering the exit, of contracted service providers that impact the own offered services?",
+                        "question": "How is the process designed to regularly define criteria and assess the level of dependency, while also considering the exit of contracted service providers where this affects the entity's own services?",
                         "requirements": {
                             "initial": true,
                             "managed": true,
@@ -135,7 +135,7 @@
                     },
                     {
                         "id": "SML 1.CO 4.C 2 (Governance and Operations)",
-                        "desc": "Measures are in place to continuously detect and monitor how the external service providers' relevant activities impact or disrupt of the own offered services.",
+                        "desc": "Measures are in place to continuously detect and monitor how the external service providers' relevant activities impact or disrupt the services offered by the entity.",
                         "control_scope": "Service Provider",
                         "service_type": "All",
                         "question": "Are measures in place to continuously detect and monitor the impact of external service providers?",
@@ -148,10 +148,10 @@
                     },
                     {
                         "id": "SML 1.CO 4.C 3 (Governance and Operations)",
-                        "desc": "Measures for the substitution or the exit of contracted external providers services are integrated into the decision-making process and design of processes that impact the provided services.",
+                        "desc": "Measures for the substitution or exit of contracted external service providers are integrated into the decision-making process and design of processes that impact the provided services.",
                         "control_scope": "Service Provider",
                         "service_type": "All",
-                        "question": "How is it ensured that the substitution or the exit of contracted external providers services are considered in the decision making and design of processes that impact the own service provided?",
+                        "question": "How is it ensured that the substitution or exit of contracted external service providers is considered in decision-making and the design of processes that impact the services provided by the entity?",
                         "requirements": {
                             "initial": false,
                             "managed": false,
@@ -223,7 +223,7 @@
                         "desc": "All relevant entities that exercise governance, control or decision-making authority over the service are clearly defined and incorporated in a jurisdiction listed in the AJL.",
                         "control_scope": "Service Provider",
                         "service_type": "All",
-                        "question": "Are all relevant entities that exercise governance, control or decision-making authority over the service clearly defined and in a jurisdiction listed in the AJL?",
+                        "question": "Are all relevant entities that exercise governance, control, or decision-making authority over the service clearly defined and incorporated in a jurisdiction listed in the AJL?",
                         "requirements": {
                             "initial": false,
                             "managed": true,
@@ -426,7 +426,7 @@
                         "desc": "Technical measures are implemented to support protection against unauthorized or extraterritorial access to the service.",
                         "control_scope": "Service Provider",
                         "service_type": "All",
-                        "question": "Are technical measures implemented to support protection against unauthorized or extraterritorial access to data?",
+                        "question": "Are technical measures implemented to support protection against unauthorized or extraterritorial access to the service?",
                         "requirements": {
                             "initial": false,
                             "managed": false,
@@ -439,14 +439,14 @@
             {
                 "id": "SML 2.CO 5",
                 "title": "Exposure to Non-AJL Jurisdictions (SML 2.CO 5) - To ensure that exposure to jurisdictions not listed in the AJL is identified, assessed, and appropriately managed.",
-                "sovereignty_contribution": "Strengthens legal sovereignty by providing transparency over third-country exposure and ensuring that associated risks are actively managed and mitigated.",
+                "sovereignty_contribution": "Strengthens legal sovereignty by providing transparency regarding third-country exposure and ensuring that associated risks are actively managed and mitigated.",
                 "controls": [
                     {
                         "id": "SML 2.CO 5.C 1 (Contractual)",
-                        "desc": "Contracts transparently disclose any involvement of jurisdictions not listed in the AJL in the provision of the service.",
+                        "desc": "Contracts transparently disclose any involvement in the provision of the service by jurisdictions not listed in the AJL.",
                         "control_scope": "Client-Facing Service",
                         "service_type": "All",
-                        "question": "Do contracts transparently disclose any involvement of jurisdictions not listed in the AJL in the provision of the service?",
+                        "question": "Do contracts transparently disclose any involvement in the provision of the service by jurisdictions not listed in the AJL?",
                         "requirements": {
                             "initial": false,
                             "managed": true,
@@ -473,7 +473,7 @@
     },
     "SML 3 Data Sovereignty": {
         "dimension_title": "Data Sovereignty",
-        "dimension_desc": "Data sovereignty measures the control parameters established over data assets throughout their lifecycle.",
+        "dimension_desc": "Data sovereignty measures the control parameters established over data assets throughout their life cycle.",
         "objectives": [
             {
                 "id": "SML 3.CO 1",
@@ -521,7 +521,7 @@
                     },
                     {
                         "id": "SML 3.CO 1.C 4 (Technical)",
-                        "desc": "Access to customer data is technically protected through cryptographic mechanisms, and that such access cannot be performed without use of the corresponding cryptographic keys.",
+                        "desc": "Access to customer data is technically protected through cryptographic mechanisms, making access impossible without use of the corresponding cryptographic keys.",
                         "control_scope": "Client-Facing Service",
                         "service_type": "SaaS, AI Service, Managed Service",
                         "question": "Is access to customer data technically enforced through encryption mechanisms that prevent access without the corresponding cryptographic keys?",
@@ -609,7 +609,7 @@
                         "desc": "Backup systems and data duplication locations are restricted to jurisdictions listed in the AJL.",
                         "control_scope": "Client-Facing Service",
                         "service_type": "Managed Service, AI Service, SaaS",
-                        "question": "Are Backup Systems and data duplication locations restricted to jurisdictions listed in the AJL?",
+                        "question": "Are backup systems and data duplication locations restricted to jurisdictions listed in the AJL?",
                         "requirements": {
                             "initial": false,
                             "managed": false,
@@ -698,7 +698,7 @@
                 "controls": [
                     {
                         "id": "SML 3.CO 4.C 1 (Contractual)",
-                        "desc": "The contract ensures that customer data cannot be modified or deleted without authorization defined by the customer.",
+                        "desc": "The contract ensures that customer data cannot be modified or deleted without authorization as defined by the customer.",
                         "control_scope": "Service Provider",
                         "service_type": "All",
                         "question": "Does the contract explicitly ensure that customer data cannot be modified or deleted without customer-defined authorization?",
@@ -776,10 +776,10 @@
                 "controls": [
                     {
                         "id": "SML 4.CO 1.C 1 (Contractual)",
-                        "desc": "Contracts define operational roles and responsibilities, including allocation of control between provider and customer.",
+                        "desc": "Contracts define operational roles and responsibilities, including allocation of control between the provider and customer.",
                         "control_scope": "Service Provider",
                         "service_type": "All",
-                        "question": "Does the contract clearly define operational roles, responsibilities, and the allocation of control between provider and customer?",
+                        "question": "Does the contract clearly define operational roles, responsibilities, and the allocation of control between the provider and customer?",
                         "requirements": {
                             "initial": true,
                             "managed": true,
@@ -848,10 +848,10 @@
                 "controls": [
                     {
                         "id": "SML 4.CO 2.C 1 (Contractual)",
-                        "desc": "Contracts define administrative roles, responsibilities, and privileged access, including allocation between provider and customer.",
+                        "desc": "Contracts define administrative roles, responsibilities, and privileged access, including allocation between the provider and customer.",
                         "control_scope": "Service Provider",
                         "service_type": "All",
-                        "question": "Does the contract clearly define administrative roles, responsibilities, and the allocation of privileged access between provider and customer?",
+                        "question": "Does the contract clearly define administrative roles, responsibilities, and the allocation of privileged access between the provider and customer?",
                         "requirements": {
                             "initial": true,
                             "managed": true,
@@ -920,10 +920,10 @@
                 "controls": [
                     {
                         "id": "SML 4.CO 3.C 1 (Contractual)",
-                        "desc": "Contracts define the scope, responsibilities, and allocation of day-to-day service operations between provider and customer.",
+                        "desc": "Contracts define the scope, responsibilities, and allocation of day-to-day service operations between the provider and customer.",
                         "control_scope": "Service Provider",
                         "service_type": "All",
-                        "question": "Does the contract clearly define the scope, responsibilities, and allocation of day-to-day service operations between provider and customer?",
+                        "question": "Does the contract clearly define the scope, responsibilities, and allocation of day-to-day service operations between the provider and customer?",
                         "requirements": {
                             "initial": true,
                             "managed": true,
@@ -962,7 +962,7 @@
                         "desc": "Operational activities are executed according to defined procedures and cannot be performed in an uncontrolled or discretionary manner by the provider.",
                         "control_scope": "Client-Facing Service",
                         "service_type": "Managed Service, AI Service, SaaS",
-                        "question": "Are service operations executed based on defined procedures and not subject to uncontrolled or discretionary execution by the provider?",
+                        "question": "Are service operations executed based on defined procedures without being subject to uncontrolled or discretionary execution by the provider?",
                         "requirements": {
                             "initial": false,
                             "managed": false,
@@ -979,10 +979,10 @@
                 "controls": [
                     {
                         "id": "SML 4.CO 4.C 1 (Contractual)",
-                        "desc": "Contracts define incident response, recovery, and service continuity responsibilities, including allocation of roles between provider and customer.",
+                        "desc": "Contracts define incident response, recovery, and service continuity responsibilities, including allocation of roles between the provider and customer.",
                         "control_scope": "Service Provider",
                         "service_type": "All",
-                        "question": "Does the contract clearly define incident response, recovery, and service continuity responsibilities, including the allocation of roles between provider and customer?",
+                        "question": "Does the contract clearly define incident response, recovery, and service continuity responsibilities, including the allocation of roles between the provider and customer?",
                         "requirements": {
                             "initial": true,
                             "managed": true,
@@ -1018,7 +1018,7 @@
                     },
                     {
                         "id": "SML 4.CO 4.C 4 (Technical)",
-                        "desc": "Recovery and service restoration activities are executed according to defined procedures and cannot rely solely on provider discretion.",
+                        "desc": "Recovery and service restoration activities are executed according to defined procedures and do not rely solely on provider discretion.",
                         "control_scope": "Client-Facing Service",
                         "service_type": "Managed Service, AI Service, SaaS",
                         "question": "Are recovery and service restoration activities executed based on defined procedures and not solely dependent on provider discretion?",
@@ -1064,10 +1064,10 @@
                 "controls": [
                     {
                         "id": "SML 4.CO 5.C 1 (Contractual)",
-                        "desc": "Contracts define change management responsibilities, including the roles of provider and customer in approving and implementing service changes.",
+                        "desc": "Contracts define change management responsibilities, including the roles of the provider and customer in approving and implementing service changes.",
                         "control_scope": "Service Provider",
                         "service_type": "All",
-                        "question": "Does the contract clearly define change management responsibilities, including the roles of provider and customer in approving and implementing service changes?",
+                        "question": "Does the contract clearly define change management responsibilities, including the roles of the provider and customer in approving and implementing service changes?",
                         "requirements": {
                             "initial": true,
                             "managed": true,
@@ -1090,10 +1090,10 @@
                     },
                     {
                         "id": "SML 4.CO 5.C 3 (Technical)",
-                        "desc": "The service enables customers to be informed about, and where applicable approve or configure, service changes affecting their usage.",
+                        "desc": "The service enables customers to be informed about and, where applicable, to approve or configure service changes affecting their usage.",
                         "control_scope": "Client-Facing Service",
                         "service_type": "Managed Service, AI Service, SaaS",
-                        "question": "Are customers informed about service changes and able to approve or configure changes that impact their usage where applicable?",
+                        "question": "Are customers informed about service changes and, where applicable, able to approve or configure changes that impact their usage?",
                         "requirements": {
                             "initial": false,
                             "managed": false,
@@ -1263,14 +1263,14 @@
             {
                 "id": "SML 5.CO 4",
                 "title": "Substitution and Exit (SML 5.CO 4) - To ensure that dependencies can be substituted or exited without excessive disruption.",
-                "sovereignty_contribution": "Ensures that dependencies can be replaced or exited, reducing vendor lock-in and enabling continuity of service without excessive disruption.",
+                "sovereignty_contribution": "Ensures that dependencies are structured to allow underlying providers to be replaced or relationships with them to be exited, reducing vendor lock-in and enabling continuity of service without excessive disruption.",
                 "controls": [
                     {
                         "id": "SML 5.CO 4.C 1 (Governance and Operations)",
-                        "desc": "Exit strategies are defined and maintained for third-party dependencies, including procedures to replace or terminate suppliers.",
+                        "desc": "Exit strategies are defined and maintained for third-party dependencies, including procedures to replace or terminate providers.",
                         "control_scope": "Service Provider",
                         "service_type": "All",
-                        "question": "Are exit strategies defined and maintained for third-party dependencies, including procedures for replacing or terminating suppliers?",
+                        "question": "Are exit strategies defined and maintained for third-party dependencies, including procedures for replacing or terminating providers?",
                         "requirements": {
                             "initial": false,
                             "managed": false,
@@ -1280,10 +1280,10 @@
                     },
                     {
                         "id": "SML 5.CO 4.C 2 (Governance and Operations)",
-                        "desc": "Feasibility, impact, and effort for substituting or exiting critical third-party dependencies are assessed and documented.",
+                        "desc": "The feasibility, impact, and effort involved in substituting providers or exiting relationships with them are assessed and documented for critical third-party dependencies.",
                         "control_scope": "Service Provider",
                         "service_type": "All",
-                        "question": "Are the feasibility, impact, and effort required to substitute or exit critical third-party dependencies assessed and documented?",
+                        "question": "Are the feasibility, impact, and effort required to substitute providers or exit relationships with them assessed and documented for critical third-party dependencies?",
                         "requirements": {
                             "initial": false,
                             "managed": true,
@@ -1293,7 +1293,7 @@
                     },
                     {
                         "id": "SML 5.CO 4.C 3 (Governance and Operations)",
-                        "desc": "Processes are in place to execute substitution or exit of third-party dependencies without causing unacceptable disruption to service delivery.",
+                        "desc": "Processes are in place for the substitution of providers or the exit of relationships with them without causing unacceptable disruption to service delivery in the context of third-party dependencies.",
                         "control_scope": "Service Provider",
                         "service_type": "All",
                         "question": "Can providers be substituted or relationships with them be exited without causing unacceptable disruption to service delivery in the context of third-party dependencies?",
@@ -1355,7 +1355,7 @@
                         "desc": "Non-compliance by third-party providers is identified, managed, and remediated through defined processes.",
                         "control_scope": "Service Provider",
                         "service_type": "All",
-                        "question": "Is non-compliance of third-party providers identified, managed, and remediated in a controlled manner?",
+                        "question": "Is non-compliance by third-party providers identified, managed, and remediated in a controlled manner?",
                         "requirements": {
                             "initial": false,
                             "managed": false,
@@ -1417,7 +1417,7 @@
                     },
                     {
                         "id": "SML 6.CO 1.C 4 (Technical)",
-                        "desc": "Transfers or processing of workloads to/ via infrastructure not located within approved jurisdictions are prevented, including during failover or scaling scenarios.",
+                        "desc": "Transfers or processing of workloads to/via infrastructure not located within approved jurisdictions are prevented, including during failover or scaling scenarios.",
                         "control_scope": "Underlying Service",
                         "service_type": "PaaS, IaaS",
                         "question": "Are mechanisms in place to prevent workloads from being transferred to or processed via infrastructure not located within approved jurisdictions, including during failover or scaling scenarios?",
@@ -1466,7 +1466,7 @@
                         "desc": "The use of proprietary versus open standards is assessed and documented, including justification for any proprietary technologies.",
                         "control_scope": "Service Provider",
                         "service_type": "All",
-                        "question": "Is the use of proprietary versus open standards assessed and documented, including justification for proprietary technologies where used?",
+                        "question": "Is the use of proprietary versus open standards assessed and documented, including justification for any proprietary technologies used?",
                         "requirements": {
                             "initial": false,
                             "managed": false,
@@ -1505,7 +1505,7 @@
                         "desc": "The service avoids reliance on proprietary interfaces or formats that would limit interoperability or substitution.",
                         "control_scope": "Client-Facing Service",
                         "service_type": "Managed Service, AI Service, SaaS",
-                        "question": "Does the service through system architecture and technical specifications avoid reliance on proprietary interfaces or formats where such reliance would limit interoperability or substitution?",
+                        "question": "Does the service use system architecture and technical specifications to avoid reliance on proprietary interfaces or formats where such reliance would limit interoperability or substitution?",
                         "requirements": {
                             "initial": false,
                             "managed": false,
@@ -1522,7 +1522,7 @@
                 "controls": [
                     {
                         "id": "SML 6.CO 3.C 1 (Contractual)",
-                        "desc": "Documented guidelines exist to design services for portability and interoperability across different technical environments.",
+                        "desc": "Documented guidelines exist for designing services to enable portability and interoperability across different technical environments.",
                         "control_scope": "Service Provider",
                         "service_type": "All",
                         "question": "Are guidelines defined and maintained for designing services to ensure portability and interoperability across different technical environments?",
@@ -1535,10 +1535,10 @@
                     },
                     {
                         "id": "SML 6.CO 3.C 2 (Governance and Operations)",
-                        "desc": "Portability assessments are conducted and documented, including effort, constraints, and dependencies for migration to alternative environments.",
+                        "desc": "Portability assessments are conducted and documented, including the effort, constraints, and dependencies involved in migration to alternative environments.",
                         "control_scope": "Service Provider",
                         "service_type": "All",
-                        "question": "Is the portability of the service assessed and documented, including required effort, constraints, and dependencies for migration to alternative environments?",
+                        "question": "Is the portability of the service assessed and documented, including the required effort, constraints, and dependencies involved in migration to alternative environments?",
                         "requirements": {
                             "initial": false,
                             "managed": false,
@@ -1698,10 +1698,10 @@
                     },
                     {
                         "id": "SML 7.CO 1.C 5 (Technical)",
-                        "desc": "Segregation of access between customer and provider is enforced, preventing unauthorized or undisclosed privileged access by the provider.",
+                        "desc": "Segregation of access between the customer and provider is enforced, preventing unauthorized or undisclosed privileged access by the provider.",
                         "control_scope": "Client-Facing Service",
                         "service_type": "Managed Service, AI Service, SaaS",
-                        "question": "How is access between customer and provider controlled to prevent unrestricted or undisclosed privileged access by the provider?",
+                        "question": "How is access between the customer and provider controlled to prevent unrestricted or undisclosed privileged access by the provider?",
                         "requirements": {
                             "initial": false,
                             "managed": false,
@@ -1872,7 +1872,7 @@
     },
     "SML 8 Environmental Sustainability": {
         "dimension_title": "Environmental Sustainability",
-        "dimension_desc": "Environmental sustainability evaluates the long-term operational resilience, resource dependency profiles, and metric transparency of the service regarding environmental constraints.",
+        "dimension_desc": "Environmental sustainability evaluates the long-term operational resilience, resource dependency profiles, and metric transparency of the service with regard to environmental constraints.",
         "objectives": [
             {
                 "id": "SML 8.CO 1",
@@ -1894,10 +1894,10 @@
                     },
                     {
                         "id": "SML 8.CO 1.C 2 (Governance and Operations)",
-                        "desc": "The service provider has defined policies and processes to identify, assess, and monitor dependencies on energy supply relevant to the service.",
+                        "desc": "The service provider has defined policies and processes to identify, assess, and monitor energy-supply dependencies relevant to the service.",
                         "control_scope": "Service Provider",
                         "service_type": "All",
-                        "question": "Has the service provider defined policies and processes to identify, assess, and monitor dependencies on energy supply?",
+                        "question": "Has the service provider defined policies and processes to identify, assess, and monitor energy-supply dependencies?",
                         "requirements": {
                             "initial": false,
                             "managed": true,
@@ -1980,10 +1980,10 @@
                 "controls": [
                     {
                         "id": "SML 8.CO 4.C 1 (Contractual)",
-                        "desc": "Underlying service providers provide transparency on environmental dependencies and constraints relevant to service operation.",
+                        "desc": "Underlying service providers provide transparency regarding environmental dependencies and constraints relevant to service operation.",
                         "control_scope": "Underlying Service",
                         "service_type": "All",
-                        "question": "Do underlying service providers provide transparency on environmental dependencies and constraints relevant to service operation?",
+                        "question": "Do underlying service providers provide transparency regarding environmental dependencies and constraints relevant to service operation?",
                         "requirements": {
                             "initial": false,
                             "managed": false,
@@ -2009,7 +2009,7 @@
             {
                 "id": "SML 8.CO 5",
                 "title": "Long-term Operational Sustainability (SML 8.CO 5) - To ensure that the service is designed and operated to remain stable and operable over time despite environmental and resource constraints.",
-                "sovereignty_contribution": "Supports sustained sovereignty by ensuring long-term availability and independence of the service.",
+                "sovereignty_contribution": "Supports sustained sovereignty by ensuring the long-term availability and independence of the service.",
                 "controls": [
                     {
                         "id": "SML 8.CO 5.C 1 (Governance and Operations)",
@@ -2048,14 +2048,14 @@
             {
                 "id": "SML 9.CO 1",
                 "title": "AI Governance (SML 9.CO 1) - To ensure that governance structures are established to define responsibility, oversight, and accountability for the development, deployment, and operation of AI systems.",
-                "sovereignty_contribution": "Ensures that AI systems are subject to organizational oversight and not operated without clear responsibility or control.",
+                "sovereignty_contribution": "Ensures that AI systems are subject to organizational oversight and are not operated without clear responsibility or control.",
                 "controls": [
                     {
                         "id": "SML 9.CO 1.C 1 (Governance and Operations)",
                         "desc": "The service provider has defined and documented governance structures for the development, deployment, and operation of AI systems.",
                         "control_scope": "Service Provider",
                         "service_type": "All",
-                        "question": "Has the service provider defined and documented governance structures for development, deployment, and operation of AI systems?",
+                        "question": "Has the service provider defined and documented governance structures for the development, deployment, and operation of AI systems?",
                         "requirements": {
                             "initial": false,
                             "managed": true,
@@ -2252,7 +2252,7 @@
                         "desc": "AI models and changes are validated before deployment. Validation data is documentated and updated regularly.",
                         "control_scope": "Service Provider",
                         "service_type": "AI Service",
-                        "question": "Are AI models validated before deployment and validation procedures and results documented?",
+                        "question": "Are AI models validated before deployment and are validation procedures and results documented?",
                         "requirements": {
                             "initial": false,
                             "managed": false,
@@ -2290,7 +2290,7 @@
             },
             {
                 "id": "SML 9.CO 6",
-                "title": "Control over AI Assets (SML 9.CO 6) - To ensure that AI model artifacts, including weights and architecture, remain under the control of the service provider and are protected from unauthorized access or modification by the infrastructure provider.",
+                "title": "Control Over AI Assets (SML 9.CO 6) - To ensure that AI model artifacts, including weights and architecture, remain under the control of the service provider and are protected from unauthorized access or modification by the infrastructure provider.",
                 "sovereignty_contribution": "Preserves AI sovereignty by preventing infrastructure providers from accessing or modifying model artifacts during execution.",
                 "controls": [
                     {
@@ -2311,7 +2311,7 @@
                         "desc": "Access to AI model artifacts is restricted and controlled to prevent unauthorized access or modification.",
                         "control_scope": "Client-Facing Service",
                         "service_type": "AI Service",
-                        "question": "Is access to AI model artifacts restricted and controlled, including documented and enforced access permissions?",
+                        "question": "Is access to AI model artifacts restricted and controlled, including the documentation and enforcement of access permissions?",
                         "requirements": {
                             "initial": false,
                             "managed": true,

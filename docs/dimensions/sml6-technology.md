@@ -17,7 +17,7 @@
 
 ---
 
-### SML 6.CO 1: Infrastructure Location and Control
+### SML 6.CO 1 Infrastructure Location and Control
 **Objective:** To ensure that the physical and virtual infrastructure is located and controlled within approved jurisdictions.  
 *Sovereignty Contribution:* Ensures that the infrastructure underpinning the service is located and controlled within approved jurisdictions, preventing exposure to non-approved legal environments and reducing sovereignty risks.
 
@@ -42,7 +42,7 @@
 #### SML 6.CO 1.C 4 (Technical)
 *   **Scope:** Underlying Service 
 *   **Service Type:** PaaS, IaaS
-*   Transfers or processing of workloads to/ via infrastructure not located within approved jurisdictions are prevented, including during failover or scaling scenarios.
+*   Transfers or processing of workloads to/via infrastructure not located within approved jurisdictions are prevented, including during failover or scaling scenarios.
 *   **SML 6.CO 1.C 4.Q 1:** Are mechanisms in place to prevent workloads from being transferred to or processed via infrastructure not located within approved jurisdictions, including during failover or scaling scenarios?
 
 #### SML 6.CO 1.C 5 (Technical)
@@ -53,7 +53,7 @@
 
 ---
 
-### SML 6.CO 2: Use of Open Standards
+### SML 6.CO 2 Use of Open Standards
 **Objective:** To ensure that open standards and interoperable technologies are used, where feasible.  
 *Sovereignty Contribution:* Enables customers to identify technological dependencies and assess sovereignty risks related to external platforms, third-party components, and jurisdictional exposure.
 
@@ -67,7 +67,7 @@
 *   **Scope:** Service Provider 
 *   **Service Type:** All
 *   The use of proprietary versus open standards is assessed and documented, including justification for any proprietary technologies.
-*   **SML 6.CO 2.C 2.Q 1:** Is the use of proprietary versus open standards assessed and documented, including justification for proprietary technologies where used?
+*   **SML 6.CO 2.C 2.Q 1:** Is the use of proprietary versus open standards assessed and documented, including justification for any proprietary technologies used?
 
 #### SML 6.CO 2.C 3 (Technical)
 *   **Scope:** Client-Facing Service 
@@ -85,25 +85,25 @@
 *   **Scope:** Client-Facing Service 
 *   **Service Type:** Managed Service, AI Service, SaaS
 *   The service avoids reliance on proprietary interfaces or formats that would limit interoperability or substitution.
-*   **SML 6.CO 2.C 5.Q 1:** Does the service through system architecture and technical specifications avoid reliance on proprietary interfaces or formats where such reliance would limit interoperability or substitution?
+*   **SML 6.CO 2.C 5.Q 1:** Does the service use system architecture and technical specifications to avoid reliance on proprietary interfaces or formats where such reliance would limit interoperability or substitution?
 
 ---
 
-### SML 6.CO 3: Portability and Interoperability
+### SML 6.CO 3 Portability and Interoperability
 **Objective:** To enable the service to be ported and integrated across different technical environments.  
 *Sovereignty Contribution:* Ensures that the service can be migrated and integrated across different environments, reducing technical barriers and enabling flexibility and independence.
 
 #### SML 6.CO 3.C 1 (Contractual)
 *   **Scope:** Service Provider 
 *   **Service Type:** All
-*   Documented guidelines exist to design services for portability and interoperability across different technical environments.
+*   Documented guidelines exist for designing services to enable portability and interoperability across different technical environments.
 *   **SML 6.CO 3.C 1.Q 1:** Are guidelines defined and maintained for designing services to ensure portability and interoperability across different technical environments?
 
 #### SML 6.CO 3.C 2 (Governance and Operations)
 *   **Scope:** Service Provider 
 *   **Service Type:** All
-*   Portability assessments are conducted and documented, including effort, constraints, and dependencies for migration to alternative environments.
-*   **SML 6.CO 3.C 2.Q 1:** Is the portability of the service assessed and documented, including required effort, constraints, and dependencies for migration to alternative environments?
+*   Portability assessments are conducted and documented, including the effort, constraints, and dependencies involved in migration to alternative environments.
+*   **SML 6.CO 3.C 2.Q 1:** Is the portability of the service assessed and documented, including the required effort, constraints, and dependencies involved in migration to alternative environments?
 
 #### SML 6.CO 3.C 3 (Technical)
 *   **Scope:** Client-Facing Service 
@@ -125,7 +125,7 @@
 
 ---
 
-### SML 6.CO 4: Technology Control and Transparency
+### SML 6.CO 4 Technology Control and Transparency
 **Objective:** To ensure that the technology stack is transparent and under defined control.  
 *Sovereignty Contribution:* Ensures that the technology stack is fully transparent and governed, enabling control over technical components and preventing hidden dependencies or opaque architectures.
 

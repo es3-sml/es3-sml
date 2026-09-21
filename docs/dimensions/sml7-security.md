@@ -17,7 +17,7 @@
 
 ---
 
-### SML 7.CO 1: Identity and Access Management
+### SML 7.CO 1 Identity and Access
 **Objective:** To ensure that access to the service is protected and controlled to prevent unauthorized use.  
 *Sovereignty Contribution:* Ensures that access to the service is securely controlled and not solely dependent on the provider, enabling customers to retain control over identities and access permissions.
 
@@ -48,8 +48,8 @@
 #### SML 7.CO 1.C 5 (Technical)
 *   **Scope:** Client-Facing Service 
 *   **Service Type:** Managed Service, AI Service, SaaS
-*   Segregation of access between customer and provider is enforced, preventing unauthorized or undisclosed privileged access by the provider.
-*   **SML 7.CO 1.C 5.Q 1:** How is access between customer and provider controlled to prevent unrestricted or undisclosed privileged access by the provider?
+*   Segregation of access between the customer and provider is enforced, preventing unauthorized or undisclosed privileged access by the provider.
+*   **SML 7.CO 1.C 5.Q 1:** How is access between the customer and provider controlled to prevent unrestricted or undisclosed privileged access by the provider?
 
 #### SML 7.CO 1.C 6 (Technical)
 *   **Scope:** Underlying Service 
@@ -59,7 +59,7 @@
 
 ---
 
-### SML 7.CO 2: Security Visibility and Control
+### SML 7.CO 2 Security Visibility and Control
 **Objective:** To ensure that customers have visibility into and control over security mechanisms relevant to their service.  
 *Sovereignty Contribution:* Ensures that customers are not dependent on the provider’s internal security operations by providing visibility and control over relevant security mechanisms.
 
@@ -95,7 +95,7 @@
 
 ---
 
-### SML 7.CO 3: Sensitive Operations and Isolation
+### SML 7.CO 3 Sensitive Operations
 **Objective:** To ensure that sensitive operations are protected against misuse or unauthorized execution.  
 *Sovereignty Contribution:* Ensures that critical operations cannot be executed without appropriate protection, reducing the risk of misuse and strengthening customer control over high-impact actions.
 

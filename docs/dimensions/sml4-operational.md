@@ -17,15 +17,15 @@
 
 ---
 
-### SML 4.CO 1: Operational Control
+### SML 4.CO 1 Operational Control
 **Objective:** To ensure that operational control over the service is defined, transparent, and not solely dependent on the provider.  
 *Sovereignty Contribution:* Ensures that operational control of the service is not exclusively held by the provider, enabling customers to retain influence over service operation and reducing operational dependency.
 
 #### SML 4.CO 1.C 1 (Contractual)
 *   **Scope:** Service Provider 
 *   **Service Type:** All
-*   Contracts define operational roles and responsibilities, including allocation of control between provider and customer.
-*   **SML 4.CO 1.C 1.Q 1:** Does the contract clearly define operational roles, responsibilities, and the allocation of control between provider and customer?
+*   Contracts define operational roles and responsibilities, including allocation of control between the provider and customer.
+*   **SML 4.CO 1.C 1.Q 1:** Does the contract clearly define operational roles, responsibilities, and the allocation of control between the provider and customer?
 
 #### SML 4.CO 1.C 2 (Governance and Operations)
 *   **Scope:** Service Provider 
@@ -53,15 +53,15 @@
 
 ---
 
-### SML 4.CO 2: Administrative Access
+### SML 4.CO 2 Administrative Access
 **Objective:** To ensure that administrative access to the service is controlled and not exclusively held by the provider.  
 *Sovereignty Contribution:* Ensures that administrative control over the service is not exclusively held by the provider, enabling customers to manage or influence privileged access and reducing dependency on provider-controlled administration.
 
 #### SML 4.CO 2.C 1 (Contractual)
 *   **Scope:** Service Provider 
 *   **Service Type:** All
-*   Contracts define administrative roles, responsibilities, and privileged access, including allocation between provider and customer.
-*   **SML 4.CO 2.C 1.Q 1:** Does the contract clearly define administrative roles, responsibilities, and the allocation of privileged access between provider and customer?
+*   Contracts define administrative roles, responsibilities, and privileged access, including allocation between the provider and customer.
+*   **SML 4.CO 2.C 1.Q 1:** Does the contract clearly define administrative roles, responsibilities, and the allocation of privileged access between the provider and customer?
 
 #### SML 4.CO 2.C 2 (Governance and Operations)
 *   **Scope:** Service Provider 
@@ -89,15 +89,15 @@
 
 ---
 
-### SML 4.CO 3: Service Operations
+### SML 4.CO 3 Service Operations
 **Objective:** To ensure that service operations are defined, controlled, and do not create unmanaged dependency on the provider.  
 *Sovereignty Contribution:* Ensures that day-to-day service operations are not solely controlled by the provider, enabling customers to retain influence over operational processes and reducing operational dependency.
 
 #### SML 4.CO 3.C 1 (Contractual)
 *   **Scope:** Service Provider 
 *   **Service Type:** All
-*   Contracts define the scope, responsibilities, and allocation of day-to-day service operations between provider and customer.
-*   **SML 4.CO 3.C 1.Q 1:** Does the contract clearly define the scope, responsibilities, and allocation of day-to-day service operations between provider and customer?
+*   Contracts define the scope, responsibilities, and allocation of day-to-day service operations between the provider and customer.
+*   **SML 4.CO 3.C 1.Q 1:** Does the contract clearly define the scope, responsibilities, and allocation of day-to-day service operations between the provider and customer?
 
 #### SML 4.CO 3.C 2 (Governance and Operations)
 *   **Scope:** Service Provider 
@@ -115,19 +115,19 @@
 *   **Scope:** Client-Facing Service 
 *   **Service Type:** Managed Service, AI Service, SaaS
 *   Operational activities are executed according to defined procedures and cannot be performed in an uncontrolled or discretionary manner by the provider.
-*   **SML 4.CO 3.C 4.Q 1:** Are service operations executed based on defined procedures and not subject to uncontrolled or discretionary execution by the provider?
+*   **SML 4.CO 3.C 4.Q 1:** Are service operations executed based on defined procedures without being subject to uncontrolled or discretionary execution by the provider?  
 
 ---
 
-### SML 4.CO 4: Incident and Recovery
+### SML 4.CO 4 Incident and Recovery
 **Objective:** To ensure that incident response, recovery, and service continuity are defined, controlled, and not solely dependent on the provider.  
 *Sovereignty Contribution:* Ensures that incident response and recovery are not exclusively controlled by the provider, enabling customers to retain influence over service restoration and continuity.
 
 #### SML 4.CO 4.C 1 (Contractual)
 *   **Scope:** Service Provider 
 *   **Service Type:** All
-*   Contracts define incident response, recovery, and service continuity responsibilities, including allocation of roles between provider and customer.
-*   **SML 4.CO 4.C 1.Q 1:** Does the contract clearly define incident response, recovery, and service continuity responsibilities, including the allocation of roles between provider and customer?
+*   Contracts define incident response, recovery, and service continuity responsibilities, including allocation of roles between the provider and customer.
+*   **SML 4.CO 4.C 1.Q 1:** Does the contract clearly define incident response, recovery, and service continuity responsibilities, including the allocation of roles between the provider and customer?
 
 #### SML 4.CO 4.C 2 (Governance and Operations)
 *   **Scope:** Service Provider 
@@ -144,7 +144,7 @@
 #### SML 4.CO 4.C 4 (Technical)
 *   **Scope:** Client-Facing Service 
 *   **Service Type:** Managed Service, AI Service, SaaS
-*   Recovery and service restoration activities are executed according to defined procedures and cannot rely solely on provider discretion.
+*   Recovery and service restoration activities are executed according to defined procedures and do not rely solely on provider discretion.
 *   **SML 4.CO 4.C 4.Q 1:** Are recovery and service restoration activities executed based on defined procedures and not solely dependent on provider discretion?
 
 #### SML 4.CO 4.C 5 (Technical)
@@ -161,15 +161,15 @@
 
 ---
 
-### SML 4.CO 5: Change and Service Evolution
+### SML 4.CO 5 Change and Service Evolution
 **Objective:** To ensure that changes to the service are defined, controlled, and cannot be unilaterally executed by the provider.  
 *Sovereignty Contribution:* Ensures that service changes are not exclusively controlled by the provider, enabling customers to retain influence over service evolution and preventing unilateral changes that impact service usage.
 
 #### SML 4.CO 5.C 1 (Contractual)
 *   **Scope:** Service Provider 
 *   **Service Type:** All
-*   Contracts define change management responsibilities, including the roles of provider and customer in approving and implementing service changes.
-*   **SML 4.CO 5.C 1.Q 1:** Does the contract clearly define change management responsibilities, including the roles of provider and customer in approving and implementing service changes?
+*   Contracts define change management responsibilities, including the roles of the provider and customer in approving and implementing service changes.
+*   **SML 4.CO 5.C 1.Q 1:** Does the contract clearly define change management responsibilities, including the roles of the provider and customer in approving and implementing service changes?
 
 #### SML 4.CO 5.C 2 (Governance and Operations)
 *   **Scope:** Service Provider 
@@ -180,8 +180,8 @@
 #### SML 4.CO 5.C 3 (Technical)
 *   **Scope:** Client-Facing Service 
 *   **Service Type:** Managed Service, AI Service, SaaS
-*   The service enables customers to be informed about, and where applicable approve or configure, service changes affecting their usage.
-*   **SML 4.CO 5.C 3.Q 1:** Are customers informed about service changes and able to approve or configure changes that impact their usage where applicable?
+*   The service enables customers to be informed about and, where applicable, to approve or configure service changes affecting their usage.
+*   **SML 4.CO 5.C 3.Q 1:** Are customers informed about service changes and, where applicable, able to approve or configure changes that impact their usage?
 
 #### SML 4.CO 5.C 4 (Technical)
 *   **Scope:** Client-Facing Service 
