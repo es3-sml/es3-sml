@@ -51,7 +51,7 @@
 | ID | Approved Jurisdictions |
 |---|---|
 | #1 | EU Member States |
-| #2 | EAA |
+| #2 | EEA |
 | #3 | Switzerland |
 | #4 | UK |
 | #5 | Canada |
