@@ -30,6 +30,7 @@ Digital sovereignty enables organizations to walk away from the negotiating tabl
 The Sovereignty Maturity Level (SML) Framework is an auditable framework designed to assess the digital sovereignty of IT services across nine sovereignty dimensions, including Artificial Intelligence (AI). In this context, digital sovereignty is only as strong as its weakest link. This means that the overall SML always corresponds to the lowest level across all nine dimensions.  
 
 The framework follows three guiding principles:
+
 * **Auditability:** Assessment must be evidence-based, comprehensible, and reproducible.
 * **SML classification:** SMLs are assigned based on defined mandatory controls per level.
 * **Comparability:** Results should be comparable between services/providers and over time.
@@ -47,6 +48,7 @@ The ES3 standard aligns with the **EU Cloud Sovereignty Framework** and adapts i
 ## 1.4 Structure
 
 The components of the SML framework are arranged in a hierarchical sequence:
+
 **Dimension** &rarr; **Control Objective** &rarr; **Control** &rarr; **Question** &rarr; **Evidence**
 
 **Dimension:** A Dimension describes a thematic area of digital sovereignty. It forms the highest structural level of the framework and groups multiple Control Objectives. It consists of Dimension ID, the Dimension and the Dimension Objective. It covers a strategic thematic area, aligns with EU digital sovereignty objectives, and is stable over a longer period of time.
@@ -61,10 +63,12 @@ Each control is assigned to exactly one implementation level (Contractual, Gover
 **Evidence:** Evidence is the proof used to substantiate an answer to a question. It must be specific, verifiable, and directly assignable to the control.
 
 Permissible evidence types include:
+
 * Contracts or legal agreements
 * Policies and procedural documentation
 * Technical configurations or system extracts
 * Audit reports or certifications
 * Architecture diagrams
+
 The evidence must enable an independent third party to fully
 comprehend the assessment.

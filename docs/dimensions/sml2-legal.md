@@ -17,6 +17,11 @@
 
 ---
 
+!!! note "Approved Jurisdictions List (AJL)"
+    Please find an example for an Approved Jurisdictions List (AJL) [here](https://es3-sml.github.io/es3-sml/schema/)
+
+---
+
 ### SML 2.CO 1 Jurisdictional Alignment of Governance and Control
 **Objective:** To ensure that entities exercising governance, control, and decision-making authority over the service are subject to jurisdictions listed in the Approved Jurisdictions List (AJL).  
 *Sovereignty Contribution:* Establishes legal sovereignty by ensuring that decisive governance and control over the service are exercised within trusted jurisdictions, enabling enforceability and reducing exposure to conflicting legal frameworks.
