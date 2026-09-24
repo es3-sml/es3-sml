@@ -11,7 +11,7 @@
  *   Andy Riexinger - initial contribution
  ******************************************************************************* -->
 
-# SML Framework catalog
+# SML Framework Catalog
 
 ---
 
@@ -32,7 +32,6 @@
 └── [Question ID]: [Question]
 ```
 
-
 ## Sovereignty Dimensions:
 | ID | Dimension | Focus Area |
 |---|---|---|
@@ -45,3 +44,16 @@
 | **SML 7** | **Security and Compliance Sovereignty** | Identity and access management, security visibility, and isolated sensitive operations. |
 | **SML 8** | **Environmental Sustainability** | Resource autonomy, power grid resilience, and long-term environmental risk exposure. |
 | **SML 9** | **Artificial Intelligence Sovereignty** | Model lineage, dataset protection, explainability metrics, and human oversight. |
+
+
+## Example for an Approved Jurisdictions List (AJL)
+
+| ID | Approved Jurisdictions |
+|---|---|
+| #1 | EU Member States |
+| #2 | EAA |
+| #3 | Switzerland |
+| #4 | UK |
+| #5 | Canada |
+| #6 | Israel |
+| #7 | Andorra |
