@@ -146,3 +146,28 @@
 *   **Service Type:** All
 *   All components used in the technology stack are disclosed, managed, and controlled to prevent hidden dependencies or risks.
 *   **SML 6.CO 4.C 3.Q 1:** Are mechanisms in place to ensure that no undisclosed or unmanaged components are used within the technology stack?
+
+---
+
+### Mapping of the Objectives to the corresponding Sovereignty Maturity Level
+
+| ID | Initial | Managed | Advanced | Future-Proof |
+|:---:|:---:|:---:|:---:|:---:|
+| SML 6.CO 1.C 1 | x | x | x | x |
+| SML 6.CO 1.C 2 |   | x | x | x |
+| SML 6.CO 1.C 3 |   |   | x | x |
+| SML 6.CO 1.C 4 |   |   |   | x |
+| SML 6.CO 1.C 5 |   |   | x | x |
+| SML 6.CO 2.C 1 |   | x | x | x |
+| SML 6.CO 2.C 2 |   |   | x | x |
+| SML 6.CO 2.C 3 |   |   | x | x |
+| SML 6.CO 2.C 4 |   |   |   | x |
+| SML 6.CO 2.C 5 |   |   | x | x |
+| SML 6.CO 3.C 1 |   | x | x | x |
+| SML 6.CO 3.C 2 |   |   | x | x |
+| SML 6.CO 3.C 3 |   |   | x | x |
+| SML 6.CO 3.C 4 |   |   | x | x |
+| SML 6.CO 3.C 5 |   |   |   | x |
+| SML 6.CO 4.C 1 |   | x | x | x |
+| SML 6.CO 4.C 2 |   |   | x | x |
+| SML 6.CO 4.C 3 |   |   |   | x |

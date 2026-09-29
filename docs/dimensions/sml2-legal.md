@@ -157,3 +157,28 @@
 *   **Service Type:** All
 *   Contracts define safeguards and conditions for the involvement of jurisdictions not listed in the AJL.
 *   **SML 2.CO 5.C 2.Q 1:** Do contracts define safeguards and conditions for the involvement of jurisdictions not listed in the AJL?
+
+---
+
+### Mapping of the Objectives to the corresponding Sovereignty Maturity Level
+
+| ID | Initial | Managed | Advanced | Future-Proof |
+|:---:|:---:|:---:|:---:|:---:|
+| SML 2.CO 1.C 1 | x | x | x | x |
+| SML 2.CO 1.C 2 |   | x | x | x |
+| SML 2.CO 1.C 3 |   |   | x | x |
+| SML 2.CO 2.C 1 | x | x | x | x |
+| SML 2.CO 2.C 2 |   | x | x | x |
+| SML 2.CO 2.C 3 |   |   | x | x |
+| SML 2.CO 2.C 4 |   |   | x | x |
+| SML 2.CO 2.C 5 |   |   |   | x |
+| SML 2.CO 3.C 1 | x | x | x | x |
+| SML 2.CO 3.C 2 |   | x | x | x |
+| SML 2.CO 3.C 3 |   |   | x | x |
+| SML 2.CO 4.C 1 | x | x | x | x |
+| SML 2.CO 4.C 2 |   | x | x | x |
+| SML 2.CO 4.C 3 |   |   | x | x |
+| SML 2.CO 4.C 4 |   |   | x | x |
+| SML 2.CO 4.C 5 |   |   |   | x |
+| SML 2.CO 5.C 1 |   | x | x | x |
+| SML 2.CO 5.C 2 |   |   | x | x |

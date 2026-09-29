@@ -158,3 +158,30 @@
 *   **Service Type:** IaaS, PaaS
 *   The underlying service supports mechanisms for ensuring data integrity and preventing unauthorized modification or deletion.
 *   **SML 3.CO 4.C 5.Q 1:** Does the underlying service support mechanisms to ensure data integrity and prevent unauthorized modification or deletion?
+
+---
+
+### Mapping of the Objectives to the corresponding Sovereignty Maturity Level
+
+| ID | Initial | Managed | Advanced | Future-Proof |
+|:---:|:---:|:---:|:---:|:---:|
+| SML 3.CO 1.C 1 | x | x | x | x |
+| SML 3.CO 1.C 2 |   | x | x | x |
+| SML 3.CO 1.C 3 |   |   | x | x |
+| SML 3.CO 1.C 4 |   |   | x | x |
+| SML 3.CO 1.C 5 |   |   |   | x |
+| SML 3.CO 1.C 6 |   |   |   | x |
+| SML 3.CO 2.C 1 | x | x | x | x |
+| SML 3.CO 2.C 2 |   | x | x | x |
+| SML 3.CO 2.C 3 |   |   | x | x |
+| SML 3.CO 2.C 4 |   |   | x | x |
+| SML 3.CO 2.C 5 |   |   | x | x |
+| SML 3.CO 2.C 6 |   |   |   | x |
+| SML 3.CO 3.C 1 | x | x | x | x |
+| SML 3.CO 3.C 2 |   | x | x | x |
+| SML 3.CO 3.C 3 |   |   |   | x |
+| SML 3.CO 4.C 1 | x | x | x | x |
+| SML 3.CO 4.C 2 |   | x | x | x |
+| SML 3.CO 4.C 3 |   |   | x | x |
+| SML 3.CO 4.C 4 |   |   |   | x |
+| SML 3.CO 4.C 5 |   |   |   | x |

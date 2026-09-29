@@ -128,3 +128,26 @@
 *   **Service Type:** PaaS, IaaS
 *   Underlying services protect and control the execution of sensitive operations, enforcing defined security requirements.
 *   **SML 7.CO 3.C 5.Q 1:** Do the underlying services support mechanisms to protect and control the execution of sensitive operations, including enforcement of defined security requirements?
+
+---
+
+### Mapping of the Objectives to the corresponding Sovereignty Maturity Level
+
+| ID | Initial | Managed | Advanced | Future-Proof |
+|:---:|:---:|:---:|:---:|:---:|
+| SML 7.CO 1.C 1 | x | x | x | x |
+| SML 7.CO 1.C 2 |   | x | x | x |
+| SML 7.CO 1.C 3 |   |   | x | x |
+| SML 7.CO 1.C 4 |   |   | x | x |
+| SML 7.CO 1.C 5 |   |   | x | x |
+| SML 7.CO 1.C 6 |   |   |   | x |
+| SML 7.CO 2.C 1 | x | x | x | x |
+| SML 7.CO 2.C 2 |   | x | x | x |
+| SML 7.CO 2.C 3 |   |   | x | x |
+| SML 7.CO 2.C 4 |   |   | x | x |
+| SML 7.CO 2.C 5 |   |   | x | x |
+| SML 7.CO 3.C 1 | x | x | x | x |
+| SML 7.CO 3.C 2 |   | x | x | x |
+| SML 7.CO 3.C 3 |   |   | x | x |
+| SML 7.CO 3.C 4 |   |   | x | x |
+| SML 7.CO 3.C 5 |   |   |   | x |

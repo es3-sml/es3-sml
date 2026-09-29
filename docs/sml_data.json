@@ -1272,10 +1272,10 @@
                         "service_type": "All",
                         "question": "Are exit strategies defined and maintained for third-party dependencies, including procedures for replacing or terminating providers?",
                         "requirements": {
-                            "initial": false,
-                            "managed": false,
-                            "advanced": false,
-                            "future_proof": false
+                            "initial": true,
+                            "managed": true,
+                            "advanced": true,
+                            "future_proof": true
                         }
                     },
                     {
@@ -1332,9 +1332,9 @@
                         "question": "Do contracts with third-party providers ensure that sovereignty and control requirements are imposed on them?",
                         "requirements": {
                             "initial": false,
-                            "managed": false,
-                            "advanced": false,
-                            "future_proof": false
+                            "managed": true,
+                            "advanced": true,
+                            "future_proof": true
                         }
                     },
                     {

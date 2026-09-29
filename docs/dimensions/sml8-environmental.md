@@ -104,3 +104,20 @@
 *   **Service Type:** All
 *   The service provider considers long-term environmental and resource-related constraints when selecting and using underlying services.
 *   **SML 8.CO 5.C 2.Q 1:** Does the service provider consider long-term environmental and resource-related constraints when selecting and using underlying services?
+
+---
+
+### Mapping of the Objectives to the corresponding Sovereignty Maturity Level
+
+| ID | Initial | Managed | Advanced | Future-Proof |
+|:---:|:---:|:---:|:---:|:---:|
+| SML 8.CO 1.C 1 |   |   | x | x |
+| SML 8.CO 1.C 2 |   | x | x | x |
+| SML 8.CO 2.C 1 |   |   |   | x |
+| SML 8.CO 2.C 2 |   |   | x | x |
+| SML 8.CO 3.C 1 |   |   |   | x |
+| SML 8.CO 3.C 2 |   |   |   | x |
+| SML 8.CO 4.C 1 |   |   |   | x |
+| SML 8.CO 4.C 2 |   |   |   | x |
+| SML 8.CO 5.C 1 |   |   |   | x |
+| SML 8.CO 5.C 2 |   |   |   | x |

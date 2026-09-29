@@ -116,3 +116,22 @@
 *   **Service Type:** All
 *   Mechanisms are in place to monitor and oversee digital sovereignty objectives at a strategic level.
 *   **SML 1.CO 5.C 2.Q 1:** Are mechanisms in place to monitor and oversee digital sovereignty objectives at a strategic level?
+
+---
+
+### Mapping of the Objectives to the corresponding Sovereignty Maturity Level
+
+| ID | Initial | Managed | Advanced | Future-Proof |
+|:---:|:---:|:---:|:---:|:---:|
+| SML 1.CO 1.C 1 | x | x | x | x |
+| SML 1.CO 1.C 2 |   | x | x | x |
+| SML 1.CO 1.C 3 |   |   | x | x |
+| SML 1.CO 2.C 1 | x | x | x | x |
+| SML 1.CO 2.C 2 |   | x | x | x |
+| SML 1.CO 3.C 1 |   | x | x | x |
+| SML 1.CO 3.C 2 |   |   | x | x |
+| SML 1.CO 4.C 1 | x | x | x | x |
+| SML 1.CO 4.C 2 |   | x | x | x |
+| SML 1.CO 4.C 3 |   |   | x | x |
+| SML 1.CO 5.C 1 |   | x | x | x |
+| SML 1.CO 5.C 2 |   |   |   | x |
