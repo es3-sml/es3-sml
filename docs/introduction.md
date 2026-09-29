@@ -70,5 +70,4 @@ Permissible evidence types include:
 * Audit reports or certifications
 * Architecture diagrams
 
-The evidence must enable an independent third party to fully
-comprehend the assessment.
+The evidence must enable an independent third party to fully comprehend the assessment.

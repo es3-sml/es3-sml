@@ -206,3 +206,34 @@
 *   **Service Type:** All
 *   Ownership and legal rights associated with training data for AI models are assessed and documented.
 *   **SML 9.CO 8.C 2.Q 1:** Are ownership and legal rights associated with training data for AI models assessed and documented?
+
+---
+
+### Mapping of the Objectives to the corresponding Sovereignty Maturity Level
+
+| ID | Initial | Managed | Advanced | Future-Proof |
+|:---:|:---:|:---:|:---:|:---:|
+| SML 9.CO 1.C 1 |   | x | x | x |
+| SML 9.CO 1.C 2 |   |   |   | x |
+| SML 9.CO 1.C 3 |   |   | x | x |
+| SML 9.CO 2.C 1 |   | x | x | x |
+| SML 9.CO 2.C 2 |   |   | x | x |
+| SML 9.CO 3.C 1 |   | x | x | x |
+| SML 9.CO 3.C 2 |   |   | x | x |
+| SML 9.CO 3.C 3 |   |   | x | x |
+| SML 9.CO 3.C 4 |   |   | x | x |
+| SML 9.CO 4.C 1 |   | x | x | x |
+| SML 9.CO 4.C 2 |   |   | x | x |
+| SML 9.CO 4.C 3 |   |   | x | x |
+| SML 9.CO 5.C 1 |   | x | x | x |
+| SML 9.CO 5.C 2 |   |   | x | x |
+| SML 9.CO 5.C 3 |   |   | x | x |
+| SML 9.CO 5.C 4 |   |   |   | x |
+| SML 9.CO 6.C 1 |   | x | x | x |
+| SML 9.CO 6.C 2 |   | x | x | x |
+| SML 9.CO 6.C 3 |   |   | x | x |
+| SML 9.CO 7.C 1 |   | x | x | x |
+| SML 9.CO 7.C 2 |   |   | x | x |
+| SML 9.CO 7.C 3 |   |   |   | x |
+| SML 9.CO 8.C 1 |   | x | x | x |
+| SML 9.CO 8.C 2 |   | x | x | x |
