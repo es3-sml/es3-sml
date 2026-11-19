@@ -1,5 +1,5 @@
 {
-    "SML 1 Strategic Sovereignty": {
+    "SML 1 - Strategic Sovereignty": {
         "dimension_title": "Strategic Sovereignty",
         "dimension_desc": "Strategic sovereignty evaluates the corporate governance architecture, ownership dependencies, and long-term continuity planning of the service provider.",
         "objectives": [
@@ -196,7 +196,7 @@
             }
         ]
     },
-    "SML 2 Legal and Jurisdictional Sovereignty": {
+    "SML 2 - Legal and Jurisdictional Sovereignty": {
         "dimension_title": "Legal and Jurisdictional Sovereignty",
         "dimension_desc": "Legal and jurisdictional sovereignty evaluates the legal frameworks, geographic processing boundaries, and regulatory environments governing the services.",
         "objectives": [
@@ -471,7 +471,7 @@
             }
         ]
     },
-    "SML 3 Data Sovereignty": {
+    "SML 3 - Data Sovereignty": {
         "dimension_title": "Data Sovereignty",
         "dimension_desc": "Data sovereignty measures the control parameters established over data assets throughout their life cycle.",
         "objectives": [
@@ -580,7 +580,7 @@
                     },
                     {
                         "id": "SML 3.CO 2.C 2 (Governance and Operations)",
-                        "desc": "Processes exist that callow customers to retrieve and export data including all relevant datasets required for continued use.",
+                        "desc": "Processes exist that allow customers to retrieve and export data including all relevant datasets required for continued use.",
                         "control_scope": "Service Provider",
                         "service_type": "All",
                         "question": "Are there defined and implemented processes ensuring that customer data can be retrieved and exported in a complete and consistent manner?",
@@ -750,7 +750,7 @@
                     },
                     {
                         "id": "SML 3.CO 4.C 5 (Technical)",
-                        "desc": "The underlying service supports mechanisms for ensure data integrity and preventing unauthorized modification or deletion.",
+                        "desc": "The underlying service supports mechanisms for ensuring data integrity and preventing unauthorized modification or deletion.",
                         "control_scope": "Underlying Service",
                         "service_type": "IaaS, PaaS",
                         "question": "Does the underlying service support mechanisms to ensure data integrity and prevent unauthorized modification or deletion?",
@@ -765,7 +765,7 @@
             }
         ]
     },
-    "SML 4 Operational Sovereignty": {
+    "SML 4 - Operational Sovereignty": {
         "dimension_title": "Operational Sovereignty",
         "dimension_desc": "Operational sovereignty evaluates the capacity to run, maintain, and support services independently of external or unilateral provider controls.",
         "objectives": [
@@ -1118,7 +1118,7 @@
             }
         ]
     },
-    "SML 5 Supply Chain Sovereignty": {
+    "SML 5 - Supply Chain Sovereignty": {
         "dimension_title": "Supply Chain Sovereignty",
         "dimension_desc": "Supply chain sovereignty measures the geographic composition, component tracking, and systemic resilience of the third-party ecosystem supporting the service.",
         "objectives": [
@@ -1367,7 +1367,7 @@
             }
         ]
     },
-    "SML 6 Technology Sovereignty": {
+    "SML 6 - Technology Sovereignty": {
         "dimension_title": "Technology Sovereignty",
         "dimension_desc": "Technology sovereignty assesses the openness, auditability, and physical or logical layout of the underlying technical stack.",
         "objectives": [
@@ -1635,7 +1635,7 @@
             }
         ]
     },
-    "SML 7 Security and Compliance Sovereignty": {
+    "SML 7 - Security and Compliance Sovereignty": {
         "dimension_title": "Security and Compliance Sovereignty",
         "dimension_desc": "Security and compliance sovereignty evaluates the isolation, administrative control, and auditability of security configurations and compliance mechanisms.",
         "objectives": [
@@ -1870,7 +1870,7 @@
             }
         ]
     },
-    "SML 8 Environmental Sustainability": {
+    "SML 8 - Environmental Sustainability": {
         "dimension_title": "Environmental Sustainability",
         "dimension_desc": "Environmental sustainability evaluates the long-term operational resilience, resource dependency profiles, and metric transparency of the service with regard to environmental constraints.",
         "objectives": [
@@ -2041,7 +2041,7 @@
             }
         ]
     },
-    "SML 9 AI Sovereignty": {
+    "SML 9 - AI Sovereignty": {
         "dimension_title": "AI Sovereignty",
         "dimension_desc": "AI sovereignty evaluates the organizational oversight, system clarity, and independent control of artificial intelligence solutions.",
         "objectives": [
@@ -2249,7 +2249,7 @@
                     },
                     {
                         "id": "SML 9.CO 5.C 2 (Governance and Operations)",
-                        "desc": "AI models and changes are validated before deployment. Validation data is documentated and updated regularly.",
+                        "desc": "AI models and changes are validated before deployment. Validation data is documented and updated regularly.",
                         "control_scope": "Service Provider",
                         "service_type": "AI Service",
                         "question": "Are AI models validated before deployment and are validation procedures and results documented?",

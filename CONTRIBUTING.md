@@ -24,6 +24,12 @@ We use GitHub to manage reviews of pull requests.
 Should you wish to work on an issue, please claim it first by commenting on the GitHub issue that you want to work on. This is to prevent duplicated efforts from other contributors on the same issue.  
 If you have questions about one of the issues, please comment on them, and one of the maintainers will clarify.
 
+> [!IMPORTANT]
+>
+> Source of truth is ALWAYS the file [`sml_data.json`](./docs/sml_data.json).
+>
+> The dimension pages and overview are generated from that.
+
 ### 1. Reporting Bugs
 
 Before creating a bug report, please check the existing [Issues](https://github.com/es3-sml/es3-sml/issues) to see if the problem has already been reported.
